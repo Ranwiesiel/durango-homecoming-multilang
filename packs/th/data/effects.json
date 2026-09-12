@@ -1,0 +1,5604 @@
+[
+  {
+    "id": "clothes",
+    "name": "기본 의류",
+    "desc": "옷을 입어 피로가 견딜만하다.",
+    "max": 1,
+    "eff": [],
+    "tags": []
+  },
+  {
+    "id": "accessory",
+    "name": "기후 적합성",
+    "desc": "기후에 맞는 것을 걸쳐 피로가 견딜만하다.",
+    "max": 1,
+    "eff": [],
+    "tags": []
+  },
+  {
+    "id": "dirty",
+    "name": "더러움",
+    "desc": "몸이 더러워 피로가 밀려온다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "default",
+        "v": "0.2"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_levelup"
+    ]
+  },
+  {
+    "id": "clean",
+    "name": "씻음",
+    "desc": "씻으니 깨끗하고 더위와 피로가 견딜만하다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "default",
+        "v": "-0.2"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "wet",
+    "name": "젖음",
+    "desc": "젖어서 체온이 내려간다. 더운 데선 피로가 견딜만하고 추운 데선 밀려온다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "hot",
+        "v": "-0.2"
+      },
+      {
+        "k": "very_hot",
+        "v": "-0.2"
+      },
+      {
+        "k": "cold",
+        "v": "0.3"
+      },
+      {
+        "k": "very_cold",
+        "v": "0.3"
+      },
+      {
+        "k": "humid",
+        "v": "0.3"
+      },
+      {
+        "k": "volcanic_heat",
+        "v": "-0.2"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_levelup"
+    ]
+  },
+  {
+    "id": "drink_water",
+    "name": "물",
+    "desc": "수분을 섭취하니 갈증이 풀려 피로가 견딜만하다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "hot",
+        "v": "-0.3"
+      },
+      {
+        "k": "very_hot",
+        "v": "-0.3"
+      },
+      {
+        "k": "cold",
+        "v": "-0.1"
+      },
+      {
+        "k": "very_cold",
+        "v": "-0.1"
+      },
+      {
+        "k": "volcanic_heat",
+        "v": "-0.1"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "cactus_water",
+    "name": "목 적심",
+    "desc": "즙으로 목을 적시니 피로가 견딜만하다. ",
+    "max": 1,
+    "eff": [
+      {
+        "k": "hot",
+        "v": "-0.3"
+      },
+      {
+        "k": "very_hot",
+        "v": "-0.3"
+      },
+      {
+        "k": "cold",
+        "v": "-0.1"
+      },
+      {
+        "k": "very_cold",
+        "v": "-0.1"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "fruit_water",
+    "name": "과즙",
+    "desc": "많은 즙으로 목을 축이니 피로가 더 견딜만하다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "default",
+        "v": "-0.1"
+      },
+      {
+        "k": "arid",
+        "v": "-0.2"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "thirsty",
+    "name": "갈증",
+    "desc": "목이 말라 피로가 강하게 밀려온다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "default",
+        "v": "0.2"
+      },
+      {
+        "k": "arid",
+        "v": "0.2"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_levelup"
+    ]
+  },
+  {
+    "id": "warm_up",
+    "name": "모닥불",
+    "desc": "젖은 게 마르고 체온이 오른다. 추운 데선 피로가 견딜만하고 더운 데선 밀려온다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "cold",
+        "v": "-0.5"
+      },
+      {
+        "k": "very_cold",
+        "v": "-0.5"
+      },
+      {
+        "k": "hot",
+        "v": "0.2"
+      },
+      {
+        "k": "very_hot",
+        "v": "0.2"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_move"
+    ]
+  },
+  {
+    "id": "observe_death",
+    "name": "죽음을 목격",
+    "desc": "죽음을 목격해 피로가 밀려온다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "default",
+        "v": "0.1"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_levelup"
+    ]
+  },
+  {
+    "id": "encouraged",
+    "name": "응원 받음",
+    "desc": "응원을 받아 피로가 견딜만하다. ",
+    "max": 1,
+    "eff": [
+      {
+        "k": "default",
+        "v": "-0.1"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_levelup"
+    ]
+  },
+  {
+    "id": "do_not_encourage",
+    "name": "응원 불가",
+    "desc": "잠시 후에 다시 응원할 수 있다. ",
+    "max": 1,
+    "eff": [],
+    "tags": []
+  },
+  {
+    "id": "taste_good",
+    "name": "맛있음",
+    "desc": "맛있다. 피로가 견딜만하다. ",
+    "max": 1,
+    "eff": [
+      {
+        "k": "exp_multiplier",
+        "v": "0.03"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "taste_very_good",
+    "name": "천상의 맛",
+    "desc": "정말 맛있다. 피로가 거의 느껴지지 않는다. ",
+    "max": 1,
+    "eff": [
+      {
+        "k": "exp_multiplier",
+        "v": "0.05"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "taste_bad",
+    "name": "맛없음",
+    "desc": "맛없다. 피로가 밀려온다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "default",
+        "v": "0.2"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "taste_very_bad",
+    "name": "최악의 맛",
+    "desc": "정말 맛없다. 피로가 빠르게 밀려온다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "default",
+        "v": "0.3"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "excited",
+    "name": "흥분",
+    "desc": "흥분하여 피로가 견딜만하다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "default",
+        "v": "-0.5"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_levelup"
+    ]
+  },
+  {
+    "id": "effect_fresh",
+    "name": "카페인",
+    "desc": "상쾌한 향기의 효과로 모든 일에 쓰이는 에너지가 줄어든다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "energy",
+        "v": "-0.5"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "newbie_shield_cheat",
+    "name": "(치트용) 현대인의 향기",
+    "desc": "낯선 냄새에 동물들이 피한다.",
+    "max": 1,
+    "eff": [],
+    "tags": []
+  },
+  {
+    "id": "rest_cheat",
+    "name": "(치트용) 휴식",
+    "desc": "휴식하니 피로가 빠르게 풀린다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "-1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_move"
+    ]
+  },
+  {
+    "id": "rest",
+    "name": "상태\u0004휴식",
+    "desc": "휴식하니 피로가 풀린다.",
+    "max": 9,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "-(0.15+0.0015*level)"
+      },
+      {
+        "k": "life",
+        "v": "0.45 + 0.05*level"
+      },
+      {
+        "k": "health",
+        "v": "0.18 + 0.02*level"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_move"
+    ]
+  },
+  {
+    "id": "rest_ancora",
+    "name": "상태\u0004휴식",
+    "desc": "휴식하니 피로가 풀린다.",
+    "max": 100,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "-8.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_move"
+    ]
+  },
+  {
+    "id": "rest_s02_bed",
+    "name": "이끼 깔개 휴식",
+    "desc": "갖춘 데서 휴식하니 피로가 녹아 내린다.",
+    "max": 100,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "-1.5"
+      },
+      {
+        "k": "life",
+        "v": "5.45"
+      },
+      {
+        "k": "health",
+        "v": "2.18"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_move"
+    ]
+  },
+  {
+    "id": "rest_s02_shelter_01",
+    "name": "이끼 움막 휴식",
+    "desc": "갖춘 데서 휴식하니 피로가 녹아 내린다.",
+    "max": 100,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "-2.5"
+      },
+      {
+        "k": "life",
+        "v": "5.45"
+      },
+      {
+        "k": "health",
+        "v": "2.18"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_move"
+    ]
+  },
+  {
+    "id": "rest_cash",
+    "name": "상태\u0004휴식",
+    "desc": "갖춘 데서 휴식하니 피로가 녹아 내린다.",
+    "max": 100,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "-0.5"
+      },
+      {
+        "k": "life",
+        "v": "3.45"
+      },
+      {
+        "k": "health",
+        "v": "3.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_move"
+    ]
+  },
+  {
+    "id": "pool_rest",
+    "name": "수영장 사용",
+    "desc": "수영장에서 휴식하니 배가 고파진다.",
+    "max": 59,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "-0.3"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_move"
+    ]
+  },
+  {
+    "id": "rest_pool_minor",
+    "name": "수영장 사용",
+    "desc": "수영장에서 휴식하니 배가 고파진다.",
+    "max": 60,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "-0.3"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_move"
+    ]
+  },
+  {
+    "id": "rest_pool",
+    "name": "수영장 사용",
+    "desc": "수영장에서 휴식하니 배가 고파진다.",
+    "max": 60,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "-1.67"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_move"
+    ]
+  },
+  {
+    "id": "rest_spa_minor",
+    "name": "노천탕 사용",
+    "desc": "노천탕에서 휴식하니 배가 고파진다.",
+    "max": 60,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "-0.3"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_move"
+    ]
+  },
+  {
+    "id": "rest_spa",
+    "name": "노천탕 사용",
+    "desc": "노천탕에서 휴식하니 배가 고파진다.",
+    "max": 60,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "-1.67"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_move"
+    ]
+  },
+  {
+    "id": "rest_bm_fatigue",
+    "name": "강력한 휴식",
+    "desc": "강력한 휴식 효과로 피로도가 빠르게 감소한다.",
+    "max": 60,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "-1.67"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_move"
+    ]
+  },
+  {
+    "id": "rest_mount",
+    "name": "상태\u0004휴식",
+    "desc": "휴식하니 피로가 풀린다.",
+    "max": 60,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "-(0.15+0.0015*level)"
+      },
+      {
+        "k": "life",
+        "v": "0.45 + 0.05*level"
+      },
+      {
+        "k": "health",
+        "v": "0.18 + 0.02*level"
+      }
+    ],
+    "tags": [
+      "clear_on_unmount"
+    ]
+  },
+  {
+    "id": "inside",
+    "name": "집",
+    "desc": "실내에 있어 환경의 영향을 적게 받는다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "hot",
+        "v": "-0.75"
+      },
+      {
+        "k": "very_hot",
+        "v": "-0.5"
+      },
+      {
+        "k": "cold",
+        "v": "-0.75"
+      },
+      {
+        "k": "very_cold",
+        "v": "-0.5"
+      },
+      {
+        "k": "scorching_sun",
+        "v": "-1.0"
+      },
+      {
+        "k": "gale",
+        "v": "-1.0"
+      },
+      {
+        "k": "default",
+        "v": "-1.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "pleasant_fragrance",
+    "name": "기분 좋은 향기",
+    "desc": "몸에서 기분이 좋아지는 향기가 난다. 기후 효과로 인한 피로도의 영향을 받지 않는다.\n<em>단,</em> 60레벨 이상 군도 중 불안정 지수II 이상인 섬에서 발생하는 <em>불안정 환경 피로도</em>에는 <em>효과가 없다.</em>",
+    "max": 1,
+    "eff": [
+      {
+        "k": "hot",
+        "v": "-10.0"
+      },
+      {
+        "k": "very_hot",
+        "v": "-10.0"
+      },
+      {
+        "k": "cold",
+        "v": "-10.0"
+      },
+      {
+        "k": "very_cold",
+        "v": "-10.0"
+      },
+      {
+        "k": "humid",
+        "v": "-10.0"
+      },
+      {
+        "k": "arid",
+        "v": "-10.0"
+      },
+      {
+        "k": "scorching_sun",
+        "v": "-10.0"
+      },
+      {
+        "k": "gale",
+        "v": "-10.0"
+      },
+      {
+        "k": "poison",
+        "v": "-10.0"
+      },
+      {
+        "k": "snowstorm",
+        "v": "-10.0"
+      },
+      {
+        "k": "volcanic_heat",
+        "v": "-10.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "under_roof",
+    "name": "그늘",
+    "desc": "그늘 아래에 있어 더위를 피할 수 있다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "hot",
+        "v": "-0.5"
+      },
+      {
+        "k": "very_hot",
+        "v": "-0.25"
+      },
+      {
+        "k": "scorching_sun",
+        "v": "-1.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "satiety_high",
+    "name": "배부름",
+    "desc": "배불러 더 먹을 수 없다.",
+    "max": 1,
+    "eff": [],
+    "tags": [
+      "clear_on_death",
+      "clear_on_levelup"
+    ]
+  },
+  {
+    "id": "fatigue_caution",
+    "name": "지침",
+    "desc": "휴식이 필요하다. 더 이상 일하면 꼼짝도 못하게 될 것 같다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "energy",
+        "v": "0.15 * (1 - level)"
+      },
+      {
+        "k": "life",
+        "v": "1.5 * (1 - level)"
+      }
+    ],
+    "tags": [
+      "clear_on_levelup"
+    ]
+  },
+  {
+    "id": "fatigue_danger",
+    "name": "탈진",
+    "desc": "무리하여 탈진했다. 피로도가 지침 상태까지 회복되어야 다시 활동할 수 있다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "hit_rate_plus",
+        "v": "-0.8"
+      },
+      {
+        "k": "energy",
+        "v": "0.25 * (1 - level)"
+      },
+      {
+        "k": "life",
+        "v": "2 * (1 - level)"
+      }
+    ],
+    "tags": [
+      "clear_on_levelup"
+    ]
+  },
+  {
+    "id": "poisoning",
+    "name": "중독",
+    "desc": "독에 중독되었다. 건강이 줄어든다.",
+    "max": 30,
+    "eff": [
+      {
+        "k": "health",
+        "v": "-(0.5 + 0.5*level)"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_levelup"
+    ]
+  },
+  {
+    "id": "energetic",
+    "name": "활력",
+    "desc": "활기가 돌아 에너지 소모가 줄어든다.",
+    "max": 2,
+    "eff": [
+      {
+        "k": "energy",
+        "v": "-(0.2 + 0.2*level)"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "dejected",
+    "name": "좌절",
+    "desc": "자괴감 들어 에너지 소모가 늘어난다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "energy",
+        "v": "0.4"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "food_power",
+    "name": "기운 참",
+    "desc": "음식 종류에 따라 능력치가 향상된다.",
+    "max": 1,
+    "eff": [],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "food_ability",
+    "name": "능력치 향상",
+    "desc": "음식을 먹어 능력이 향상되었다.",
+    "max": 1,
+    "eff": [],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "food_survival",
+    "name": "생존력 향상",
+    "desc": "음식을 먹어 생존력이 향상되었다.",
+    "max": 1,
+    "eff": [],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "away_from_keyboard",
+    "name": "자리 비움",
+    "desc": "자리 비움 중이다.",
+    "max": 1,
+    "eff": [],
+    "tags": [
+      "clear_on_connect"
+    ]
+  },
+  {
+    "id": "raw_food",
+    "name": "복통",
+    "desc": "날 것을 잘못 먹었는지 피로가 밀려 온다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "health",
+        "v": "-0.2"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_levelup"
+    ]
+  },
+  {
+    "id": "hot_food",
+    "name": "음식의 온기",
+    "desc": "따뜻한 음식을 먹으니 추위가 견딜 만 하다.",
+    "max": 5,
+    "eff": [
+      {
+        "k": "hot",
+        "v": "0.175 + 0.025 * level"
+      },
+      {
+        "k": "very_hot",
+        "v": "0.175 + 0.025 * level"
+      },
+      {
+        "k": "cold",
+        "v": "-(0.175 + 0.025*level)"
+      },
+      {
+        "k": "very_cold",
+        "v": "-(0.175 + 0.025*level)"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_levelup"
+    ]
+  },
+  {
+    "id": "cold_food",
+    "name": "음식의 냉기",
+    "desc": "시원한 음식을 먹으니 더위가 견딜 만 하다.",
+    "max": 5,
+    "eff": [
+      {
+        "k": "hot",
+        "v": "-(0.175 + 0.025*level)"
+      },
+      {
+        "k": "very_hot",
+        "v": "-(0.175 + 0.025*level)"
+      },
+      {
+        "k": "cold",
+        "v": "0.175 + 0.025 * level"
+      },
+      {
+        "k": "very_cold",
+        "v": "0.175 + 0.025 * level"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_levelup"
+    ]
+  },
+  {
+    "id": "life_up",
+    "name": "생명 회복속도 증가",
+    "desc": "음식/약의 효과로 생명 회복 속도가 빨라진다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "life",
+        "v": "0.5 + (0.5*level)"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "health_up",
+    "name": "건강 회복속도 증가",
+    "desc": "음식/약의 효과로 건강이 천천히 회복된다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "health",
+        "v": "0.5 + (0.5*level)"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "stamina_up",
+    "name": "스태미나 회복 속도 증가",
+    "desc": "음식/약의 효과로 스태미나 회복 속도가 빨라진다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "stamina",
+        "v": "0.5 + (0.5*level)"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "stance_attack_se",
+    "name": "공격태세 효과",
+    "desc": "",
+    "max": 5,
+    "eff": [
+      {
+        "k": "hit_rate_plus",
+        "v": "0.02 + (0.02*level)"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_battle",
+      "clear_on_connect",
+      "clear_on_policy"
+    ]
+  },
+  {
+    "id": "stance_defense_se",
+    "name": "방어태세 효과",
+    "desc": "",
+    "max": 5,
+    "eff": [
+      {
+        "k": "damage_reduction",
+        "v": "0.18 + (0.02*level)"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_battle",
+      "clear_on_connect",
+      "clear_on_policy"
+    ]
+  },
+  {
+    "id": "stance_counter_se",
+    "name": "역습태세 효과",
+    "desc": "",
+    "max": 5,
+    "eff": [
+      {
+        "k": "critical_rate_plus",
+        "v": "0.02 * level"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_battle",
+      "clear_on_connect",
+      "clear_on_policy"
+    ]
+  },
+  {
+    "id": "stance_fierce_se",
+    "name": "맹공태세 효과",
+    "desc": "",
+    "max": 5,
+    "eff": [
+      {
+        "k": "damage_bonus",
+        "v": "0.02 * level"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_battle",
+      "clear_on_connect",
+      "clear_on_policy"
+    ]
+  },
+  {
+    "id": "stance_charge_se",
+    "name": "돌격태세 효과",
+    "desc": "",
+    "max": 5,
+    "eff": [
+      {
+        "k": "blow_power_plus",
+        "v": "5 * level"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_battle",
+      "clear_on_connect",
+      "clear_on_policy"
+    ]
+  },
+  {
+    "id": "stance_shooting_se",
+    "name": "사격태세 효과",
+    "desc": "",
+    "max": 5,
+    "eff": [
+      {
+        "k": "dodge_plus",
+        "v": "4 * level"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_battle",
+      "clear_on_connect",
+      "clear_on_policy"
+    ]
+  },
+  {
+    "id": "stance_sniping_se",
+    "name": "저격태세 효과",
+    "desc": "",
+    "max": 5,
+    "eff": [
+      {
+        "k": "hit_rate_plus",
+        "v": "0.02 + (0.02*level)"
+      },
+      {
+        "k": "critical_rate_plus",
+        "v": "0.02 * level"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_battle",
+      "clear_on_connect",
+      "clear_on_policy"
+    ]
+  },
+  {
+    "id": "head_injury",
+    "name": "머리 손상",
+    "desc": "머리가 손상되었다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "head_injury",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "body_injury",
+    "name": "몸통 손상",
+    "desc": "몸통이 손상되었다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "body_injury",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "leg_injury",
+    "name": "다리 손상",
+    "desc": "다리가 손상되었다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "leg_injury",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "tail_injury",
+    "name": "꼬리 손상",
+    "desc": "꼬리가 손상되었다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "tail_injury",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "head_injury_raptor",
+    "name": "이빨 손상",
+    "desc": "이빨이 손상되어 피해량이 감소한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "damage_bonus",
+        "v": "-0.2"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "head_injury_direwolf",
+    "name": "이빨 손상",
+    "desc": "이빨이 손상되어 피해량이 감소한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "damage_bonus",
+        "v": "-0.2"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "head_injury_stego",
+    "name": "뇌진탕",
+    "desc": "정신이 혼미하여 명중률이 감소한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "hit_rate_plus",
+        "v": "-0.2"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "head_injury_tricera",
+    "name": "뿔 손상",
+    "desc": "뿔이 손상되어 피해량이 감소한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "damage_bonus",
+        "v": "-0.2"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "head_injury_brachio",
+    "name": "뇌진탕",
+    "desc": "정신이 혼미하여 명중률이 감소한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "hit_rate_plus",
+        "v": "-0.2"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "body_injury_default",
+    "name": "장기 손상",
+    "desc": "장기가 손상되어 생명력 회복이 느려진다.",
+    "max": 6,
+    "eff": [
+      {
+        "k": "life",
+        "v": "-0.25*level"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "leg_injury_raptor",
+    "name": "발이 느려짐",
+    "desc": "다리가 손상되어 공격을 피하기 어려워진다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "dodge_plus",
+        "v": "-40.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "leg_injury_direwolf",
+    "name": "발이 느려짐",
+    "desc": "다리가 손상되어 공격을 피하기 어려워진다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "dodge_plus",
+        "v": "-40.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "leg_injury_stego",
+    "name": "발이 느려짐",
+    "desc": "다리가 손상되어 공격을 피하기 어려워진다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "dodge_plus",
+        "v": "-40.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "leg_injury_tricera",
+    "name": "발이 느려짐",
+    "desc": "다리가 손상되어 공격을 피하기 어려워진다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "dodge_plus",
+        "v": "-40.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "leg_injury_brachio",
+    "name": "발이 느려짐",
+    "desc": "다리가 손상되어 공격을 피하기 어려워진다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "dodge_plus",
+        "v": "-40.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "tail_injury_raptor",
+    "name": "균형감각 상실",
+    "desc": "균형감각을 잃어 명중률이 감소한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "hit_rate_plus",
+        "v": "-0.2"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "tail_injury_direwolf",
+    "name": "균형감각 상실",
+    "desc": "균형감각을 잃어 명중률이 감소한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "hit_rate_plus",
+        "v": "-0.2"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "tail_injury_stego",
+    "name": "꼬리 근육 손상",
+    "desc": "꼬리 근육이 손상되어 피해량이 감소한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "damage_bonus",
+        "v": "-0.2"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "tail_injury_tricera",
+    "name": "균형감각 상실",
+    "desc": "균형감각을 잃어 명중률이 감소한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "hit_rate_plus",
+        "v": "-0.2"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "tail_injury_brachio",
+    "name": "꼬리 근육 손상",
+    "desc": "꼬리 근육이 손상되어 피해량이 감소한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "damage_bonus",
+        "v": "-0.2"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "death_penalty",
+    "name": "어지러움",
+    "desc": "메스껍고 어지러워 명중률이 약간 감소한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "hit_rate_plus",
+        "v": "-0.1"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "death_count",
+    "name": "부활 후유증",
+    "desc": "자주 죽을수록 부활 시 회복되는 건강이 줄어든다.",
+    "max": 1,
+    "eff": [],
+    "tags": []
+  },
+  {
+    "id": "death_aftereffect_revive_immediately",
+    "name": "즉시 부활 후유증",
+    "desc": "부활 시 회복되는 건강이 줄었지만 잠시 동안 낯선 냄새에 동물들이 피한다.",
+    "max": 1,
+    "eff": [],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "clan_gathering_plant",
+    "name": "식물 채집 연구",
+    "desc": "부족 연구를 통하여 식물 채집 능력이 향상된다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "gathering_plus",
+        "v": "6.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clan_gathering_mine",
+    "name": "광물 채집 연구",
+    "desc": "부족 연구를 통하여 광물 채집 능력이 향상된다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "mining_plus",
+        "v": "6.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clan_gathering_animal",
+    "name": "동물 도축 연구",
+    "desc": "부족 연구를 통하여 동물 도축 능력이 향상된다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "butchering_plus",
+        "v": "6.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clan_craft_tool",
+    "name": "도구 제작 연구",
+    "desc": "부족 연구를 통하여 도구 제작 능력이 향상된다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "weaponcraft_plus",
+        "v": "6.0"
+      },
+      {
+        "k": "handicraft_plus",
+        "v": "3.0"
+      },
+      {
+        "k": "smith_plus",
+        "v": "6.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clan_craft_clothes",
+    "name": "의상 제작 연구",
+    "desc": "부족 연구를 통하여 의상 제작 능력이 향상된다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "armorcraft_plus",
+        "v": "6.0"
+      },
+      {
+        "k": "tailor_plus",
+        "v": "6.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clan_craft_cook",
+    "name": "요리 연구",
+    "desc": "부족 연구를 통하여 요리 능력이 향상된다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "cook_plus",
+        "v": "6.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clan_craft_construction",
+    "name": "건축 연구",
+    "desc": "부족 연구를 통하여 건설 능력이 향상된다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "furnishing_plus",
+        "v": "6.0"
+      },
+      {
+        "k": "construction_plus",
+        "v": "6.0"
+      },
+      {
+        "k": "handicraft_plus",
+        "v": "3.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clan_adventure_survival",
+    "name": "생존 연구",
+    "desc": "부족 연구를 통하여 생존 능력이 향상된다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "hot",
+        "v": "-0.2"
+      },
+      {
+        "k": "very_hot",
+        "v": "-0.2"
+      },
+      {
+        "k": "cold",
+        "v": "-0.2"
+      },
+      {
+        "k": "very_cold",
+        "v": "-0.2"
+      },
+      {
+        "k": "scorching_sun",
+        "v": "-0.2"
+      },
+      {
+        "k": "gale",
+        "v": "-0.2"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clan_adventure_ecology",
+    "name": "생태 연구",
+    "desc": "부족 연구를 통하여 생태 관련 능력이 향상된다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "taming_power_plus",
+        "v": "5.0"
+      },
+      {
+        "k": "hiding_power",
+        "v": "10.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clan_combat_attack",
+    "name": "공격 연구",
+    "desc": "부족 연구를 통하여 공격 능력이 향상된다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "attack_plus",
+        "v": "20.0"
+      },
+      {
+        "k": "accuracy_plus",
+        "v": "20.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clan_combat_defense",
+    "name": "방어 연구",
+    "desc": "부족 연구를 통하여 방어 능력이 향상된다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "defense_plus",
+        "v": "50.0"
+      },
+      {
+        "k": "dodge_plus",
+        "v": "20.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clan_combat_recovery",
+    "name": "회복 연구",
+    "desc": "부족 연구를 통하여 회복 능력이 향상된다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "max_health_plus",
+        "v": "100.0"
+      },
+      {
+        "k": "life_recovery",
+        "v": "0.2"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "test_exp_bonus",
+    "name": "경험치 획득량 증가",
+    "desc": "내부 테스트용 상태효과",
+    "max": 10,
+    "eff": [
+      {
+        "k": "exp_multiplier",
+        "v": "level"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "test_tstone_bonus",
+    "name": "티스톤 획득량 증가",
+    "desc": "내부 테스트용 상태효과",
+    "max": 10,
+    "eff": [
+      {
+        "k": "t_stone_multiplier",
+        "v": "0.1*level"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "test_reduce_sail_cost",
+    "name": "항해 비용 감소",
+    "desc": "내부 테스트용 상태효과",
+    "max": 1,
+    "eff": [
+      {
+        "k": "reduce_sail_cost",
+        "v": "0.5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "test_reduce_warp_cost",
+    "name": "워프 비용 감소",
+    "desc": "내부 테스트용 상태효과",
+    "max": 1,
+    "eff": [
+      {
+        "k": "reduce_warp_cost",
+        "v": "0.5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clan_prevent_item_drop",
+    "name": "소지품 손실 방지",
+    "desc": "사망했을 때 소지품을 덜 잃어버린다. 레벨이 올라갈 수록 효과가 줄어든다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "prevent_item_drop",
+        "v": "0.2"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clan_growth_buff",
+    "name": "부족 혜택",
+    "desc": "부족원의 경험이 모여 모두의 탐험 효율이 향상된다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "exp_multiplier",
+        "v": "0.05"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "login_shield",
+    "name": "보호",
+    "desc": "일정 시간 다른 플레이어의 공격대상에서 제외된다.",
+    "max": 1,
+    "eff": [],
+    "tags": [
+      "clear_on_move",
+      "clear_on_teleport",
+      "clear_on_interaction"
+    ]
+  },
+  {
+    "id": "camp_fire",
+    "name": "아늑함",
+    "desc": "캠프에 있어서 덜 피로해진다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "default",
+        "v": "-0.5"
+      },
+      {
+        "k": "hot",
+        "v": "-0.5"
+      },
+      {
+        "k": "very_hot",
+        "v": "-1.0"
+      },
+      {
+        "k": "cold",
+        "v": "-0.5"
+      },
+      {
+        "k": "very_cold",
+        "v": "-1.0"
+      },
+      {
+        "k": "humid",
+        "v": "-0.5"
+      },
+      {
+        "k": "arid",
+        "v": "-0.5"
+      },
+      {
+        "k": "scorching_sun",
+        "v": "-0.5"
+      },
+      {
+        "k": "gale",
+        "v": "-0.5"
+      },
+      {
+        "k": "poison",
+        "v": "-0.5"
+      },
+      {
+        "k": "volcanic_heat",
+        "v": "-0.5"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "poison_poo",
+    "name": "똥독",
+    "desc": "손에 묻은 대변이 발진을 일으켰다. 피로도가 증가한다.",
+    "max": 19,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "0.1"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "bleeding_neverstop",
+    "name": "이상출혈",
+    "desc": "상처의 피가 멎지 않는다. 건강이 지속 감소한다.",
+    "max": 61,
+    "eff": [
+      {
+        "k": "health",
+        "v": "-1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "dirty_saliva",
+    "name": "침범벅",
+    "desc": "침에 흠뻑 젖었다. 피로도가 증가한다. ",
+    "max": 61,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "level * 0.005"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "tetanus",
+    "name": "파상풍",
+    "desc": "더러운 발톱에 긁혔다. 에너지가 지속 감소한다.",
+    "max": 61,
+    "eff": [
+      {
+        "k": "energy",
+        "v": "-1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "bleeding_inner",
+    "name": "내출혈",
+    "desc": "공격에 내상을 입었다. 생명력이 지속 감소한다.",
+    "max": 61,
+    "eff": [
+      {
+        "k": "life",
+        "v": "-1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "poison_gas",
+    "name": "악취",
+    "desc": "악취가 나는 가스에 노출됐다. 명중률과 은신능력이 감소한다.",
+    "max": 61,
+    "eff": [
+      {
+        "k": "hiding_power",
+        "v": "-3.0"
+      },
+      {
+        "k": "hit_rate_plus",
+        "v": "-0.15"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "poison_plant_moving",
+    "name": "식충식물독",
+    "desc": "독이 있는 줄기에 스쳤다. 최대 건강이 감소한다. ",
+    "max": 61,
+    "eff": [
+      {
+        "k": "max_energy_plus",
+        "v": "-30.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "poison_lizard",
+    "name": "도마뱀독",
+    "desc": "도마뱀 독에 맞았다. 최대 건강이 감소한다.",
+    "max": 61,
+    "eff": [
+      {
+        "k": "max_health_plus",
+        "v": "-30.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "poison_bug_bee",
+    "name": "벌 쏘임",
+    "desc": "벌에 쏘였다. 치명타 확률이 감소한다.",
+    "max": 61,
+    "eff": [
+      {
+        "k": "critical_rate_plus",
+        "v": "-0.2"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "poison_bug_sticky",
+    "name": "벌레 물림",
+    "desc": "벌레에 물렸다. 명중률이 감소한다. ",
+    "max": 61,
+    "eff": [
+      {
+        "k": "hit_rate_plus",
+        "v": "-0.2"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "poison_poison_sac",
+    "name": "독주머니 중독",
+    "desc": "독주머니 채집 중 발진이 생겼다. 피로도가 증가한다.",
+    "max": 61,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "int(level/10) * 0.1"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "poison_heat",
+    "name": "열독",
+    "desc": "열대 식물 채집 중 열독에 걸렸다. 건강이 감소한다.",
+    "max": 61,
+    "eff": [
+      {
+        "k": "health",
+        "v": "-1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "immune_collect",
+    "name": "발진 예방",
+    "desc": "약효가 끝날 때까지 발진 면역이 돼, 똥독/독주머니 중독을 예방한다.",
+    "max": 61,
+    "eff": [
+      {
+        "k": "poison_collect",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "immune_bleeding_neverstop",
+    "name": "이상출혈 예방",
+    "desc": "약효가 끝날 때까지 이상출혈을 예방한다.",
+    "max": 61,
+    "eff": [
+      {
+        "k": "bleeding_neverstop",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "immune_tetanus",
+    "name": "파상풍 예방",
+    "desc": "약효가 끝날 때까지 파상풍을 예방한다.",
+    "max": 61,
+    "eff": [
+      {
+        "k": "tetanus",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "immune_bleeding_inner",
+    "name": "내출혈 예방",
+    "desc": "약효가 끝날 때까지 내출혈을 예방한다.",
+    "max": 61,
+    "eff": [
+      {
+        "k": "bleeding_inner",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "immune_gas",
+    "name": "독가스 예방",
+    "desc": "약효가 끝날 때까지 독가스에 면역이다.",
+    "max": 61,
+    "eff": [
+      {
+        "k": "poison_gas",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "immune_plant_moving",
+    "name": "식충식물독 예방",
+    "desc": "약효가 끝날 때까지 식충식물독에 면역이다.",
+    "max": 61,
+    "eff": [
+      {
+        "k": "poison_plant_moving",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "immune_lizard",
+    "name": "도마뱀독 예방",
+    "desc": "약효가 끝날 때까지 도마뱀독에 면역이다.",
+    "max": 61,
+    "eff": [
+      {
+        "k": "poison_lizard",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "immune_bug",
+    "name": "벌레독 예방",
+    "desc": "약효가 끝날 때까지 벌독/벌레독에 면역이다.",
+    "max": 61,
+    "eff": [
+      {
+        "k": "poison_bug",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "cure_poison_collect",
+    "name": "발진 치료 ",
+    "desc": "똥독, 독주머니독이 해독되었다.",
+    "max": 1,
+    "eff": [],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "cure_bleeding_neverstop",
+    "name": "출혈독 해독",
+    "desc": "출혈독이 회복되었다.",
+    "max": 1,
+    "eff": [],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "cure_tetanus",
+    "name": "파상풍 치료",
+    "desc": "파상풍이 치료되었다.",
+    "max": 1,
+    "eff": [],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "cure_bleeding_inner",
+    "name": "내출혈 치료",
+    "desc": "내출혈이 회복되었다.",
+    "max": 1,
+    "eff": [],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "cure_poison_gas",
+    "name": "독가스 해독",
+    "desc": "독가스가 해독되었다.",
+    "max": 1,
+    "eff": [],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "cure_poison_plant_moving",
+    "name": "식충식물독 해독",
+    "desc": "식충식물독이 해독되었다.",
+    "max": 1,
+    "eff": [],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "cure_poison_lizard",
+    "name": "도마뱀독 해독",
+    "desc": "도마뱀독이 해독되었다.",
+    "max": 1,
+    "eff": [],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "cure_poison_bug",
+    "name": "벌레독 해독",
+    "desc": "벌독과 벌레독을 해독할 수 있다.",
+    "max": 1,
+    "eff": [],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "cure_poison_heat",
+    "name": "열독 예방",
+    "desc": "열독을 치료하고 예방한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "poison_heat",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "cure_bleeding",
+    "name": "진통효과",
+    "desc": "진통 효과가 돌아 출혈, 내출혈의 고통이 잊혀진다",
+    "max": 1,
+    "eff": [],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "effect_coffee_drip",
+    "name": "커피 효과",
+    "desc": "커피를 마시니 좌절감이 사라지고 피로가 풀린다.",
+    "max": 60,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "-(0.016 + level*0.001)"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "effect_coffee_dutch",
+    "name": "커피 효과",
+    "desc": "커피를 마시니 좌절감이 사라지고 피로가 풀린다.",
+    "max": 60,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "-(0.04 + level*0.001)"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "vitalize",
+    "name": "각성",
+    "desc": "각성 효과로 더 오래 활동할 수 있다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "max_fatigue_plus",
+        "v": "40.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "effect_cactus_juice",
+    "name": "선인장 효과",
+    "desc": "선인장 주스를 먹으니 덜 피곤하다.",
+    "max": 60,
+    "eff": [
+      {
+        "k": "default",
+        "v": "-0.2"
+      },
+      {
+        "k": "arid",
+        "v": "-0.3"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "delight_of_discovery",
+    "name": "발견의 기쁨",
+    "desc": "중요한 지점을 발견하여 피로를 잊는다.",
+    "max": 60,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "-(1.9 + level*0.1)"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "30days_package",
+    "name": "월정액 패키지",
+    "desc": "매일 우편함으로 씨암탉 치킨과 워프젬 지급",
+    "max": 1,
+    "eff": [
+      {
+        "k": "carry_capacity",
+        "v": "40.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "7days_package",
+    "name": "7일 정액 패키지",
+    "desc": "7일 동안 지속",
+    "max": 1,
+    "eff": [
+      {
+        "k": "carry_capacity",
+        "v": "20.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "15days_package",
+    "name": "15일 정액 패키지",
+    "desc": "15일 동안 지속",
+    "max": 1,
+    "eff": [
+      {
+        "k": "carry_capacity",
+        "v": "40.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "welcome_package",
+    "name": "고속 레벨업 패키지",
+    "desc": "캐릭터/계열 레벨 60까지 지속",
+    "max": 1,
+    "eff": [
+      {
+        "k": "exp_multiplier_60",
+        "v": "1.0"
+      },
+      {
+        "k": "skill_exp_multiplier_60",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "valid_until_skill_60"
+    ]
+  },
+  {
+    "id": "selfimprovement_package",
+    "name": "자기계발",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "t_stone_multiplier",
+        "v": "0.05"
+      },
+      {
+        "k": "reduce_skill_research",
+        "v": "0.2"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "exp_1.2_event",
+    "name": "경험치와 스킬숙련도 20% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "exp_multiplier",
+        "v": "0.2"
+      },
+      {
+        "k": "skill_exp_multiplier",
+        "v": "0.2"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "exp_1.5_event",
+    "name": "경험치와 스킬숙련도 50% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "exp_multiplier",
+        "v": "0.5"
+      },
+      {
+        "k": "skill_exp_multiplier",
+        "v": "0.5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "exp_2_event",
+    "name": "경험치와 스킬숙련도 100% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "exp_multiplier",
+        "v": "1.0"
+      },
+      {
+        "k": "skill_exp_multiplier",
+        "v": "1.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "skill_exp_1.2_event",
+    "name": "스킬숙련도 20% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "skill_exp_multiplier",
+        "v": "0.2"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "skill_exp_1.5_event",
+    "name": "스킬숙련도 50% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "skill_exp_multiplier",
+        "v": "0.5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "skill_exp_2_event",
+    "name": "스킬숙련도 100% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "skill_exp_multiplier",
+        "v": "1.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "advanced_taming_research",
+    "name": "고급 포획 연구",
+    "desc": "더 다양한 종류의 동물들을 포획할 수 있게 된다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "ankylosaurus",
+        "v": "1.0"
+      },
+      {
+        "k": "sabertooth_tem",
+        "v": "1.0"
+      },
+      {
+        "k": "sabertooth_golden",
+        "v": "1.0"
+      },
+      {
+        "k": "gallimimus",
+        "v": "1.0"
+      },
+      {
+        "k": "utahraptor",
+        "v": "1.0"
+      },
+      {
+        "k": "direwolf",
+        "v": "1.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "advanced_battle_research",
+    "name": "고급 전투 연구",
+    "desc": "전투 능력이 향상된다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "attack_plus",
+        "v": "30.0"
+      },
+      {
+        "k": "accuracy_plus",
+        "v": "30.0"
+      },
+      {
+        "k": "defense_plus",
+        "v": "75.0"
+      },
+      {
+        "k": "dodge_plus",
+        "v": "30.0"
+      },
+      {
+        "k": "max_health_plus",
+        "v": "150.0"
+      },
+      {
+        "k": "life_recovery",
+        "v": "0.3"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "advanced_gathering_research",
+    "name": "고급 채집 연구",
+    "desc": "채집시 잠재 및 희귀 속성을 얻을 확률이 높아진다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "random_tag_mul",
+        "v": "1.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "life_incr",
+    "name": "지혈",
+    "desc": "피가 멎는다. 생명력이 증가한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "life",
+        "v": "4+(level-1)*2"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "life_decr",
+    "name": "출혈",
+    "desc": "피가 흐른다. 생명력이 감소한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "life",
+        "v": "-(4+(level-1)*2)"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "health_incr",
+    "name": "재생",
+    "desc": "상처가 회복된다. 건강이 증가한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "health",
+        "v": "4+(level-1)*2"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "health_decr",
+    "name": "깊은 상처",
+    "desc": "깊은 상처가 났다. 건강이 감소한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "health",
+        "v": "-(4+(level-1)*2)"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "stamina_incr",
+    "name": "감격",
+    "desc": "좋은 일이 일어났다. 스테미너가 증가한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "stamina",
+        "v": "level+1"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "stamina_decr",
+    "name": "실망",
+    "desc": "실망스럽다. 스테미너가 감소한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "stamina",
+        "v": "-(level+1)"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "energy_incr",
+    "name": "활기",
+    "desc": "활기가 넘친다. 에너지가 증가한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "energy",
+        "v": "level+1"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "energy_decr",
+    "name": "절망",
+    "desc": "절망스럽다. 에너지가 감소한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "energy",
+        "v": "-(level+1)"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "hit_rate_incr",
+    "name": "집중",
+    "desc": "집중한다. 명중률이 증가한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "hit_rate_plus",
+        "v": "level*0.1"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "hit_rate_decr",
+    "name": "산만",
+    "desc": "집중할 수 없다. 명중률이 감소한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "hit_rate_plus",
+        "v": "-(level*0.1)"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "sadism",
+    "name": "가학성",
+    "desc": "생명력이 증가한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "life",
+        "v": "4+(level-1)*2"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "animal_rage",
+    "name": "분노",
+    "desc": "분노하여 공격이 강해진다.",
+    "max": 60,
+    "eff": [
+      {
+        "k": "attack_plus",
+        "v": "50.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "animal_exhausted",
+    "name": "지침",
+    "desc": "지쳐서 잘 피하지 못하게 된다.",
+    "max": 60,
+    "eff": [
+      {
+        "k": "dodge_plus",
+        "v": "0.5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "life_allo_phase01",
+    "name": "알로사우루스의 흥분",
+    "desc": "흥분한 알로사우루스의 생명력이 좀 더 회복된다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "life",
+        "v": "50.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "life_allo_phase02",
+    "name": "알로사우루스의 분노",
+    "desc": "분노한 알로사우루스의 생명력이 빠르게 회복된다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "life",
+        "v": "100.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "exertion_headache",
+    "name": "운동 두통",
+    "desc": "머리가 지끈거린다. 더이상 건강해지려는 시도는 위험할 듯 하다.",
+    "max": 1,
+    "eff": [],
+    "tags": []
+  },
+  {
+    "id": "test_selfimprovement_package",
+    "name": "테스트용 중첩 자기계발 효과",
+    "desc": "스킬 연구 기간이 20% 감소하고 티스톤 획득량이 5% 증가한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "t_stone_multiplier",
+        "v": "0.05"
+      },
+      {
+        "k": "reduce_skill_research",
+        "v": "0.2"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "attention",
+    "name": "도발당함",
+    "desc": "적의 도발에 넘어가 공격 대상을 변경할 수 없다.",
+    "max": 60,
+    "eff": [],
+    "tags": [
+      "clear_on_death",
+      "clear_on_connect",
+      "clear_on_battle"
+    ]
+  },
+  {
+    "id": "survival_exp_1.5_event",
+    "name": "생존스킬 숙련도 50% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "survival",
+        "v": "0.5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "survival_exp_2_event",
+    "name": "생존스킬 숙련도 100% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "survival",
+        "v": "1.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "survival_exp_3_event",
+    "name": "생존스킬 숙련도 200% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "survival",
+        "v": "2.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "survival_exp_4_event",
+    "name": "생존스킬 숙련도 300% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "survival",
+        "v": "3.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "melee_exp_1.5_event",
+    "name": "근접전스킬 숙련도 50% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "melee_combat",
+        "v": "0.5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "melee_exp_2_event",
+    "name": "근접전스킬 숙련도 100% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "melee_combat",
+        "v": "1.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "melee_exp_3_event",
+    "name": "근접전스킬 숙련도 200% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "melee_combat",
+        "v": "2.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "melee_exp_4_event",
+    "name": "근접전스킬 숙련도 300% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "melee_combat",
+        "v": "3.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ranged_exp_1.5_event",
+    "name": "궁술스킬 숙련도 50% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "ranged_combat",
+        "v": "0.5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ranged_exp_2_event",
+    "name": "궁술스킬 숙련도 100% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "ranged_combat",
+        "v": "1.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ranged_exp_3_event",
+    "name": "궁술스킬 숙련도 200% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "ranged_combat",
+        "v": "2.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "ranged_exp_4_event",
+    "name": "궁술스킬 숙련도 300% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "ranged_combat",
+        "v": "3.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "defense_exp_1.5_event",
+    "name": "방어스킬 숙련도 50% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "defense",
+        "v": "0.5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "defense_exp_2_event",
+    "name": "방어스킬 숙련도 100% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "defense",
+        "v": "1.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "defense_exp_3_event",
+    "name": "방어스킬 숙련도 200% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "defense",
+        "v": "2.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "defense_exp_4_event",
+    "name": "방어스킬 숙련도 300% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "defense",
+        "v": "3.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "butchery_exp_1.5_event",
+    "name": "도축스킬 숙련도 50% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "butchery",
+        "v": "0.5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "butchery_exp_2_event",
+    "name": "도축스킬 숙련도 100% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "butchery",
+        "v": "1.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "butchery_exp_3_event",
+    "name": "도축스킬 숙련도 200% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "butchery",
+        "v": "2.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "butchery_exp_4_event",
+    "name": "도축스킬 숙련도 300% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "butchery",
+        "v": "3.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "gathering_exp_1.5_event",
+    "name": "채집스킬 숙련도 50% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "gathering",
+        "v": "0.5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "gathering_exp_2_event",
+    "name": "채집스킬 숙련도 100% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "gathering",
+        "v": "1.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "gathering_exp_3_event",
+    "name": "채집스킬 숙련도 200% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "gathering",
+        "v": "2.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "gathering_exp_4_event",
+    "name": "채집스킬 숙련도 300% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "gathering",
+        "v": "3.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "cooking_exp_1.5_event",
+    "name": "요리스킬 숙련도 50% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "cooking",
+        "v": "0.5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "cooking_exp_2_event",
+    "name": "요리스킬 숙련도 100% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "cooking",
+        "v": "1.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "cooking_exp_3_event",
+    "name": "요리스킬 숙련도 200% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "cooking",
+        "v": "2.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "cooking_exp_4_event",
+    "name": "요리스킬 숙련도 300% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "cooking",
+        "v": "3.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "weaponcrafting_exp_1.5_event",
+    "name": "무기/도구제작스킬 숙련도 50% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "weaponcrafting",
+        "v": "0.5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "weaponcrafting_exp_2_event",
+    "name": "무기/도구제작스킬 숙련도 100% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "weaponcrafting",
+        "v": "1.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "weaponcrafting_exp_3_event",
+    "name": "무기/도구제작스킬 숙련도 200% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "weaponcrafting",
+        "v": "2.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "weaponcrafting_exp_4_event",
+    "name": "무기/도구제작스킬 숙련도 300% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "weaponcrafting",
+        "v": "3.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "armorcrafting_exp_1.5_event",
+    "name": "옷제작스킬 숙련도 50% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "armorcrafting",
+        "v": "0.5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "armorcrafting_exp_2_event",
+    "name": "옷제작스킬 숙련도 100% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "armorcrafting",
+        "v": "1.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "armorcrafting_exp_3_event",
+    "name": "옷제작스킬 숙련도 200% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "armorcrafting",
+        "v": "2.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "armorcrafting_exp_4_event",
+    "name": "옷제작스킬 숙련도 300% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "armorcrafting",
+        "v": "3.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "constructing_exp_1.5_event",
+    "name": "건설스킬 숙련도 50% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "constructing",
+        "v": "0.5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "constructing_exp_2_event",
+    "name": "건설스킬 숙련도 100% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "constructing",
+        "v": "1.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "constructing_exp_3_event",
+    "name": "건설스킬 숙련도 200% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "constructing",
+        "v": "2.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "constructing_exp_4_event",
+    "name": "건설스킬 숙련도 300% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "constructing",
+        "v": "3.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "farming_exp_1.5_event",
+    "name": "농사스킬 숙련도 50% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "farming",
+        "v": "0.5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "farming_exp_2_event",
+    "name": "농사스킬 숙련도 100% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "farming",
+        "v": "1.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "farming_exp_3_event",
+    "name": "농사스킬 숙련도 200% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "farming",
+        "v": "2.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "farming_exp_4_event",
+    "name": "농사스킬 숙련도 300% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "farming",
+        "v": "3.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "process_exp_1.5_event",
+    "name": "가공스킬 숙련도 50% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "process",
+        "v": "0.5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "process_exp_2_event",
+    "name": "가공스킬 숙련도 100% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "process",
+        "v": "1.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "process_exp_3_event",
+    "name": "가공스킬 숙련도 200% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "process",
+        "v": "2.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "process_exp_4_event",
+    "name": "가공스킬 숙련도 300% 이벤트",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "process",
+        "v": "3.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "weaponcraft_plus_01_event",
+    "name": "무기 제작 능력 증가 이벤트",
+    "desc": "무기 제작 능력이 증가한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "weaponcraft_plus",
+        "v": "10.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "armorcraft_plus_01_event",
+    "name": "옷 제작 능력 증가 이벤트",
+    "desc": "옷 제작 능력이 증가한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "armorcraft_plus",
+        "v": "10.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "tailor_plus_01_event",
+    "name": "재봉 능력 증가 이벤트",
+    "desc": "재봉 능력이 증가한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "tailor_plus",
+        "v": "10.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "handicraft_plus_01_event",
+    "name": "공예 능력 증가 이벤트",
+    "desc": "공예 능력이 증가한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "handicraft_plus",
+        "v": "10.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "smith_plus_01_event",
+    "name": "금속 가공 능력 증가 이벤트",
+    "desc": "금속 가공 능력이 증가한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "smith_plus",
+        "v": "10.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "construction_plus_01_event",
+    "name": "건설 능력 증가 이벤트",
+    "desc": "건설 능력이 증가한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "construction_plus",
+        "v": "10.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "furnishing_plus_01_event",
+    "name": "가구 제작 능력 증가 이벤트",
+    "desc": "가구 제작 능력이 증가한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "furnishing_plus",
+        "v": "10.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "cook_plus_01_event",
+    "name": "요리 능력 증가 이벤트",
+    "desc": "요리 능력이 증가한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "cook_plus",
+        "v": "10.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "farming_plus_01_event",
+    "name": "농사 능력 증가 이벤트",
+    "desc": "농사 능력이 증가한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "farming_plus",
+        "v": "10.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "gathering_plus_01_event",
+    "name": "식물 채집 능력 증가 이벤트",
+    "desc": "식물 채집 능력이 증가한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "gathering_plus",
+        "v": "10.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "mining_plus_01_event",
+    "name": "채광 능력 증가 이벤트",
+    "desc": "채광 능력이 증가한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "mining_plus",
+        "v": "10.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "butchering_plus_01_event",
+    "name": "도축 능력 증가 이벤트",
+    "desc": "도축 능력이 증가한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "butchering_plus",
+        "v": "10.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "returner",
+    "name": "돌아온 개척자",
+    "desc": "",
+    "max": 60,
+    "eff": [
+      {
+        "k": "exp_multiplier",
+        "v": "1.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "nausea",
+    "name": "메스꺼움",
+    "desc": "기름독섬 피로도 때문에 메스꺼움이 올라온다. 피로도를 일정 이상 낮추어야 가라앉는다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "life",
+        "v": "-(level*5)"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "headache",
+    "name": "혼미함",
+    "desc": "기름독섬의 기후로 인한 피로 때문에 정신이 혼미하고 금방이라도 쓰러질 것 같다. 피로도를 일정 이상 낮추어야 가라앉는다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "life",
+        "v": "-(level*30)"
+      },
+      {
+        "k": "health",
+        "v": "-(level*20)"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "mental_confusion",
+    "name": "혼미함",
+    "desc": "기름독섬의 기후로 인한 피로 때문에 정신이 혼미하고 금방이라도 쓰러질 것 같다. 피로도를 일정 이상 낮추어야 가라앉는다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "life",
+        "v": "-(level*50)"
+      },
+      {
+        "k": "health",
+        "v": "-(level*30)"
+      },
+      {
+        "k": "stamina",
+        "v": "-(level*10)"
+      },
+      {
+        "k": "energy",
+        "v": "-(level*6)"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "s02_inside",
+    "name": "안개 대피소 효과",
+    "desc": "기름독섬의 기후에 대비할 수 있는 실내를 만들었다. 기름 안개의 영향을 줄여준다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "default",
+        "v": "-1.0"
+      },
+      {
+        "k": "poison",
+        "v": "-0.25"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "s02_inside_02",
+    "name": "굴뚝형 안개 대피소 효과",
+    "desc": "기름독섬의 기후에 대비할 수 있는 실내를 만들었다. 기름 안개의 영향을 크게 줄여준다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "default",
+        "v": "-1.0"
+      },
+      {
+        "k": "poison",
+        "v": "-0.32"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "poison_oil",
+    "name": "기름독",
+    "desc": "채집 중 기름독에 걸려 건강이 조금 감소한다. 적절한 의상을 갖춰 입으면 기름독에 걸릴 확률을 줄일 수 있다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "health",
+        "v": "-20.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "s02_longlife",
+    "name": "안정식 효과",
+    "desc": "안정된 음식을 먹어 생명력과 피로도 회복 속도가 증가한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "-(1 + level*0.5)"
+      }
+    ],
+    "tags": [
+      "4"
+    ]
+  },
+  {
+    "id": "cure_poison_oil",
+    "name": "기름독 해독",
+    "desc": "기름독이 해독되었다.",
+    "max": 1,
+    "eff": [],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "immune_poison_oil",
+    "name": "기름독 면역",
+    "desc": "지속 시간동안 기름독 피해에 면역이다.",
+    "max": 20,
+    "eff": [
+      {
+        "k": "poison_oil",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "s02_energetic",
+    "name": "활력",
+    "desc": "활기가 돌아 피로도가 조금 줄어든다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "-3.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "pet_master_charming",
+    "name": "귀여움 폭발",
+    "desc": "귀여운 행동을 봐서 피로도가 줄어든다",
+    "max": 10,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "-(7 + (3*level) )"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "pet_exp_1.2",
+    "name": "동물 경험치 획득량 20% 증가",
+    "desc": "동행하는 동물의 경험치 획득량이 20% 증가한다. (단, 캐릭터의 경험치 증가 이벤트와 중복되지 않는다.)",
+    "max": 1,
+    "eff": [
+      {
+        "k": "pet_exp_multiplier",
+        "v": "0.2"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "pet_exp_1.5",
+    "name": "동물 경험치 획득량 50% 증가",
+    "desc": "동행하는 동물의 경험치 획득량이 50% 증가한다. (단, 캐릭터의 경험치 증가 이벤트와 중복되지 않는다.)",
+    "max": 1,
+    "eff": [
+      {
+        "k": "pet_exp_multiplier",
+        "v": "0.5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "pet_exp_2",
+    "name": "동물 경험치 획득량 100% 증가",
+    "desc": "동행하는 동물의 경험치 획득량이 100% 증가한다. (단, 캐릭터의 경험치 증가 이벤트와 중복되지 않는다.)",
+    "max": 1,
+    "eff": [
+      {
+        "k": "pet_exp_multiplier",
+        "v": "1.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "pet_life_incr",
+    "name": "펫 생명력 증가",
+    "desc": "피가 멎는다. 생명력이 증가한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "life",
+        "v": "4+(level-1)*2"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "pet_exp_1.2_event",
+    "name": "동물 경험치 획득량 20% 증가",
+    "desc": "동행하는 동물의 경험치 획득량이 20% 증가한다. (단, 캐릭터의 경험치 증가 이벤트와 중복되지 않는다.)",
+    "max": 1,
+    "eff": [
+      {
+        "k": "pet_exp_multiplier",
+        "v": "0.2"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "pet_exp_1.5_event",
+    "name": "동물 경험치 획득량 50% 증가",
+    "desc": "동행하는 동물의 경험치 획득량이 50% 증가한다. (단, 캐릭터의 경험치 증가 이벤트와 중복되지 않는다.)",
+    "max": 1,
+    "eff": [
+      {
+        "k": "pet_exp_multiplier",
+        "v": "0.5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "pet_exp_2_event",
+    "name": "동물 경험치 획득량 100% 증가",
+    "desc": "동행하는 동물의 경험치 획득량이 100% 증가한다. (단, 캐릭터의 경험치 증가 이벤트와 중복되지 않는다.)",
+    "max": 1,
+    "eff": [
+      {
+        "k": "pet_exp_multiplier",
+        "v": "1.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "pet_speed_amplifier",
+    "name": "동물 속도 증폭",
+    "desc": "동물의 속도가 증폭한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "speed_amplifier",
+        "v": "0.10 + level * 0.05"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "pet_speed_plus",
+    "name": "동물 속도 증가",
+    "desc": "동물의 속도가 증가한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "speed_plus",
+        "v": "12 + level * 4"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "pet_bag_amplifier",
+    "name": "동물 가방 용량 증폭",
+    "desc": "동물의 가방 용량이 증폭한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "inventory_amplifier",
+        "v": "0.15 + level * 0.5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "pet_bag_plus",
+    "name": "동물 가방 용량 증가",
+    "desc": "동물의 가방 용량이 증가한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "inventory_plus",
+        "v": "level * 15"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "pet_attack_amplifier",
+    "name": "동물 공격력 증폭",
+    "desc": "동물의 공격력이 증폭한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "attack_amplifier",
+        "v": "0.25 + level * 0.05"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "pet_attack_plus",
+    "name": "동물 공격력 증가",
+    "desc": "동물의 공격력이 증가한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "attack_plus",
+        "v": "level * 5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "pet_defense_amplifier",
+    "name": "동물 방어력 증폭",
+    "desc": "동물의 방어력이 증폭한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "defense_amplifier",
+        "v": "0.25 + level * 0.05"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "pet_defense_plus",
+    "name": "동물 방어력 증가",
+    "desc": "동물의 공격력이 증가한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "defense_plus",
+        "v": "level * 7.5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "pet_cooltime_ratio",
+    "name": "동물 공격 대기시간 감소",
+    "desc": "동물의 공격 대기시간이 감소하여 더 빠르게 공격한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "attack_plus",
+        "v": "level * 10"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "pet_life_max_amplifier",
+    "name": "동물 최대 체력 증폭",
+    "desc": "동물의 최대 체력이 증폭한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "life_max_amplifier",
+        "v": "0.2 + level * 0.1"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "pet_life_max_plus",
+    "name": "동물 최대 체력 증가",
+    "desc": "동물의 최대 체력이 증가한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "life_max_plus",
+        "v": "level * 45"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "pet_life_regen_amplifier",
+    "name": "동물 체력 회복 증폭",
+    "desc": "동물의 시간당 체력 회복량이 증폭한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "life_regen_amplifier",
+        "v": "5 + level * 1.5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "pet_life_regen_plus",
+    "name": "동물 체력 회복 증가",
+    "desc": "동물의 시간당 체력 회복량이 증가한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "life_regen_plus",
+        "v": "level * 10"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "pet_accuracy_amplifier",
+    "name": "동물 정확도 증폭",
+    "desc": "공격시 동물의 정확도가 증폭한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "accuracy_amplifier",
+        "v": "0.25 + level * 0.05"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "pet_accuracy_plus",
+    "name": "동물 정확도 증가",
+    "desc": "공격시 동물의 정확도가 증가한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "accuray_plus",
+        "v": "level * 6"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clean_pet",
+    "name": "할짝할짝",
+    "desc": "동물이 핥아주었다. 약간 찜찜하긴 하지만 깨끗하고 더위와 피로가 견딜만하다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "default",
+        "v": "-(0.15 + 0.05 * level)"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "clean_pet_02",
+    "name": "바닷물 세수",
+    "desc": "동물이 바닷물을 끼얹어 주었다. 약간 짠맛이 나지만 깨끗하고 더위와 피로가 견딜만하다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "default",
+        "v": "-(0.15 + 0.05 * level)"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "life_up_pet",
+    "name": "의무 지원",
+    "desc": "동물의 지원으로 체력이 천천히 회복된다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "life",
+        "v": "8 + (2*level)"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "stamina_up_pet",
+    "name": "후방 응원",
+    "desc": "동물의 응원으로 스태미나가 더 빠르게 회복된다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "stamina",
+        "v": "3 + (2*level)"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "pet_vitality_ratio",
+    "name": "동물 활력 감소 완화",
+    "desc": "동물의 활력이 감소하는 속도가 완화된다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "hungry_velocity_amplifier",
+        "v": "-0.1 - (0.5 * (level-1))"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "excited_pet",
+    "name": "친근함",
+    "desc": "동물이 친근하게 대해줘서 피로가 견딜만하다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "default",
+        "v": "-(0.3 + 0.1*level)"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "energetic_pet",
+    "name": "십시일반",
+    "desc": "동물의 도움으로 에너지 소모가 줄어든다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "energy",
+        "v": "-(0.3 + 0.1*level)"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "mood_bubbly",
+    "name": "귀여운 분위기",
+    "desc": "최대 에너지 증가",
+    "max": 30,
+    "eff": [],
+    "tags": [
+      "clear_on_lookaround",
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "mood_horrible",
+    "name": "음산한 분위기",
+    "desc": "동물의 선제 공격 범위 감소",
+    "max": 30,
+    "eff": [],
+    "tags": [
+      "clear_on_lookaround",
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "mood_luxurious",
+    "name": "호화로운 분위기",
+    "desc": "요리 섭취 시 포만감 시간 감소",
+    "max": 30,
+    "eff": [],
+    "tags": [
+      "clear_on_lookaround",
+      "clear_on_death",
+      "clear_on_leave_room"
+    ]
+  },
+  {
+    "id": "energy_regen_by_food",
+    "name": "에너지 회복",
+    "desc": "음식을 먹어 에너지가 지속적으로 회복된다.",
+    "max": 1,
+    "eff": [],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "set_bedroom",
+    "name": "침실 셋트 효과",
+    "desc": "셋트 구성으로 얻는 효과",
+    "max": 60,
+    "eff": [],
+    "tags": [
+      "clear_on_death",
+      "clear_on_leave_room"
+    ]
+  },
+  {
+    "id": "set_kitchen",
+    "name": "주방 셋트 효과",
+    "desc": "셋트 구성으로 얻는 효과",
+    "max": 60,
+    "eff": [],
+    "tags": [
+      "clear_on_death",
+      "clear_on_leave_room"
+    ]
+  },
+  {
+    "id": "set_drawingroom",
+    "name": "응접실 셋트 효과",
+    "desc": "셋트 구성으로 얻는 효과",
+    "max": 60,
+    "eff": [],
+    "tags": [
+      "clear_on_death",
+      "clear_on_leave_room"
+    ]
+  },
+  {
+    "id": "set_dressroom",
+    "name": "옷방 셋트 효과",
+    "desc": "셋트 구성으로 얻는 효과",
+    "max": 60,
+    "eff": [],
+    "tags": [
+      "clear_on_death",
+      "clear_on_leave_room"
+    ]
+  },
+  {
+    "id": "search_poi",
+    "name": "탐색 후유증",
+    "desc": "탐색 후에 에너지가 감소한다.",
+    "max": 60,
+    "eff": [
+      {
+        "k": "energy",
+        "v": "-1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "fatigue_warning",
+    "name": "피로함",
+    "desc": "피로와 배고픔이 밀려온다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "energy",
+        "v": "-(0.1 * level)"
+      }
+    ],
+    "tags": [
+      "clear_on_levelup"
+    ]
+  },
+  {
+    "id": "fatigue_notice",
+    "name": "힘듦",
+    "desc": "힘들어서 허기진다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "energy",
+        "v": "-(0.05 * level)"
+      }
+    ],
+    "tags": [
+      "clear_on_levelup"
+    ]
+  },
+  {
+    "id": "living_tech_butchering",
+    "name": "도축 연구",
+    "desc": "도축 능력이 증가한다.",
+    "max": 3,
+    "eff": [
+      {
+        "k": "butchering_plus",
+        "v": "3 * (level+1)"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "living_tech_armorcraft",
+    "name": "옷 제작 연구",
+    "desc": "옷 제작 능력이 증가한다.",
+    "max": 3,
+    "eff": [
+      {
+        "k": "armorcraft_plus",
+        "v": "3 * (level+1)"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "living_tech_tailor",
+    "name": "재봉 연구",
+    "desc": "재봉 능력이 증가한다.",
+    "max": 3,
+    "eff": [
+      {
+        "k": "tailor_plus",
+        "v": "3 * (level+1)"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "living_tech_cook",
+    "name": "요리 연구",
+    "desc": "요리 능력이 증가한다.",
+    "max": 3,
+    "eff": [
+      {
+        "k": "cook_plus",
+        "v": "3 * (level+1)"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "living_tech_dodge",
+    "name": "회피 연구",
+    "desc": "회피 능력이 증가한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "dodge_plus",
+        "v": "7.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "living_tech_energy",
+    "name": "에너지 연구",
+    "desc": "최대 에너지가 증가한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "max_energy_plus",
+        "v": "40.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "living_tech_hiding",
+    "name": "은신 연구",
+    "desc": "은신 능력이 증가한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "hiding_power",
+        "v": "10.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "light_tech_gathering",
+    "name": "식물 채집 연구",
+    "desc": "식물 채집 능력이 증가한다.",
+    "max": 3,
+    "eff": [
+      {
+        "k": "gathering_plus",
+        "v": "3 * (level+1)"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "light_tech_farming",
+    "name": "농사 연구",
+    "desc": "농사 능력이 증가한다.",
+    "max": 3,
+    "eff": [
+      {
+        "k": "farming_plus",
+        "v": "3 * (level+1)"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "light_tech_handicraft",
+    "name": "공예 연구",
+    "desc": "공예 능력이 증가한다.",
+    "max": 3,
+    "eff": [
+      {
+        "k": "handicraft_plus",
+        "v": "3 * (level+1)"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "light_tech_furnishing",
+    "name": "가구 제작 연구",
+    "desc": "가구 제작 능력이 증가한다.",
+    "max": 3,
+    "eff": [
+      {
+        "k": "furnishing_plus",
+        "v": "3 * (level+1)"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "light_tech_attack",
+    "name": "공격력 연구",
+    "desc": "공격력이 증가한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "attack_plus",
+        "v": "7.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "light_tech_accuracy",
+    "name": "정확도 연구",
+    "desc": "전투 능력의 정확도가 증가한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "accuracy_plus",
+        "v": "8.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "heavy_tech_disassembling",
+    "name": "분해 연구",
+    "desc": "분해 능력이 증가한다.",
+    "max": 3,
+    "eff": [
+      {
+        "k": "disassembling_plus",
+        "v": "3 * (level+1)"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "heavy_tech_mining",
+    "name": "채광 연구",
+    "desc": "채광 능력이 증가한다.",
+    "max": 3,
+    "eff": [
+      {
+        "k": "mining_plus",
+        "v": "3 * (level+1)"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "heavy_tech_weaponcraft",
+    "name": "무기 제작 연구",
+    "desc": "무기 제작 능력이 증가한다.",
+    "max": 3,
+    "eff": [
+      {
+        "k": "weaponcraft_plus",
+        "v": "3 * (level+1)"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "heavy_tech_smith",
+    "name": "금속 가공 연구",
+    "desc": "금속 가공 능력이 증가한다.",
+    "max": 3,
+    "eff": [
+      {
+        "k": "smith_plus",
+        "v": "3 * (level+1)"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "heavy_tech_construction",
+    "name": "건설 연구",
+    "desc": "건설 능력이 증가한다.",
+    "max": 3,
+    "eff": [
+      {
+        "k": "construction_plus",
+        "v": "3 * (level+1)"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "heavy_tech_attack_rating",
+    "name": "방어 관통 연구",
+    "desc": "방어 관통이 증가한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "attack_rating_plus",
+        "v": "3.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "heavy_tech_critical",
+    "name": "치명도 연구",
+    "desc": "전투 능력의 치명도가 증가한다.",
+    "max": 4,
+    "eff": [
+      {
+        "k": "critical_plus",
+        "v": "5 * level"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "temporary_fortune_craft",
+    "name": "한 번의 행운: 제작",
+    "desc": "다음 제작 1회의 대성공 확률이 증가한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "great_success_plus_craft",
+        "v": "0.06"
+      }
+    ],
+    "tags": [
+      "clear_on_craft"
+    ]
+  },
+  {
+    "id": "temporary_concentration_craft",
+    "name": "한 번의 집중: 제작",
+    "desc": "다음 제작 1회의 성공률이 증가한다. 이 효과는 성공률 99%를 넘어 적용된다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "success_plus_craft",
+        "v": "0.005"
+      }
+    ],
+    "tags": [
+      "clear_on_craft"
+    ]
+  },
+  {
+    "id": "rainy_fortune_collect",
+    "name": "빗물 속 행운: 채집",
+    "desc": "비오는 날 채집 대성공 확률이 증가한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "great_success_plus_collect_rainy",
+        "v": "0.03"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "rainy_fortune_craft",
+    "name": "빗물 속 행운: 제작",
+    "desc": "비오는 날 제작 대성공 확률이 증가한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "great_success_plus_craft_rainy",
+        "v": "0.03"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "stable_immersion_collect",
+    "name": "안정 속 몰입: 채집",
+    "desc": "개인섬/도시섬에서의 채집 시간이 단축된다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "collect_time_reduction_safe",
+        "v": "0.2"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "stable_immersion_craft",
+    "name": "안정 속 몰입: 제작",
+    "desc": "개인섬/도시섬에서의 제작 시간이 단축된다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "craft_time_reduction_safe",
+        "v": "0.2"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "sadism_minor",
+    "name": "작은 가학성",
+    "desc": "생명력이 조금 증가한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "life",
+        "v": "4+(level-1)*2"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "eat_bizarre_food",
+    "name": "괴식",
+    "desc": "이런 것도 먹는데 무엇을 못할까.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "will_plus",
+        "v": "3.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "mood_classroom01",
+    "name": "교실 분위기",
+    "desc": "배움으로 인해 스킬 연구 시간이 감소한다.",
+    "max": 1,
+    "eff": [],
+    "tags": []
+  },
+  {
+    "id": "mood_classroom02",
+    "name": "학구적인 분위기",
+    "desc": "학구적인 분위기로 스킬 연구 시간이 감소한다.",
+    "max": 1,
+    "eff": [],
+    "tags": []
+  },
+  {
+    "id": "mood_springtime",
+    "name": "봄내음 가득한 분위기",
+    "desc": "싱그러운 봄기운에 어쩐지 좋은 일이 생길 것만 같다.",
+    "max": 30,
+    "eff": [],
+    "tags": []
+  },
+  {
+    "id": "energy_regen_by_trampoline_01",
+    "name": "활기 폭발!",
+    "desc": "엄청난 즐거움에 에너지가 폭발한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "energy",
+        "v": "10.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_move"
+    ]
+  },
+  {
+    "id": "energy_regen_by_rocking_horse_01",
+    "name": "동심",
+    "desc": "유년 시절의 추억에 잠기며 마음과 함께 몸도 치유된다. ",
+    "max": 1,
+    "eff": [
+      {
+        "k": "life",
+        "v": "5.0"
+      },
+      {
+        "k": "health",
+        "v": "5.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_move"
+    ]
+  },
+  {
+    "id": "test_skill_package",
+    "name": "스킬 패키지",
+    "desc": "캐릭터/계열 레벨 55까지 지속",
+    "max": 1,
+    "eff": [
+      {
+        "k": "exp_multiplier_55",
+        "v": "3.0"
+      },
+      {
+        "k": "skill_exp_multiplier_55",
+        "v": "3.0"
+      },
+      {
+        "k": "reduce_skill_research_55",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "valid_until_skill_55"
+    ]
+  },
+  {
+    "id": "welcome_package_55lv",
+    "name": "고속 55레벨 패키지",
+    "desc": "캐릭터/계열 레벨 55까지 지속. 스킬 연구 즉시 완료!",
+    "max": 1,
+    "eff": [
+      {
+        "k": "exp_multiplier_55",
+        "v": "2.0"
+      },
+      {
+        "k": "skill_exp_multiplier_55",
+        "v": "2.0"
+      },
+      {
+        "k": "reduce_skill_research_55",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "valid_until_skill_55"
+    ]
+  },
+  {
+    "id": "premium_support_package",
+    "name": "고급 지원 패키지",
+    "desc": "제작, 채집, 건설, 농사 시간 감소/성공률 증가!\n매일 지정된 횟수만큼 지도 열기, 즉시 부활, 스킬 습득 취소 혜택도 받는다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "bm_living_action_fixed_duration",
+        "v": "1.0"
+      },
+      {
+        "k": "bm_living_action_deduction_rate",
+        "v": "0.5"
+      },
+      {
+        "k": "bm_living_success_amplifier",
+        "v": "2.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "warp_rush_reward_increase_50",
+    "name": "워프 러시 보상 150% 증가",
+    "desc": "워프 러시에서 획득한 모든 스톤 갯수가 150% 증가한다. (추가 획득: 50%)",
+    "max": 1,
+    "eff": [
+      {
+        "k": "warp_rush_reward_multiplier",
+        "v": "1.5"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "warp_rush_reward_increase_100",
+    "name": "워프 러시 보상 200% 증가",
+    "desc": "워프 러시에서 획득한 모든 스톤 갯수가 200% 증가한다. (추가 획득: 100%)",
+    "max": 1,
+    "eff": [
+      {
+        "k": "warp_rush_reward_multiplier",
+        "v": "2.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "warp_rush_reward_increase_200",
+    "name": "워프 러시 보상 300% 증가",
+    "desc": "워프 러시에서 획득한 모든 스톤 갯수가 300% 증가한다. (추가 획득: 200%)",
+    "max": 1,
+    "eff": [
+      {
+        "k": "warp_rush_reward_multiplier",
+        "v": "3.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "artifact_reaction_heat_resistant",
+    "name": "건물 이용",
+    "desc": "건물 이용하기로 기후저항 생존능력이 증가한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "heat_resistant_plus",
+        "v": "30.0"
+      },
+      {
+        "k": "humid_resistant_plus",
+        "v": "30.0"
+      },
+      {
+        "k": "scorching_sun_resistant_plus",
+        "v": "30.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "random_number_piece_package",
+    "name": "난수 조각 패키지",
+    "desc": "매일 난수 조각 30개 지급",
+    "max": 1,
+    "eff": [],
+    "tags": []
+  },
+  {
+    "id": "effect_jasmine",
+    "name": "재스민 향기",
+    "desc": "재스민 향기에 에너지 소모가 줄어든다.",
+    "max": 2,
+    "eff": [
+      {
+        "k": "energy",
+        "v": "-(0.2 + 0.2*level)"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "life_health_up_pet",
+    "name": "축제 시작!",
+    "desc": "신나는 응원으로 체력과 건강이 회복된다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "life",
+        "v": "8 + (8*level)"
+      },
+      {
+        "k": "health",
+        "v": "8 + (8*level)"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "drunk",
+    "name": "청량함",
+    "desc": "음료의 청량함에 피로가 견딜만해 진다!",
+    "max": 1,
+    "eff": [
+      {
+        "k": "default",
+        "v": "-0.1"
+      },
+      {
+        "k": "arid",
+        "v": "-0.2"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "artifact_reaction_great_success_plus",
+    "name": "건물 이용",
+    "desc": "건물 이용하기로 제작 대성공 확률이 증가합니다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "great_success_plus_craft",
+        "v": "0.04"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "master_attack_up_pet",
+    "name": "더 쎄게!",
+    "desc": "광대 콤피의 응원으로 공격력이 증가한다. ",
+    "max": 3,
+    "eff": [
+      {
+        "k": "attack_plus",
+        "v": "20 * level"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "unlimited_pet_vigor",
+    "name": "무한 활력",
+    "desc": "동물의 활력이 줄어들지 않는다.",
+    "max": 30,
+    "eff": [
+      {
+        "k": "hungry_velocity_plus",
+        "v": "100.0"
+      }
+    ],
+    "tags": [
+      "exclusive_unlimited_pet_vigor"
+    ]
+  },
+  {
+    "id": "unlimited_pet_vigor_1d",
+    "name": "무한 활력",
+    "desc": "동물의 활력이 줄어들지 않는다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "hungry_velocity_plus",
+        "v": "100.0"
+      }
+    ],
+    "tags": [
+      "exclusive_unlimited_pet_vigor"
+    ]
+  },
+  {
+    "id": "tea_effect_01",
+    "name": "능력치 향상",
+    "desc": "음식을 먹어 능력이 향상되었다.",
+    "max": 70,
+    "eff": [
+      {
+        "k": "collect_fatigue_reduction",
+        "v": "0.08 + 0.01 * (level / 5)"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "tea_effect_02",
+    "name": "능력치 향상",
+    "desc": "음식을 먹어 능력이 향상되었다.",
+    "max": 70,
+    "eff": [
+      {
+        "k": "craft_fatigue_reduction",
+        "v": "0.08 + 0.01 * (level / 5)"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "unlimited_pet_vigor_3d",
+    "name": "무한 활력",
+    "desc": "동물의 활력이 줄어들지 않는다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "hungry_velocity_plus",
+        "v": "100.0"
+      }
+    ],
+    "tags": [
+      "exclusive_unlimited_pet_vigor"
+    ]
+  },
+  {
+    "id": "event_reduce_warp_cost",
+    "name": "워프 비용 감소",
+    "desc": "워프홀 이동시 비용이 감소한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "reduce_warp_cost",
+        "v": "0.9"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "clean_volcanic_lake_01",
+    "name": "온천욕: 건강 회복",
+    "desc": "온천욕으로 상처가 쉽게 아문다. 건강이 지속적으로 회복된다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "health",
+        "v": "level * 2"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_connect"
+    ]
+  },
+  {
+    "id": "clean_volcanic_lake_02",
+    "name": "온천욕: 공격력 증가",
+    "desc": "온천욕으로 힘이 난다. 공격력이 증가한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "attack_plus",
+        "v": "level * 16"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_connect"
+    ]
+  },
+  {
+    "id": "wet_volcanic_lake",
+    "name": "온천 젖음",
+    "desc": "온천에 몸을 담갔다. 화산 폭풍으로부터 안전하다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "volcanic_storm",
+        "v": "1.0"
+      },
+      {
+        "k": "volcanic_heat",
+        "v": "-0.2"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_connect"
+    ]
+  },
+  {
+    "id": "volcanic_storm_sign",
+    "name": "전조",
+    "desc": "스테미너가 지속적으로 감소한다. 곧 화산 폭풍이 몰아칠 것 같다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "stamina",
+        "v": "-5.2"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_connect"
+    ]
+  },
+  {
+    "id": "volcanic_storm",
+    "name": "화산 폭풍",
+    "desc": "건강이 지속적으로 감소한다. 온천에 들어가거나 화산폭풍 광부복을 입어야 한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "health",
+        "v": "-10.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_connect"
+    ]
+  },
+  {
+    "id": "lava",
+    "name": "용암 피해",
+    "desc": "용암에 닿았다. 생명력이 크게 감소한다. ",
+    "max": 10,
+    "eff": [
+      {
+        "k": "life",
+        "v": "-70.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "burn",
+    "name": "화상",
+    "desc": "화상을 입었다. 건강이 지속적으로 감소한다. 가까운 물에 들어가야 한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "health",
+        "v": "-10.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "immune_lava",
+    "name": "용암 피해 면역",
+    "desc": "용암 피해에 면역이다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "lava",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "immune_volcanic_storm",
+    "name": "화산 폭풍 면역",
+    "desc": "화산 폭풍 피해에 면역이다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "volcanic_storm",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_unequipped"
+    ]
+  },
+  {
+    "id": "mood_fiery",
+    "name": "후끈한 분위기",
+    "desc": "공격력이 증가한다.",
+    "max": 30,
+    "eff": [],
+    "tags": [
+      "clear_on_lookaround",
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "iguana_great_success_craft",
+    "name": "오색으로 빛나는 손",
+    "desc": "제작 대성공 확률이 증가한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "great_success_plus_craft",
+        "v": "0.02 + level * 0.03"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "tyrano_shout",
+    "name": "티라노의 외침",
+    "desc": "티라노의 외침에 의해, 고막이 큰 피해를 입는다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "life",
+        "v": "-500.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "immune_tyrano_shout",
+    "name": "고막보호",
+    "desc": "티라노의 외침이 들리지 않는다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "tyrano_shout",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_unequipped"
+    ]
+  },
+  {
+    "id": "iguana_fire_dung",
+    "name": "불똥",
+    "desc": "이구아나에게서 튄 불똥에 맞았다. 피해량이 감소한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "damage_bonus",
+        "v": "-0.3"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_connect"
+    ]
+  },
+  {
+    "id": "immune_iguana_fire_dung",
+    "name": "불똥 예방",
+    "desc": "불점박이 이구아나의 불똥 공격에 면역이다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "iguana_fire_dung",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_unequipped"
+    ]
+  },
+  {
+    "id": "tyrano_bruise",
+    "name": "피멍",
+    "desc": "티라노의 박치기에 맞아서, 피멍이 들었다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "defense_plus",
+        "v": "-50.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "tyrano_rage_01",
+    "name": "티라노사우루스의 흥분",
+    "desc": "티라노사우루스가 흥분해, 더욱 강하게 공격합니다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "attack_plus",
+        "v": "100.0"
+      },
+      {
+        "k": "accuracy_plus",
+        "v": "50.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "tyrano_rage_02",
+    "name": "티라노사우루스의 분노",
+    "desc": "티라노사우루스가 분노해, 매우 강하게 공격합니다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "attack_plus",
+        "v": "200.0"
+      },
+      {
+        "k": "accuracy_plus",
+        "v": "100.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "tyrano_rage_03",
+    "name": "티라노사우루스의 격노",
+    "desc": "티라노사우루스가 격노해, 버틸 수 없을 정도로 공격합니다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "attack_plus",
+        "v": "300.0"
+      },
+      {
+        "k": "accuracy_plus",
+        "v": "150.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "hadro_cheer_up",
+    "name": "전투 응원",
+    "desc": "전투 능력이 향상됩니다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "attack_plus",
+        "v": "30 + 25 * (level-1)"
+      },
+      {
+        "k": "accuracy_plus",
+        "v": "20 * level"
+      },
+      {
+        "k": "critical_plus",
+        "v": "10 * level"
+      },
+      {
+        "k": "critical_damage_bonus",
+        "v": "0.1 * level"
+      },
+      {
+        "k": "max_health_plus",
+        "v": "300 * level"
+      },
+      {
+        "k": "life_recovery",
+        "v": "0.3 * level"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "immune_burn",
+    "name": "화상 면역",
+    "desc": "화상 피해에 면역이다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "burn",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_unmount"
+    ]
+  },
+  {
+    "id": "artifact_reaction_volcanic_heat_resistant",
+    "name": "사우나 이용",
+    "desc": "냉탕의 효과로 화산의 열기를 더 잘 견딜 수 있다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "volcanic_heat_resistant_plus",
+        "v": "15.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "food_energy_incr",
+    "name": "에너지 지속 회복",
+    "desc": "영양이 넘친다. 에너지가 지속적으로 증가한다.",
+    "max": 10,
+    "eff": [
+      {
+        "k": "energy",
+        "v": "(60 + 60 * level) / 180"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "event_statue_aura",
+    "name": "조각상의 기운",
+    "desc": "",
+    "max": 1,
+    "eff": [
+      {
+        "k": "gathering_time_reduction",
+        "v": "0.2"
+      },
+      {
+        "k": "collect_fatigue_reduction",
+        "v": "0.1"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "rest_sauna_01",
+    "name": "사우나 이용",
+    "desc": "갖춘 데서 휴식하니 피로가 녹아 내린다.",
+    "max": 60,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "-0.5"
+      },
+      {
+        "k": "energy",
+        "v": "0.5"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_move"
+    ]
+  },
+  {
+    "id": "immune_lava_2",
+    "name": "용암 피해 면역",
+    "desc": "용암 피해에 면역이다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "lava",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_unequipped"
+    ]
+  },
+  {
+    "id": "food_max_health_energy_incr",
+    "name": "기운찬 달달함",
+    "desc": "맛있는 음식을 먹어 최대 건강과 최대 에너지가 증가한다.",
+    "max": 60,
+    "eff": [
+      {
+        "k": "max_health_plus",
+        "v": "level*2"
+      },
+      {
+        "k": "max_energy_plus",
+        "v": "level*0.5"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "food_fatigue_decr",
+    "name": "시원한 음료",
+    "desc": "시원한 음료를 마시니 피로가 풀린다.",
+    "max": 60,
+    "eff": [
+      {
+        "k": "fatigue",
+        "v": "(0.003 * level) * -1"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "engagement_reward",
+    "name": "사용자 플레이 집중도 체크",
+    "desc": "최대 건강 150, 최대 에너지 50 증가",
+    "max": 1,
+    "eff": [
+      {
+        "k": "max_health_plus",
+        "v": "150.0"
+      },
+      {
+        "k": "max_energy_plus",
+        "v": "50.0"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "id": "pvp_fog",
+    "name": "안개",
+    "desc": "안개로 인해 시야가 가려지고 전투모드에 진입할 수 없다. 장비 교체와 음식 섭취가 가능하다.",
+    "max": 1,
+    "eff": [],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "pvp_rain",
+    "name": "비",
+    "desc": "안개가 걷혀 전투 모드에 진입했다. 전투모드를 해제할 수 없고 아이템 사용 및 확인이 불가능하다.",
+    "max": 1,
+    "eff": [],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "pvp_storm",
+    "name": "폭풍우",
+    "desc": "폭풍우가 몰아쳐 건강이 감소한다. 대피소에서 폭풍우를 피할 수 있다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "health",
+        "v": "-15.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_connect",
+      "clear_on_inside_room"
+    ]
+  },
+  {
+    "id": "pvp_hypothermy",
+    "name": "저체온증",
+    "desc": "더 거세진 폭풍우에 대피소도 소용이 없다. 건강이 감소한다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "health",
+        "v": "-10.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "pvp_shelter",
+    "name": "대피",
+    "desc": "대피소에서 폭풍우를 피했다. 건강이 감소하지 않는다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "pvp_storm",
+        "v": "1.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death",
+      "clear_on_connect"
+    ]
+  },
+  {
+    "id": "climate_nervous",
+    "name": "불안함",
+    "desc": "전에 없던 강한 폭풍우가 몰아치고, 섬에 불안한 기운이 감돈다.",
+    "max": 1,
+    "eff": [],
+    "tags": [
+      "clear_on_connect"
+    ]
+  },
+  {
+    "id": "climate_strange_phenomenon",
+    "name": "괴현상",
+    "desc": "워프 남용으로 인해 듀랑고에 이상 날씨가 지속되고 있다.",
+    "max": 1,
+    "eff": [],
+    "tags": [
+      "clear_on_connect"
+    ]
+  },
+  {
+    "id": "fruit_sandwich_effects",
+    "name": "과일샌드",
+    "desc": "음식을 먹어 능력이 향상되었다.",
+    "max": 1,
+    "eff": [
+      {
+        "k": "weaponcraft_plus",
+        "v": "50.0"
+      },
+      {
+        "k": "armorcraft_plus",
+        "v": "50.0"
+      },
+      {
+        "k": "tailor_plus",
+        "v": "50.0"
+      },
+      {
+        "k": "handicraft_plus",
+        "v": "50.0"
+      },
+      {
+        "k": "smith_plus",
+        "v": "50.0"
+      },
+      {
+        "k": "construction_plus",
+        "v": "50.0"
+      },
+      {
+        "k": "furnishing_plus",
+        "v": "50.0"
+      },
+      {
+        "k": "cook_plus",
+        "v": "50.0"
+      },
+      {
+        "k": "farming_plus",
+        "v": "50.0"
+      }
+    ],
+    "tags": [
+      "clear_on_death"
+    ]
+  },
+  {
+    "id": "epic_lama_deodorant",
+    "name": "냄새 제거",
+    "desc": "체취를 제거해 동물이 인지하지 못한다.",
+    "max": 60,
+    "eff": [
+      {
+        "k": "hiding_power",
+        "v": "9999.0"
+      }
+    ],
+    "tags": [
+      "clear_on_teleport"
+    ]
+  }
+]
