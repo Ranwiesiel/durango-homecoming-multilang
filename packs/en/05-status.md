@@ -9,378 +9,376 @@
 
 Total **371** · `csv/effects.csv`
 
-| id | name (KR) | max | #eff | description |
+| id | name | max | #eff | description |
 |---|---|---:|---:|---|
-| `clothes` | 기본 의류 | 1 | 0 | 옷을 입어 피로가 견딜만하다. |
-| `accessory` | 기후 적합성 | 1 | 0 | 기후에 맞는 것을 걸쳐 피로가 견딜만하다. |
-| `dirty` | 더러움 | 1 | 1 | 몸이 더러워 피로가 밀려온다. |
-| `clean` | 씻음 | 1 | 1 | 씻으니 깨끗하고 더위와 피로가 견딜만하다. |
-| `wet` | 젖음 | 1 | 6 | 젖어서 체온이 내려간다. 더운 데선 피로가 견딜만하고 추운 데선 밀려온다. |
-| `drink_water` | 물 | 1 | 5 | 수분을 섭취하니 갈증이 풀려 피로가 견딜만하다. |
-| `cactus_water` | 목 적심 | 1 | 4 | 즙으로 목을 적시니 피로가 견딜만하다.  |
-| `fruit_water` | 과즙 | 1 | 2 | 많은 즙으로 목을 축이니 피로가 더 견딜만하다. |
-| `thirsty` | 갈증 | 1 | 2 | 목이 말라 피로가 강하게 밀려온다. |
-| `warm_up` | 모닥불 | 1 | 4 | 젖은 게 마르고 체온이 오른다. 추운 데선 피로가 견딜만하고 더운 데선 밀려온다. |
-| `observe_death` | 죽음을 목격 | 1 | 1 | 죽음을 목격해 피로가 밀려온다. |
-| `encouraged` | 응원 받음 | 1 | 1 | 응원을 받아 피로가 견딜만하다.  |
-| `do_not_encourage` | 응원 불가 | 1 | 0 | 잠시 후에 다시 응원할 수 있다.  |
-| `taste_good` | 맛있음 | 1 | 1 | 맛있다. 피로가 견딜만하다.  |
-| `taste_very_good` | 천상의 맛 | 1 | 1 | 정말 맛있다. 피로가 거의 느껴지지 않는다.  |
-| `taste_bad` | 맛없음 | 1 | 1 | 맛없다. 피로가 밀려온다. |
-| `taste_very_bad` | 최악의 맛 | 1 | 1 | 정말 맛없다. 피로가 빠르게 밀려온다. |
-| `excited` | 흥분 | 1 | 1 | 흥분하여 피로가 견딜만하다. |
-| `effect_fresh` | 카페인 | 1 | 1 | 상쾌한 향기의 효과로 모든 일에 쓰이는 에너지가 줄어든다. |
-| `newbie_shield_cheat` | (치트용) 현대인의 향기 | 1 | 0 | 낯선 냄새에 동물들이 피한다. |
-| `rest_cheat` | (치트용) 휴식 | 1 | 1 | 휴식하니 피로가 빠르게 풀린다. |
-| `rest` | 상태휴식 | 9 | 3 | 휴식하니 피로가 풀린다. |
-| `rest_ancora` | 상태휴식 | 100 | 1 | 휴식하니 피로가 풀린다. |
-| `rest_s02_bed` | 이끼 깔개 휴식 | 100 | 3 | 갖춘 데서 휴식하니 피로가 녹아 내린다. |
-| `rest_s02_shelter_01` | 이끼 움막 휴식 | 100 | 3 | 갖춘 데서 휴식하니 피로가 녹아 내린다. |
-| `rest_cash` | 상태휴식 | 100 | 3 | 갖춘 데서 휴식하니 피로가 녹아 내린다. |
-| `pool_rest` | 수영장 사용 | 59 | 1 | 수영장에서 휴식하니 배가 고파진다. |
-| `rest_pool_minor` | 수영장 사용 | 60 | 1 | 수영장에서 휴식하니 배가 고파진다. |
-| `rest_pool` | 수영장 사용 | 60 | 1 | 수영장에서 휴식하니 배가 고파진다. |
-| `rest_spa_minor` | 노천탕 사용 | 60 | 1 | 노천탕에서 휴식하니 배가 고파진다. |
-| `rest_spa` | 노천탕 사용 | 60 | 1 | 노천탕에서 휴식하니 배가 고파진다. |
-| `rest_bm_fatigue` | 강력한 휴식 | 60 | 1 | 강력한 휴식 효과로 피로도가 빠르게 감소한다. |
-| `rest_mount` | 상태휴식 | 60 | 3 | 휴식하니 피로가 풀린다. |
-| `inside` | 집 | 1 | 7 | 실내에 있어 환경의 영향을 적게 받는다. |
-| `pleasant_fragrance` | 기분 좋은 향기 | 1 | 11 | 몸에서 기분이 좋아지는 향기가 난다. 기후 효과로 인한 피로도의 영향을 받지 않는다.
-<em>단,</em> 60레벨 이상 군도 중 불안정 지수II 이상인 섬에서 발생하는 <em>불안정 환경 피로도</em>에는 <em>효과가 없다.</em> |
-| `under_roof` | 그늘 | 1 | 3 | 그늘 아래에 있어 더위를 피할 수 있다. |
-| `satiety_high` | 배부름 | 1 | 0 | 배불러 더 먹을 수 없다. |
-| `fatigue_caution` | 지침 | 10 | 2 | 휴식이 필요하다. 더 이상 일하면 꼼짝도 못하게 될 것 같다. |
-| `fatigue_danger` | 탈진 | 10 | 3 | 무리하여 탈진했다. 피로도가 지침 상태까지 회복되어야 다시 활동할 수 있다. |
-| `poisoning` | 중독 | 30 | 1 | 독에 중독되었다. 건강이 줄어든다. |
-| `energetic` | 활력 | 2 | 1 | 활기가 돌아 에너지 소모가 줄어든다. |
-| `dejected` | 좌절 | 1 | 1 | 자괴감 들어 에너지 소모가 늘어난다. |
-| `food_power` | 기운 참 | 1 | 0 | 음식 종류에 따라 능력치가 향상된다. |
-| `food_ability` | 능력치 향상 | 1 | 0 | 음식을 먹어 능력이 향상되었다. |
-| `food_survival` | 생존력 향상 | 1 | 0 | 음식을 먹어 생존력이 향상되었다. |
-| `away_from_keyboard` | 자리 비움 | 1 | 0 | 자리 비움 중이다. |
-| `raw_food` | 복통 | 1 | 1 | 날 것을 잘못 먹었는지 피로가 밀려 온다. |
-| `hot_food` | 음식의 온기 | 5 | 4 | 따뜻한 음식을 먹으니 추위가 견딜 만 하다. |
-| `cold_food` | 음식의 냉기 | 5 | 4 | 시원한 음식을 먹으니 더위가 견딜 만 하다. |
-| `life_up` | 생명 회복속도 증가 | 10 | 1 | 음식/약의 효과로 생명 회복 속도가 빨라진다. |
-| `health_up` | 건강 회복속도 증가 | 10 | 1 | 음식/약의 효과로 건강이 천천히 회복된다. |
-| `stamina_up` | 스태미나 회복 속도 증가 | 10 | 1 | 음식/약의 효과로 스태미나 회복 속도가 빨라진다. |
-| `stance_attack_se` | 공격태세 효과 | 5 | 1 |  |
-| `stance_defense_se` | 방어태세 효과 | 5 | 1 |  |
-| `stance_counter_se` | 역습태세 효과 | 5 | 1 |  |
-| `stance_fierce_se` | 맹공태세 효과 | 5 | 1 |  |
-| `stance_charge_se` | 돌격태세 효과 | 5 | 1 |  |
-| `stance_shooting_se` | 사격태세 효과 | 5 | 1 |  |
-| `stance_sniping_se` | 저격태세 효과 | 5 | 2 |  |
-| `head_injury` | 머리 손상 | 1 | 1 | 머리가 손상되었다. |
-| `body_injury` | 몸통 손상 | 1 | 1 | 몸통이 손상되었다. |
-| `leg_injury` | 다리 손상 | 1 | 1 | 다리가 손상되었다. |
-| `tail_injury` | 꼬리 손상 | 1 | 1 | 꼬리가 손상되었다. |
-| `head_injury_raptor` | 이빨 손상 | 1 | 1 | 이빨이 손상되어 피해량이 감소한다. |
-| `head_injury_direwolf` | 이빨 손상 | 1 | 1 | 이빨이 손상되어 피해량이 감소한다. |
-| `head_injury_stego` | 뇌진탕 | 1 | 1 | 정신이 혼미하여 명중률이 감소한다. |
-| `head_injury_tricera` | 뿔 손상 | 1 | 1 | 뿔이 손상되어 피해량이 감소한다. |
-| `head_injury_brachio` | 뇌진탕 | 1 | 1 | 정신이 혼미하여 명중률이 감소한다. |
-| `body_injury_default` | 장기 손상 | 6 | 1 | 장기가 손상되어 생명력 회복이 느려진다. |
-| `leg_injury_raptor` | 발이 느려짐 | 1 | 1 | 다리가 손상되어 공격을 피하기 어려워진다. |
-| `leg_injury_direwolf` | 발이 느려짐 | 1 | 1 | 다리가 손상되어 공격을 피하기 어려워진다. |
-| `leg_injury_stego` | 발이 느려짐 | 1 | 1 | 다리가 손상되어 공격을 피하기 어려워진다. |
-| `leg_injury_tricera` | 발이 느려짐 | 1 | 1 | 다리가 손상되어 공격을 피하기 어려워진다. |
-| `leg_injury_brachio` | 발이 느려짐 | 1 | 1 | 다리가 손상되어 공격을 피하기 어려워진다. |
-| `tail_injury_raptor` | 균형감각 상실 | 1 | 1 | 균형감각을 잃어 명중률이 감소한다. |
-| `tail_injury_direwolf` | 균형감각 상실 | 1 | 1 | 균형감각을 잃어 명중률이 감소한다. |
-| `tail_injury_stego` | 꼬리 근육 손상 | 1 | 1 | 꼬리 근육이 손상되어 피해량이 감소한다. |
-| `tail_injury_tricera` | 균형감각 상실 | 1 | 1 | 균형감각을 잃어 명중률이 감소한다. |
-| `tail_injury_brachio` | 꼬리 근육 손상 | 1 | 1 | 꼬리 근육이 손상되어 피해량이 감소한다. |
-| `death_penalty` | 어지러움 | 1 | 1 | 메스껍고 어지러워 명중률이 약간 감소한다. |
-| `death_count` | 부활 후유증 | 1 | 0 | 자주 죽을수록 부활 시 회복되는 건강이 줄어든다. |
-| `death_aftereffect_revive_immediately` | 즉시 부활 후유증 | 1 | 0 | 부활 시 회복되는 건강이 줄었지만 잠시 동안 낯선 냄새에 동물들이 피한다. |
-| `clan_gathering_plant` | 식물 채집 연구 | 1 | 1 | 부족 연구를 통하여 식물 채집 능력이 향상된다. |
-| `clan_gathering_mine` | 광물 채집 연구 | 1 | 1 | 부족 연구를 통하여 광물 채집 능력이 향상된다. |
-| `clan_gathering_animal` | 동물 도축 연구 | 1 | 1 | 부족 연구를 통하여 동물 도축 능력이 향상된다. |
-| `clan_craft_tool` | 도구 제작 연구 | 1 | 3 | 부족 연구를 통하여 도구 제작 능력이 향상된다. |
-| `clan_craft_clothes` | 의상 제작 연구 | 1 | 2 | 부족 연구를 통하여 의상 제작 능력이 향상된다. |
-| `clan_craft_cook` | 요리 연구 | 1 | 1 | 부족 연구를 통하여 요리 능력이 향상된다. |
-| `clan_craft_construction` | 건축 연구 | 1 | 3 | 부족 연구를 통하여 건설 능력이 향상된다. |
-| `clan_adventure_survival` | 생존 연구 | 1 | 6 | 부족 연구를 통하여 생존 능력이 향상된다. |
-| `clan_adventure_ecology` | 생태 연구 | 1 | 2 | 부족 연구를 통하여 생태 관련 능력이 향상된다. |
-| `clan_combat_attack` | 공격 연구 | 1 | 2 | 부족 연구를 통하여 공격 능력이 향상된다. |
-| `clan_combat_defense` | 방어 연구 | 1 | 2 | 부족 연구를 통하여 방어 능력이 향상된다. |
-| `clan_combat_recovery` | 회복 연구 | 1 | 2 | 부족 연구를 통하여 회복 능력이 향상된다. |
-| `test_exp_bonus` | 경험치 획득량 증가 | 10 | 1 | 내부 테스트용 상태효과 |
-| `test_tstone_bonus` | 티스톤 획득량 증가 | 10 | 1 | 내부 테스트용 상태효과 |
-| `test_reduce_sail_cost` | 항해 비용 감소 | 1 | 1 | 내부 테스트용 상태효과 |
-| `test_reduce_warp_cost` | 워프 비용 감소 | 1 | 1 | 내부 테스트용 상태효과 |
-| `clan_prevent_item_drop` | 소지품 손실 방지 | 1 | 1 | 사망했을 때 소지품을 덜 잃어버린다. 레벨이 올라갈 수록 효과가 줄어든다. |
-| `clan_growth_buff` | 부족 혜택 | 1 | 1 | 부족원의 경험이 모여 모두의 탐험 효율이 향상된다. |
-| `login_shield` | 보호 | 1 | 0 | 일정 시간 다른 플레이어의 공격대상에서 제외된다. |
-| `camp_fire` | 아늑함 | 1 | 11 | 캠프에 있어서 덜 피로해진다. |
-| `poison_poo` | 똥독 | 19 | 1 | 손에 묻은 대변이 발진을 일으켰다. 피로도가 증가한다. |
-| `bleeding_neverstop` | 이상출혈 | 61 | 1 | 상처의 피가 멎지 않는다. 건강이 지속 감소한다. |
-| `dirty_saliva` | 침범벅 | 61 | 1 | 침에 흠뻑 젖었다. 피로도가 증가한다.  |
-| `tetanus` | 파상풍 | 61 | 1 | 더러운 발톱에 긁혔다. 에너지가 지속 감소한다. |
-| `bleeding_inner` | 내출혈 | 61 | 1 | 공격에 내상을 입었다. 생명력이 지속 감소한다. |
-| `poison_gas` | 악취 | 61 | 2 | 악취가 나는 가스에 노출됐다. 명중률과 은신능력이 감소한다. |
-| `poison_plant_moving` | 식충식물독 | 61 | 1 | 독이 있는 줄기에 스쳤다. 최대 건강이 감소한다.  |
-| `poison_lizard` | 도마뱀독 | 61 | 1 | 도마뱀 독에 맞았다. 최대 건강이 감소한다. |
-| `poison_bug_bee` | 벌 쏘임 | 61 | 1 | 벌에 쏘였다. 치명타 확률이 감소한다. |
-| `poison_bug_sticky` | 벌레 물림 | 61 | 1 | 벌레에 물렸다. 명중률이 감소한다.  |
-| `poison_poison_sac` | 독주머니 중독 | 61 | 1 | 독주머니 채집 중 발진이 생겼다. 피로도가 증가한다. |
-| `poison_heat` | 열독 | 61 | 1 | 열대 식물 채집 중 열독에 걸렸다. 건강이 감소한다. |
-| `immune_collect` | 발진 예방 | 61 | 1 | 약효가 끝날 때까지 발진 면역이 돼, 똥독/독주머니 중독을 예방한다. |
-| `immune_bleeding_neverstop` | 이상출혈 예방 | 61 | 1 | 약효가 끝날 때까지 이상출혈을 예방한다. |
-| `immune_tetanus` | 파상풍 예방 | 61 | 1 | 약효가 끝날 때까지 파상풍을 예방한다. |
-| `immune_bleeding_inner` | 내출혈 예방 | 61 | 1 | 약효가 끝날 때까지 내출혈을 예방한다. |
-| `immune_gas` | 독가스 예방 | 61 | 1 | 약효가 끝날 때까지 독가스에 면역이다. |
-| `immune_plant_moving` | 식충식물독 예방 | 61 | 1 | 약효가 끝날 때까지 식충식물독에 면역이다. |
-| `immune_lizard` | 도마뱀독 예방 | 61 | 1 | 약효가 끝날 때까지 도마뱀독에 면역이다. |
-| `immune_bug` | 벌레독 예방 | 61 | 1 | 약효가 끝날 때까지 벌독/벌레독에 면역이다. |
-| `cure_poison_collect` | 발진 치료  | 1 | 0 | 똥독, 독주머니독이 해독되었다. |
-| `cure_bleeding_neverstop` | 출혈독 해독 | 1 | 0 | 출혈독이 회복되었다. |
-| `cure_tetanus` | 파상풍 치료 | 1 | 0 | 파상풍이 치료되었다. |
-| `cure_bleeding_inner` | 내출혈 치료 | 1 | 0 | 내출혈이 회복되었다. |
-| `cure_poison_gas` | 독가스 해독 | 1 | 0 | 독가스가 해독되었다. |
-| `cure_poison_plant_moving` | 식충식물독 해독 | 1 | 0 | 식충식물독이 해독되었다. |
-| `cure_poison_lizard` | 도마뱀독 해독 | 1 | 0 | 도마뱀독이 해독되었다. |
-| `cure_poison_bug` | 벌레독 해독 | 1 | 0 | 벌독과 벌레독을 해독할 수 있다. |
-| `cure_poison_heat` | 열독 예방 | 1 | 1 | 열독을 치료하고 예방한다. |
-| `cure_bleeding` | 진통효과 | 1 | 0 | 진통 효과가 돌아 출혈, 내출혈의 고통이 잊혀진다 |
-| `effect_coffee_drip` | 커피 효과 | 60 | 1 | 커피를 마시니 좌절감이 사라지고 피로가 풀린다. |
-| `effect_coffee_dutch` | 커피 효과 | 60 | 1 | 커피를 마시니 좌절감이 사라지고 피로가 풀린다. |
-| `vitalize` | 각성 | 1 | 1 | 각성 효과로 더 오래 활동할 수 있다. |
-| `effect_cactus_juice` | 선인장 효과 | 60 | 2 | 선인장 주스를 먹으니 덜 피곤하다. |
-| `delight_of_discovery` | 발견의 기쁨 | 60 | 1 | 중요한 지점을 발견하여 피로를 잊는다. |
-| `30days_package` | 월정액 패키지 | 1 | 1 | 매일 우편함으로 씨암탉 치킨과 워프젬 지급 |
-| `7days_package` | 7일 정액 패키지 | 1 | 1 | 7일 동안 지속 |
-| `15days_package` | 15일 정액 패키지 | 1 | 1 | 15일 동안 지속 |
-| `welcome_package` | 고속 레벨업 패키지 | 1 | 2 | 캐릭터/계열 레벨 60까지 지속 |
-| `selfimprovement_package` | 자기계발 | 1 | 2 |  |
-| `exp_1.2_event` | 경험치와 스킬숙련도 20% 이벤트 | 1 | 2 |  |
-| `exp_1.5_event` | 경험치와 스킬숙련도 50% 이벤트 | 1 | 2 |  |
-| `exp_2_event` | 경험치와 스킬숙련도 100% 이벤트 | 1 | 2 |  |
-| `skill_exp_1.2_event` | 스킬숙련도 20% 이벤트 | 1 | 1 |  |
-| `skill_exp_1.5_event` | 스킬숙련도 50% 이벤트 | 1 | 1 |  |
-| `skill_exp_2_event` | 스킬숙련도 100% 이벤트 | 1 | 1 |  |
-| `advanced_taming_research` | 고급 포획 연구 | 1 | 6 | 더 다양한 종류의 동물들을 포획할 수 있게 된다. |
-| `advanced_battle_research` | 고급 전투 연구 | 1 | 6 | 전투 능력이 향상된다. |
-| `advanced_gathering_research` | 고급 채집 연구 | 1 | 1 | 채집시 잠재 및 희귀 속성을 얻을 확률이 높아진다. |
-| `life_incr` | 지혈 | 10 | 1 | 피가 멎는다. 생명력이 증가한다. |
-| `life_decr` | 출혈 | 10 | 1 | 피가 흐른다. 생명력이 감소한다. |
-| `health_incr` | 재생 | 10 | 1 | 상처가 회복된다. 건강이 증가한다. |
-| `health_decr` | 깊은 상처 | 10 | 1 | 깊은 상처가 났다. 건강이 감소한다. |
-| `stamina_incr` | 감격 | 10 | 1 | 좋은 일이 일어났다. 스테미너가 증가한다. |
-| `stamina_decr` | 실망 | 10 | 1 | 실망스럽다. 스테미너가 감소한다. |
-| `energy_incr` | 활기 | 10 | 1 | 활기가 넘친다. 에너지가 증가한다. |
-| `energy_decr` | 절망 | 10 | 1 | 절망스럽다. 에너지가 감소한다. |
-| `hit_rate_incr` | 집중 | 10 | 1 | 집중한다. 명중률이 증가한다. |
-| `hit_rate_decr` | 산만 | 10 | 1 | 집중할 수 없다. 명중률이 감소한다. |
-| `sadism` | 가학성 | 10 | 1 | 생명력이 증가한다. |
-| `animal_rage` | 분노 | 60 | 1 | 분노하여 공격이 강해진다. |
-| `animal_exhausted` | 지침 | 60 | 1 | 지쳐서 잘 피하지 못하게 된다. |
-| `life_allo_phase01` | 알로사우루스의 흥분 | 1 | 1 | 흥분한 알로사우루스의 생명력이 좀 더 회복된다. |
-| `life_allo_phase02` | 알로사우루스의 분노 | 1 | 1 | 분노한 알로사우루스의 생명력이 빠르게 회복된다. |
-| `exertion_headache` | 운동 두통 | 1 | 0 | 머리가 지끈거린다. 더이상 건강해지려는 시도는 위험할 듯 하다. |
-| `test_selfimprovement_package` | 테스트용 중첩 자기계발 효과 | 1 | 2 | 스킬 연구 기간이 20% 감소하고 티스톤 획득량이 5% 증가한다. |
-| `attention` | 도발당함 | 60 | 0 | 적의 도발에 넘어가 공격 대상을 변경할 수 없다. |
-| `survival_exp_1.5_event` | 생존스킬 숙련도 50% 이벤트 | 1 | 1 |  |
-| `survival_exp_2_event` | 생존스킬 숙련도 100% 이벤트 | 1 | 1 |  |
-| `survival_exp_3_event` | 생존스킬 숙련도 200% 이벤트 | 1 | 1 |  |
-| `survival_exp_4_event` | 생존스킬 숙련도 300% 이벤트 | 1 | 1 |  |
-| `melee_exp_1.5_event` | 근접전스킬 숙련도 50% 이벤트 | 1 | 1 |  |
-| `melee_exp_2_event` | 근접전스킬 숙련도 100% 이벤트 | 1 | 1 |  |
-| `melee_exp_3_event` | 근접전스킬 숙련도 200% 이벤트 | 1 | 1 |  |
-| `melee_exp_4_event` | 근접전스킬 숙련도 300% 이벤트 | 1 | 1 |  |
-| `ranged_exp_1.5_event` | 궁술스킬 숙련도 50% 이벤트 | 1 | 1 |  |
-| `ranged_exp_2_event` | 궁술스킬 숙련도 100% 이벤트 | 1 | 1 |  |
-| `ranged_exp_3_event` | 궁술스킬 숙련도 200% 이벤트 | 1 | 1 |  |
-| `ranged_exp_4_event` | 궁술스킬 숙련도 300% 이벤트 | 1 | 1 |  |
-| `defense_exp_1.5_event` | 방어스킬 숙련도 50% 이벤트 | 1 | 1 |  |
-| `defense_exp_2_event` | 방어스킬 숙련도 100% 이벤트 | 1 | 1 |  |
-| `defense_exp_3_event` | 방어스킬 숙련도 200% 이벤트 | 1 | 1 |  |
-| `defense_exp_4_event` | 방어스킬 숙련도 300% 이벤트 | 1 | 1 |  |
-| `butchery_exp_1.5_event` | 도축스킬 숙련도 50% 이벤트 | 1 | 1 |  |
-| `butchery_exp_2_event` | 도축스킬 숙련도 100% 이벤트 | 1 | 1 |  |
-| `butchery_exp_3_event` | 도축스킬 숙련도 200% 이벤트 | 1 | 1 |  |
-| `butchery_exp_4_event` | 도축스킬 숙련도 300% 이벤트 | 1 | 1 |  |
-| `gathering_exp_1.5_event` | 채집스킬 숙련도 50% 이벤트 | 1 | 1 |  |
-| `gathering_exp_2_event` | 채집스킬 숙련도 100% 이벤트 | 1 | 1 |  |
-| `gathering_exp_3_event` | 채집스킬 숙련도 200% 이벤트 | 1 | 1 |  |
-| `gathering_exp_4_event` | 채집스킬 숙련도 300% 이벤트 | 1 | 1 |  |
-| `cooking_exp_1.5_event` | 요리스킬 숙련도 50% 이벤트 | 1 | 1 |  |
-| `cooking_exp_2_event` | 요리스킬 숙련도 100% 이벤트 | 1 | 1 |  |
-| `cooking_exp_3_event` | 요리스킬 숙련도 200% 이벤트 | 1 | 1 |  |
-| `cooking_exp_4_event` | 요리스킬 숙련도 300% 이벤트 | 1 | 1 |  |
-| `weaponcrafting_exp_1.5_event` | 무기/도구제작스킬 숙련도 50% 이벤트 | 1 | 1 |  |
-| `weaponcrafting_exp_2_event` | 무기/도구제작스킬 숙련도 100% 이벤트 | 1 | 1 |  |
-| `weaponcrafting_exp_3_event` | 무기/도구제작스킬 숙련도 200% 이벤트 | 1 | 1 |  |
-| `weaponcrafting_exp_4_event` | 무기/도구제작스킬 숙련도 300% 이벤트 | 1 | 1 |  |
-| `armorcrafting_exp_1.5_event` | 옷제작스킬 숙련도 50% 이벤트 | 1 | 1 |  |
-| `armorcrafting_exp_2_event` | 옷제작스킬 숙련도 100% 이벤트 | 1 | 1 |  |
-| `armorcrafting_exp_3_event` | 옷제작스킬 숙련도 200% 이벤트 | 1 | 1 |  |
-| `armorcrafting_exp_4_event` | 옷제작스킬 숙련도 300% 이벤트 | 1 | 1 |  |
-| `constructing_exp_1.5_event` | 건설스킬 숙련도 50% 이벤트 | 1 | 1 |  |
-| `constructing_exp_2_event` | 건설스킬 숙련도 100% 이벤트 | 1 | 1 |  |
-| `constructing_exp_3_event` | 건설스킬 숙련도 200% 이벤트 | 1 | 1 |  |
-| `constructing_exp_4_event` | 건설스킬 숙련도 300% 이벤트 | 1 | 1 |  |
-| `farming_exp_1.5_event` | 농사스킬 숙련도 50% 이벤트 | 1 | 1 |  |
-| `farming_exp_2_event` | 농사스킬 숙련도 100% 이벤트 | 1 | 1 |  |
-| `farming_exp_3_event` | 농사스킬 숙련도 200% 이벤트 | 1 | 1 |  |
-| `farming_exp_4_event` | 농사스킬 숙련도 300% 이벤트 | 1 | 1 |  |
-| `process_exp_1.5_event` | 가공스킬 숙련도 50% 이벤트 | 1 | 1 |  |
-| `process_exp_2_event` | 가공스킬 숙련도 100% 이벤트 | 1 | 1 |  |
-| `process_exp_3_event` | 가공스킬 숙련도 200% 이벤트 | 1 | 1 |  |
-| `process_exp_4_event` | 가공스킬 숙련도 300% 이벤트 | 1 | 1 |  |
-| `weaponcraft_plus_01_event` | 무기 제작 능력 증가 이벤트 | 1 | 1 | 무기 제작 능력이 증가한다. |
-| `armorcraft_plus_01_event` | 옷 제작 능력 증가 이벤트 | 1 | 1 | 옷 제작 능력이 증가한다. |
-| `tailor_plus_01_event` | 재봉 능력 증가 이벤트 | 1 | 1 | 재봉 능력이 증가한다. |
-| `handicraft_plus_01_event` | 공예 능력 증가 이벤트 | 1 | 1 | 공예 능력이 증가한다. |
-| `smith_plus_01_event` | 금속 가공 능력 증가 이벤트 | 1 | 1 | 금속 가공 능력이 증가한다. |
-| `construction_plus_01_event` | 건설 능력 증가 이벤트 | 1 | 1 | 건설 능력이 증가한다. |
-| `furnishing_plus_01_event` | 가구 제작 능력 증가 이벤트 | 1 | 1 | 가구 제작 능력이 증가한다. |
-| `cook_plus_01_event` | 요리 능력 증가 이벤트 | 1 | 1 | 요리 능력이 증가한다. |
-| `farming_plus_01_event` | 농사 능력 증가 이벤트 | 1 | 1 | 농사 능력이 증가한다. |
-| `gathering_plus_01_event` | 식물 채집 능력 증가 이벤트 | 1 | 1 | 식물 채집 능력이 증가한다. |
-| `mining_plus_01_event` | 채광 능력 증가 이벤트 | 1 | 1 | 채광 능력이 증가한다. |
-| `butchering_plus_01_event` | 도축 능력 증가 이벤트 | 1 | 1 | 도축 능력이 증가한다. |
-| `returner` | 돌아온 개척자 | 60 | 1 |  |
-| `nausea` | 메스꺼움 | 1 | 1 | 기름독섬 피로도 때문에 메스꺼움이 올라온다. 피로도를 일정 이상 낮추어야 가라앉는다. |
-| `headache` | 혼미함 | 1 | 2 | 기름독섬의 기후로 인한 피로 때문에 정신이 혼미하고 금방이라도 쓰러질 것 같다. 피로도를 일정 이상 낮추어야 가라앉는다. |
-| `mental_confusion` | 혼미함 | 1 | 4 | 기름독섬의 기후로 인한 피로 때문에 정신이 혼미하고 금방이라도 쓰러질 것 같다. 피로도를 일정 이상 낮추어야 가라앉는다. |
-| `s02_inside` | 안개 대피소 효과 | 1 | 2 | 기름독섬의 기후에 대비할 수 있는 실내를 만들었다. 기름 안개의 영향을 줄여준다. |
-| `s02_inside_02` | 굴뚝형 안개 대피소 효과 | 1 | 2 | 기름독섬의 기후에 대비할 수 있는 실내를 만들었다. 기름 안개의 영향을 크게 줄여준다. |
-| `poison_oil` | 기름독 | 1 | 1 | 채집 중 기름독에 걸려 건강이 조금 감소한다. 적절한 의상을 갖춰 입으면 기름독에 걸릴 확률을 줄일 수 있다. |
-| `s02_longlife` | 안정식 효과 | 10 | 1 | 안정된 음식을 먹어 생명력과 피로도 회복 속도가 증가한다. |
-| `cure_poison_oil` | 기름독 해독 | 1 | 0 | 기름독이 해독되었다. |
-| `immune_poison_oil` | 기름독 면역 | 20 | 1 | 지속 시간동안 기름독 피해에 면역이다. |
-| `s02_energetic` | 활력 | 1 | 1 | 활기가 돌아 피로도가 조금 줄어든다. |
-| `pet_master_charming` | 귀여움 폭발 | 10 | 1 | 귀여운 행동을 봐서 피로도가 줄어든다 |
-| `pet_exp_1.2` | 동물 경험치 획득량 20% 증가 | 1 | 1 | 동행하는 동물의 경험치 획득량이 20% 증가한다. (단, 캐릭터의 경험치 증가 이벤트와 중복되지 않는다.) |
-| `pet_exp_1.5` | 동물 경험치 획득량 50% 증가 | 1 | 1 | 동행하는 동물의 경험치 획득량이 50% 증가한다. (단, 캐릭터의 경험치 증가 이벤트와 중복되지 않는다.) |
-| `pet_exp_2` | 동물 경험치 획득량 100% 증가 | 1 | 1 | 동행하는 동물의 경험치 획득량이 100% 증가한다. (단, 캐릭터의 경험치 증가 이벤트와 중복되지 않는다.) |
-| `pet_life_incr` | 펫 생명력 증가 | 10 | 1 | 피가 멎는다. 생명력이 증가한다. |
-| `pet_exp_1.2_event` | 동물 경험치 획득량 20% 증가 | 1 | 1 | 동행하는 동물의 경험치 획득량이 20% 증가한다. (단, 캐릭터의 경험치 증가 이벤트와 중복되지 않는다.) |
-| `pet_exp_1.5_event` | 동물 경험치 획득량 50% 증가 | 1 | 1 | 동행하는 동물의 경험치 획득량이 50% 증가한다. (단, 캐릭터의 경험치 증가 이벤트와 중복되지 않는다.) |
-| `pet_exp_2_event` | 동물 경험치 획득량 100% 증가 | 1 | 1 | 동행하는 동물의 경험치 획득량이 100% 증가한다. (단, 캐릭터의 경험치 증가 이벤트와 중복되지 않는다.) |
-| `pet_speed_amplifier` | 동물 속도 증폭 | 10 | 1 | 동물의 속도가 증폭한다. |
-| `pet_speed_plus` | 동물 속도 증가 | 10 | 1 | 동물의 속도가 증가한다. |
-| `pet_bag_amplifier` | 동물 가방 용량 증폭 | 10 | 1 | 동물의 가방 용량이 증폭한다. |
-| `pet_bag_plus` | 동물 가방 용량 증가 | 10 | 1 | 동물의 가방 용량이 증가한다. |
-| `pet_attack_amplifier` | 동물 공격력 증폭 | 10 | 1 | 동물의 공격력이 증폭한다. |
-| `pet_attack_plus` | 동물 공격력 증가 | 10 | 1 | 동물의 공격력이 증가한다. |
-| `pet_defense_amplifier` | 동물 방어력 증폭 | 10 | 1 | 동물의 방어력이 증폭한다. |
-| `pet_defense_plus` | 동물 방어력 증가 | 10 | 1 | 동물의 공격력이 증가한다. |
-| `pet_cooltime_ratio` | 동물 공격 대기시간 감소 | 10 | 1 | 동물의 공격 대기시간이 감소하여 더 빠르게 공격한다. |
-| `pet_life_max_amplifier` | 동물 최대 체력 증폭 | 10 | 1 | 동물의 최대 체력이 증폭한다. |
-| `pet_life_max_plus` | 동물 최대 체력 증가 | 10 | 1 | 동물의 최대 체력이 증가한다. |
-| `pet_life_regen_amplifier` | 동물 체력 회복 증폭 | 10 | 1 | 동물의 시간당 체력 회복량이 증폭한다. |
-| `pet_life_regen_plus` | 동물 체력 회복 증가 | 10 | 1 | 동물의 시간당 체력 회복량이 증가한다. |
-| `pet_accuracy_amplifier` | 동물 정확도 증폭 | 10 | 1 | 공격시 동물의 정확도가 증폭한다. |
-| `pet_accuracy_plus` | 동물 정확도 증가 | 10 | 1 | 공격시 동물의 정확도가 증가한다. |
-| `clean_pet` | 할짝할짝 | 10 | 1 | 동물이 핥아주었다. 약간 찜찜하긴 하지만 깨끗하고 더위와 피로가 견딜만하다. |
-| `clean_pet_02` | 바닷물 세수 | 10 | 1 | 동물이 바닷물을 끼얹어 주었다. 약간 짠맛이 나지만 깨끗하고 더위와 피로가 견딜만하다. |
-| `life_up_pet` | 의무 지원 | 10 | 1 | 동물의 지원으로 체력이 천천히 회복된다. |
-| `stamina_up_pet` | 후방 응원 | 10 | 1 | 동물의 응원으로 스태미나가 더 빠르게 회복된다. |
-| `pet_vitality_ratio` | 동물 활력 감소 완화 | 10 | 1 | 동물의 활력이 감소하는 속도가 완화된다. |
-| `excited_pet` | 친근함 | 10 | 1 | 동물이 친근하게 대해줘서 피로가 견딜만하다. |
-| `energetic_pet` | 십시일반 | 10 | 1 | 동물의 도움으로 에너지 소모가 줄어든다. |
-| `mood_bubbly` | 귀여운 분위기 | 30 | 0 | 최대 에너지 증가 |
-| `mood_horrible` | 음산한 분위기 | 30 | 0 | 동물의 선제 공격 범위 감소 |
-| `mood_luxurious` | 호화로운 분위기 | 30 | 0 | 요리 섭취 시 포만감 시간 감소 |
-| `energy_regen_by_food` | 에너지 회복 | 1 | 0 | 음식을 먹어 에너지가 지속적으로 회복된다. |
-| `set_bedroom` | 침실 셋트 효과 | 60 | 0 | 셋트 구성으로 얻는 효과 |
-| `set_kitchen` | 주방 셋트 효과 | 60 | 0 | 셋트 구성으로 얻는 효과 |
-| `set_drawingroom` | 응접실 셋트 효과 | 60 | 0 | 셋트 구성으로 얻는 효과 |
-| `set_dressroom` | 옷방 셋트 효과 | 60 | 0 | 셋트 구성으로 얻는 효과 |
-| `search_poi` | 탐색 후유증 | 60 | 1 | 탐색 후에 에너지가 감소한다. |
-| `fatigue_warning` | 피로함 | 10 | 1 | 피로와 배고픔이 밀려온다. |
-| `fatigue_notice` | 힘듦 | 10 | 1 | 힘들어서 허기진다. |
-| `living_tech_butchering` | 도축 연구 | 3 | 1 | 도축 능력이 증가한다. |
-| `living_tech_armorcraft` | 옷 제작 연구 | 3 | 1 | 옷 제작 능력이 증가한다. |
-| `living_tech_tailor` | 재봉 연구 | 3 | 1 | 재봉 능력이 증가한다. |
-| `living_tech_cook` | 요리 연구 | 3 | 1 | 요리 능력이 증가한다. |
-| `living_tech_dodge` | 회피 연구 | 1 | 1 | 회피 능력이 증가한다. |
-| `living_tech_energy` | 에너지 연구 | 1 | 1 | 최대 에너지가 증가한다. |
-| `living_tech_hiding` | 은신 연구 | 1 | 1 | 은신 능력이 증가한다. |
-| `light_tech_gathering` | 식물 채집 연구 | 3 | 1 | 식물 채집 능력이 증가한다. |
-| `light_tech_farming` | 농사 연구 | 3 | 1 | 농사 능력이 증가한다. |
-| `light_tech_handicraft` | 공예 연구 | 3 | 1 | 공예 능력이 증가한다. |
-| `light_tech_furnishing` | 가구 제작 연구 | 3 | 1 | 가구 제작 능력이 증가한다. |
-| `light_tech_attack` | 공격력 연구 | 1 | 1 | 공격력이 증가한다. |
-| `light_tech_accuracy` | 정확도 연구 | 1 | 1 | 전투 능력의 정확도가 증가한다. |
-| `heavy_tech_disassembling` | 분해 연구 | 3 | 1 | 분해 능력이 증가한다. |
-| `heavy_tech_mining` | 채광 연구 | 3 | 1 | 채광 능력이 증가한다. |
-| `heavy_tech_weaponcraft` | 무기 제작 연구 | 3 | 1 | 무기 제작 능력이 증가한다. |
-| `heavy_tech_smith` | 금속 가공 연구 | 3 | 1 | 금속 가공 능력이 증가한다. |
-| `heavy_tech_construction` | 건설 연구 | 3 | 1 | 건설 능력이 증가한다. |
-| `heavy_tech_attack_rating` | 방어 관통 연구 | 1 | 1 | 방어 관통이 증가한다. |
-| `heavy_tech_critical` | 치명도 연구 | 4 | 1 | 전투 능력의 치명도가 증가한다. |
-| `temporary_fortune_craft` | 한 번의 행운: 제작 | 1 | 1 | 다음 제작 1회의 대성공 확률이 증가한다. |
-| `temporary_concentration_craft` | 한 번의 집중: 제작 | 1 | 1 | 다음 제작 1회의 성공률이 증가한다. 이 효과는 성공률 99%를 넘어 적용된다. |
-| `rainy_fortune_collect` | 빗물 속 행운: 채집 | 1 | 1 | 비오는 날 채집 대성공 확률이 증가한다. |
-| `rainy_fortune_craft` | 빗물 속 행운: 제작 | 1 | 1 | 비오는 날 제작 대성공 확률이 증가한다. |
-| `stable_immersion_collect` | 안정 속 몰입: 채집 | 1 | 1 | 개인섬/도시섬에서의 채집 시간이 단축된다. |
-| `stable_immersion_craft` | 안정 속 몰입: 제작 | 1 | 1 | 개인섬/도시섬에서의 제작 시간이 단축된다. |
-| `sadism_minor` | 작은 가학성 | 10 | 1 | 생명력이 조금 증가한다. |
-| `eat_bizarre_food` | 괴식 | 1 | 1 | 이런 것도 먹는데 무엇을 못할까. |
-| `mood_classroom01` | 교실 분위기 | 1 | 0 | 배움으로 인해 스킬 연구 시간이 감소한다. |
-| `mood_classroom02` | 학구적인 분위기 | 1 | 0 | 학구적인 분위기로 스킬 연구 시간이 감소한다. |
-| `mood_springtime` | 봄내음 가득한 분위기 | 30 | 0 | 싱그러운 봄기운에 어쩐지 좋은 일이 생길 것만 같다. |
-| `energy_regen_by_trampoline_01` | 활기 폭발! | 1 | 1 | 엄청난 즐거움에 에너지가 폭발한다. |
-| `energy_regen_by_rocking_horse_01` | 동심 | 1 | 2 | 유년 시절의 추억에 잠기며 마음과 함께 몸도 치유된다.  |
-| `test_skill_package` | 스킬 패키지 | 1 | 3 | 캐릭터/계열 레벨 55까지 지속 |
-| `welcome_package_55lv` | 고속 55레벨 패키지 | 1 | 3 | 캐릭터/계열 레벨 55까지 지속. 스킬 연구 즉시 완료! |
-| `premium_support_package` | 고급 지원 패키지 | 1 | 3 | 제작, 채집, 건설, 농사 시간 감소/성공률 증가!
-매일 지정된 횟수만큼 지도 열기, 즉시 부활, 스킬 습득 취소 혜택도 받는다. |
-| `warp_rush_reward_increase_50` | 워프 러시 보상 150% 증가 | 1 | 1 | 워프 러시에서 획득한 모든 스톤 갯수가 150% 증가한다. (추가 획득: 50%) |
-| `warp_rush_reward_increase_100` | 워프 러시 보상 200% 증가 | 1 | 1 | 워프 러시에서 획득한 모든 스톤 갯수가 200% 증가한다. (추가 획득: 100%) |
-| `warp_rush_reward_increase_200` | 워프 러시 보상 300% 증가 | 1 | 1 | 워프 러시에서 획득한 모든 스톤 갯수가 300% 증가한다. (추가 획득: 200%) |
-| `artifact_reaction_heat_resistant` | 건물 이용 | 1 | 3 | 건물 이용하기로 기후저항 생존능력이 증가한다. |
-| `random_number_piece_package` | 난수 조각 패키지 | 1 | 0 | 매일 난수 조각 30개 지급 |
-| `effect_jasmine` | 재스민 향기 | 2 | 1 | 재스민 향기에 에너지 소모가 줄어든다. |
-| `life_health_up_pet` | 축제 시작! | 10 | 2 | 신나는 응원으로 체력과 건강이 회복된다. |
-| `drunk` | 청량함 | 1 | 2 | 음료의 청량함에 피로가 견딜만해 진다! |
-| `artifact_reaction_great_success_plus` | 건물 이용 | 1 | 1 | 건물 이용하기로 제작 대성공 확률이 증가합니다. |
-| `master_attack_up_pet` | 더 쎄게! | 3 | 1 | 광대 콤피의 응원으로 공격력이 증가한다.  |
-| `unlimited_pet_vigor` | 무한 활력 | 30 | 1 | 동물의 활력이 줄어들지 않는다. |
-| `unlimited_pet_vigor_1d` | 무한 활력 | 1 | 1 | 동물의 활력이 줄어들지 않는다. |
-| `tea_effect_01` | 능력치 향상 | 70 | 1 | 음식을 먹어 능력이 향상되었다. |
-| `tea_effect_02` | 능력치 향상 | 70 | 1 | 음식을 먹어 능력이 향상되었다. |
-| `unlimited_pet_vigor_3d` | 무한 활력 | 1 | 1 | 동물의 활력이 줄어들지 않는다. |
-| `event_reduce_warp_cost` | 워프 비용 감소 | 1 | 1 | 워프홀 이동시 비용이 감소한다. |
-| `clean_volcanic_lake_01` | 온천욕: 건강 회복 | 10 | 1 | 온천욕으로 상처가 쉽게 아문다. 건강이 지속적으로 회복된다. |
-| `clean_volcanic_lake_02` | 온천욕: 공격력 증가 | 10 | 1 | 온천욕으로 힘이 난다. 공격력이 증가한다. |
-| `wet_volcanic_lake` | 온천 젖음 | 10 | 2 | 온천에 몸을 담갔다. 화산 폭풍으로부터 안전하다. |
-| `volcanic_storm_sign` | 전조 | 10 | 1 | 스테미너가 지속적으로 감소한다. 곧 화산 폭풍이 몰아칠 것 같다. |
-| `volcanic_storm` | 화산 폭풍 | 10 | 1 | 건강이 지속적으로 감소한다. 온천에 들어가거나 화산폭풍 광부복을 입어야 한다. |
-| `lava` | 용암 피해 | 10 | 1 | 용암에 닿았다. 생명력이 크게 감소한다.  |
-| `burn` | 화상 | 10 | 1 | 화상을 입었다. 건강이 지속적으로 감소한다. 가까운 물에 들어가야 한다. |
-| `immune_lava` | 용암 피해 면역 | 1 | 1 | 용암 피해에 면역이다. |
-| `immune_volcanic_storm` | 화산 폭풍 면역 | 1 | 1 | 화산 폭풍 피해에 면역이다. |
-| `mood_fiery` | 후끈한 분위기 | 30 | 0 | 공격력이 증가한다. |
-| `iguana_great_success_craft` | 오색으로 빛나는 손 | 10 | 1 | 제작 대성공 확률이 증가한다. |
-| `tyrano_shout` | 티라노의 외침 | 10 | 1 | 티라노의 외침에 의해, 고막이 큰 피해를 입는다. |
-| `immune_tyrano_shout` | 고막보호 | 10 | 1 | 티라노의 외침이 들리지 않는다. |
-| `iguana_fire_dung` | 불똥 | 10 | 1 | 이구아나에게서 튄 불똥에 맞았다. 피해량이 감소한다. |
-| `immune_iguana_fire_dung` | 불똥 예방 | 10 | 1 | 불점박이 이구아나의 불똥 공격에 면역이다. |
-| `tyrano_bruise` | 피멍 | 10 | 1 | 티라노의 박치기에 맞아서, 피멍이 들었다. |
-| `tyrano_rage_01` | 티라노사우루스의 흥분 | 1 | 2 | 티라노사우루스가 흥분해, 더욱 강하게 공격합니다. |
-| `tyrano_rage_02` | 티라노사우루스의 분노 | 1 | 2 | 티라노사우루스가 분노해, 매우 강하게 공격합니다. |
-| `tyrano_rage_03` | 티라노사우루스의 격노 | 1 | 2 | 티라노사우루스가 격노해, 버틸 수 없을 정도로 공격합니다. |
-| `hadro_cheer_up` | 전투 응원 | 10 | 6 | 전투 능력이 향상됩니다. |
-| `immune_burn` | 화상 면역 | 10 | 1 | 화상 피해에 면역이다. |
-| `artifact_reaction_volcanic_heat_resistant` | 사우나 이용 | 1 | 1 | 냉탕의 효과로 화산의 열기를 더 잘 견딜 수 있다. |
-| `food_energy_incr` | 에너지 지속 회복 | 10 | 1 | 영양이 넘친다. 에너지가 지속적으로 증가한다. |
-| `event_statue_aura` | 조각상의 기운 | 1 | 2 |  |
-| `rest_sauna_01` | 사우나 이용 | 60 | 2 | 갖춘 데서 휴식하니 피로가 녹아 내린다. |
-| `immune_lava_2` | 용암 피해 면역 | 1 | 1 | 용암 피해에 면역이다. |
-| `food_max_health_energy_incr` | 기운찬 달달함 | 60 | 2 | 맛있는 음식을 먹어 최대 건강과 최대 에너지가 증가한다. |
-| `food_fatigue_decr` | 시원한 음료 | 60 | 1 | 시원한 음료를 마시니 피로가 풀린다. |
-| `engagement_reward` | 사용자 플레이 집중도 체크 | 1 | 2 | 최대 건강 150, 최대 에너지 50 증가 |
-| `pvp_fog` | 안개 | 1 | 0 | 안개로 인해 시야가 가려지고 전투모드에 진입할 수 없다. 장비 교체와 음식 섭취가 가능하다. |
-| `pvp_rain` | 비 | 1 | 0 | 안개가 걷혀 전투 모드에 진입했다. 전투모드를 해제할 수 없고 아이템 사용 및 확인이 불가능하다. |
-| `pvp_storm` | 폭풍우 | 1 | 1 | 폭풍우가 몰아쳐 건강이 감소한다. 대피소에서 폭풍우를 피할 수 있다. |
-| `pvp_hypothermy` | 저체온증 | 1 | 1 | 더 거세진 폭풍우에 대피소도 소용이 없다. 건강이 감소한다. |
-| `pvp_shelter` | 대피 | 1 | 1 | 대피소에서 폭풍우를 피했다. 건강이 감소하지 않는다. |
-| `climate_nervous` | 불안함 | 1 | 0 | 전에 없던 강한 폭풍우가 몰아치고, 섬에 불안한 기운이 감돈다. |
-| `climate_strange_phenomenon` | 괴현상 | 1 | 0 | 워프 남용으로 인해 듀랑고에 이상 날씨가 지속되고 있다. |
-| `fruit_sandwich_effects` | 과일샌드 | 1 | 9 | 음식을 먹어 능력이 향상되었다. |
-| `epic_lama_deodorant` | 냄새 제거 | 60 | 1 | 체취를 제거해 동물이 인지하지 못한다. |
+| `clothes` | Basic clothing | 1 | 0 | Wearing clothes keeps fatigue down. |
+| `accessory` | Climate fit | 1 | 0 | Proper gear for the climate keeps fatigue down. |
+| `dirty` | Filth | 1 | 1 | Dirty body builds fatigue. |
+| `clean` | Washed | 1 | 1 | Washed clean; heat and fatigue bearable. |
+| `wet` | Wet | 1 | 6 | Wet: body temp drops. Bearable when hot, worse when cold. |
+| `drink_water` | Drinking water | 1 | 5 | Hydrated: thirst gone, fatigue bearable. |
+| `cactus_water` | Throat moistener | 1 | 4 | Juice wets the throat; fatigue bearable. |
+| `fruit_water` | Fruit juice | 1 | 2 | Lots of juice; fatigue even more bearable. |
+| `thirsty` | Thirst | 1 | 2 | Parched throat; heavy fatigue. |
+| `warm_up` | Campfire | 1 | 4 | Dries off and warms up. Bearable when cold, worse when hot. |
+| `observe_death` | Witnessed death | 1 | 1 | Witnessed death; fatigue builds. |
+| `encouraged` | Cheered on | 1 | 1 | Cheered on; fatigue bearable. |
+| `do_not_encourage` | Can't cheer | 1 | 0 | Can cheer again shortly. |
+| `taste_good` | Tasty | 1 | 1 | Tasty; fatigue bearable. |
+| `taste_very_good` | Heavenly taste | 1 | 1 | Delicious; hardly feel fatigue. |
+| `taste_bad` | Bad taste | 1 | 1 | Bad taste; fatigue builds. |
+| `taste_very_bad` | Worst taste | 1 | 1 | Awful taste; fatigue builds fast. |
+| `excited` | Excitement | 1 | 1 | Excited; fatigue bearable. |
+| `effect_fresh` | Caffeine | 1 | 1 | Refreshing scent reduces energy use for everything. |
+| `newbie_shield_cheat` | (Cheat) Modern scent | 1 | 0 | Animals avoid the strange smell. |
+| `rest_cheat` | (Cheat) Rest | 1 | 1 | Resting quickly relieves fatigue. |
+| `rest` | Resting | 9 | 3 | Resting relieves fatigue. |
+| `rest_ancora` | Resting | 100 | 1 | Resting relieves fatigue. |
+| `rest_s02_bed` | Moss mat rest | 100 | 3 | Resting somewhere proper melts fatigue away. |
+| `rest_s02_shelter_01` | Moss hut rest | 100 | 3 | Resting somewhere proper melts fatigue away. |
+| `rest_cash` | Resting | 100 | 3 | Resting somewhere proper melts fatigue away. |
+| `pool_rest` | Using pool | 59 | 1 | Resting in the pool makes you hungry. |
+| `rest_pool_minor` | Using pool | 60 | 1 | Resting in the pool makes you hungry. |
+| `rest_pool` | Using pool | 60 | 1 | Resting in the pool makes you hungry. |
+| `rest_spa_minor` | Using open-air bath | 60 | 1 | Resting in the open bath makes you hungry. |
+| `rest_spa` | Using open-air bath | 60 | 1 | Resting in the open bath makes you hungry. |
+| `rest_bm_fatigue` | Deep rest | 60 | 1 | Powerful rest rapidly lowers fatigue. |
+| `rest_mount` | Resting | 60 | 3 | Resting relieves fatigue. |
+| `inside` | Indoors | 1 | 7 | Indoors; less affected by the environment. |
+| `pleasant_fragrance` | Pleasant scent | 1 | 11 | Pleasant scent; immune to climate fatigue. Note: does not apply to unstable-environment fatigue (index II+, lv60+). |
+| `under_roof` | Shade | 1 | 3 | In the shade; avoids the heat. |
+| `satiety_high` | Fullness | 1 | 0 | Full; can't eat more. |
+| `fatigue_caution` | Fatigue | 10 | 2 | Need rest. Work more and you may collapse. |
+| `fatigue_danger` | Exhaustion | 10 | 3 | Overworked to exhaustion. Recover to tired before acting again. |
+| `poisoning` | Poisoned | 30 | 1 | Poisoned; health drains. |
+| `energetic` | Vitality | 2 | 1 | Energized; energy use down. |
+| `dejected` | Frustration | 1 | 1 | Guilt-ridden; energy use up. |
+| `food_power` | Food energy | 1 | 0 | Stats improve depending on food. |
+| `food_ability` | Stat boost | 1 | 0 | Ate food; abilities improved. |
+| `food_survival` | Survival boost | 1 | 0 | Ate food; survival improved. |
+| `away_from_keyboard` | Away (AFK) | 1 | 0 | Away from keyboard. |
+| `raw_food` | Stomach ache | 1 | 1 | Bad raw food; fatigue builds. |
+| `hot_food` | Warm food | 5 | 4 | Warm food makes cold bearable. |
+| `cold_food` | Cold food | 5 | 4 | Cool food makes heat bearable. |
+| `life_up` | HP regen up | 10 | 1 | Food/meds speed HP regen. |
+| `health_up` | Health regen up | 10 | 1 | Food/meds slowly restore health. |
+| `stamina_up` | Stamina regen up | 10 | 1 | Food/meds speed stamina regen. |
+| `stance_attack_se` | Attack stance effect | 5 | 1 |  |
+| `stance_defense_se` | Defense stance effect | 5 | 1 |  |
+| `stance_counter_se` | Counter stance effect | 5 | 1 |  |
+| `stance_fierce_se` | Onslaught stance effect | 5 | 1 |  |
+| `stance_charge_se` | Charge stance effect | 5 | 1 |  |
+| `stance_shooting_se` | Shooting stance effect | 5 | 1 |  |
+| `stance_sniping_se` | Sniper stance effect | 5 | 2 |  |
+| `head_injury` | Head injury | 1 | 1 | Head injured. |
+| `body_injury` | Body injury | 1 | 1 | Body injured. |
+| `leg_injury` | Leg injury | 1 | 1 | Legs injured. |
+| `tail_injury` | Tail injury | 1 | 1 | Tail injured. |
+| `head_injury_raptor` | Tooth damage | 1 | 1 | Teeth damaged; damage down. |
+| `head_injury_direwolf` | Tooth damage | 1 | 1 | Teeth damaged; damage down. |
+| `head_injury_stego` | Concussion | 1 | 1 | Dazed; accuracy down. |
+| `head_injury_tricera` | Horn damage | 1 | 1 | Horns damaged; damage down. |
+| `head_injury_brachio` | Concussion | 1 | 1 | Dazed; accuracy down. |
+| `body_injury_default` | Organ damage | 6 | 1 | Organs damaged; HP regen slowed. |
+| `leg_injury_raptor` | Slowed feet | 1 | 1 | Legs damaged; hard to dodge. |
+| `leg_injury_direwolf` | Slowed feet | 1 | 1 | Legs damaged; hard to dodge. |
+| `leg_injury_stego` | Slowed feet | 1 | 1 | Legs damaged; hard to dodge. |
+| `leg_injury_tricera` | Slowed feet | 1 | 1 | Legs damaged; hard to dodge. |
+| `leg_injury_brachio` | Slowed feet | 1 | 1 | Legs damaged; hard to dodge. |
+| `tail_injury_raptor` | Lost balance | 1 | 1 | Lost balance; accuracy down. |
+| `tail_injury_direwolf` | Lost balance | 1 | 1 | Lost balance; accuracy down. |
+| `tail_injury_stego` | Tail muscle damage | 1 | 1 | Tail muscles damaged; damage down. |
+| `tail_injury_tricera` | Lost balance | 1 | 1 | Lost balance; accuracy down. |
+| `tail_injury_brachio` | Tail muscle damage | 1 | 1 | Tail muscles damaged; damage down. |
+| `death_penalty` | Dizziness | 1 | 1 | Nauseous and dizzy; accuracy slightly down. |
+| `death_count` | Revive aftereffect | 1 | 0 | The more you die, the less health revives restore. |
+| `death_aftereffect_revive_immediately` | Instant-revive aftereffect | 1 | 0 | Revive restores less health, but animals avoid your strange smell for a while. |
+| `clan_gathering_plant` | Plant gathering research | 1 | 1 | Tribe research improves plant gathering. |
+| `clan_gathering_mine` | Mineral gathering research | 1 | 1 | Tribe research improves mineral gathering. |
+| `clan_gathering_animal` | Animal butchery research | 1 | 1 | Tribe research improves animal butchery. |
+| `clan_craft_tool` | Tool crafting research | 1 | 3 | Tribe research improves tool crafting. |
+| `clan_craft_clothes` | Apparel crafting research | 1 | 2 | Tribe research improves apparel crafting. |
+| `clan_craft_cook` | Cooking research | 1 | 1 | Tribe research improves cooking. |
+| `clan_craft_construction` | Architecture research | 1 | 3 | Tribe research improves construction. |
+| `clan_adventure_survival` | Survival research | 1 | 6 | Tribe research improves survival. |
+| `clan_adventure_ecology` | Ecology research | 1 | 2 | Tribe research improves ecology. |
+| `clan_combat_attack` | Attack research | 1 | 2 | Tribe research improves attack. |
+| `clan_combat_defense` | Defense research | 1 | 2 | Tribe research improves defense. |
+| `clan_combat_recovery` | Recovery research | 1 | 2 | Tribe research improves recovery. |
+| `test_exp_bonus` | EXP gain up | 10 | 1 | Internal test status. |
+| `test_tstone_bonus` | Tstone gain up | 10 | 1 | Internal test status. |
+| `test_reduce_sail_cost` | Sailing cost down | 1 | 1 | Internal test status. |
+| `test_reduce_warp_cost` | Warp cost down | 1 | 1 | Internal test status. |
+| `clan_prevent_item_drop` | Prevent item loss | 1 | 1 | Lose fewer belongings on death. Effect shrinks as you level. |
+| `clan_growth_buff` | Tribe bonus | 1 | 1 | Tribe members' pooled EXP boosts everyone's exploration. |
+| `login_shield` | Protection | 1 | 0 | Excluded from other players' targets for a while. |
+| `camp_fire` | Coziness | 1 | 11 | At camp; less tired. |
+| `poison_poo` | Dung poison | 19 | 1 | Dung on hands caused a rash; fatigue up. |
+| `bleeding_neverstop` | Abnormal bleeding | 61 | 1 | Wound won't stop bleeding; health drains. |
+| `dirty_saliva` | Drool-covered | 61 | 1 | Soaked in drool; fatigue up. |
+| `tetanus` | Tetanus | 61 | 1 | Scratched by dirty claws; energy drains. |
+| `bleeding_inner` | Internal bleeding | 61 | 1 | Internal injury; HP drains. |
+| `poison_gas` | Stench | 61 | 2 | Exposed to foul gas; accuracy and stealth down. |
+| `poison_plant_moving` | Carnivorous-plant poison | 61 | 1 | Touched a poison stem; max health down. |
+| `poison_lizard` | Lizard poison | 61 | 1 | Hit by lizard poison; max health down. |
+| `poison_bug_bee` | Bee sting | 61 | 1 | Stung by bees; crit chance down. |
+| `poison_bug_sticky` | Bug bite | 61 | 1 | Bitten by bugs; accuracy down. |
+| `poison_poison_sac` | Poison sac poisoning | 61 | 1 | Rash from poison-sac gathering; fatigue up. |
+| `poison_heat` | Heat poison | 61 | 1 | Caught heat poison gathering tropical plants; health down. |
+| `immune_collect` | Prevent rash | 61 | 1 | Rash-immune till meds wear off; prevents dung/sac poison. |
+| `immune_bleeding_neverstop` | Prevent abnormal bleeding | 61 | 1 | Prevents abnormal bleeding till meds wear off. |
+| `immune_tetanus` | Prevent tetanus | 61 | 1 | Prevents tetanus till meds wear off. |
+| `immune_bleeding_inner` | Prevent internal bleeding | 61 | 1 | Prevents internal bleeding till meds wear off. |
+| `immune_gas` | Prevent poison gas | 61 | 1 | Immune to poison gas till meds wear off. |
+| `immune_plant_moving` | Prevent plant poison | 61 | 1 | Immune to plant poison till meds wear off. |
+| `immune_lizard` | Prevent lizard poison | 61 | 1 | Immune to lizard poison till meds wear off. |
+| `immune_bug` | Prevent bug poison | 61 | 1 | Immune to bee/bug poison till meds wear off. |
+| `cure_poison_collect` | Treat rash | 1 | 0 | Dung and sac poison cured. |
+| `cure_bleeding_neverstop` | Cure blood poison | 1 | 0 | Blood poison recovered. |
+| `cure_tetanus` | Treat tetanus | 1 | 0 | Tetanus cured. |
+| `cure_bleeding_inner` | Treat internal bleeding | 1 | 0 | Internal bleeding recovered. |
+| `cure_poison_gas` | Cure poison gas | 1 | 0 | Poison gas cured. |
+| `cure_poison_plant_moving` | Cure plant poison | 1 | 0 | Plant poison cured. |
+| `cure_poison_lizard` | Cure lizard poison | 1 | 0 | Lizard poison cured. |
+| `cure_poison_bug` | Cure bug poison | 1 | 0 | Can cure bee and bug poison. |
+| `cure_poison_heat` | Treat & prevent heat poison | 1 | 1 | Treats and prevents heat poison. |
+| `cure_bleeding` | Painkiller effect | 1 | 0 | Painkillers numb bleeding pain |
+| `effect_coffee_drip` | Coffee effect | 60 | 1 | Coffee washes frustration and fatigue away. |
+| `effect_coffee_dutch` | Coffee effect | 60 | 1 | Coffee washes frustration and fatigue away. |
+| `vitalize` | Awakening | 1 | 1 | Awakened; active longer. |
+| `effect_cactus_juice` | Cactus effect | 60 | 2 | Cactus juice takes the edge off. |
+| `delight_of_discovery` | Joy of discovery | 60 | 1 | Found an important spot; forgot fatigue. |
+| `30days_package` | Monthly package | 1 | 1 | Daily mail: hen chicken and warp gems |
+| `7days_package` | 7-day pass package | 1 | 1 | Lasts 7 days |
+| `15days_package` | 15-day pass package | 1 | 1 | Lasts 15 days |
+| `welcome_package` | Fast level-up package | 1 | 2 | Lasts till character/lineage lv60 |
+| `selfimprovement_package` | Self-improvement | 1 | 2 |  |
+| `exp_1.2_event` | EXP & skill 20% event | 1 | 2 |  |
+| `exp_1.5_event` | EXP & skill 50% event | 1 | 2 |  |
+| `exp_2_event` | EXP & skill 100% event | 1 | 2 |  |
+| `skill_exp_1.2_event` | Skill 20% event | 1 | 1 |  |
+| `skill_exp_1.5_event` | Skill 50% event | 1 | 1 |  |
+| `skill_exp_2_event` | Skill 100% event | 1 | 1 |  |
+| `advanced_taming_research` | Advanced taming research | 1 | 6 | Can tame more kinds of animals. |
+| `advanced_battle_research` | Advanced combat research | 1 | 6 | Combat improved. |
+| `advanced_gathering_research` | Advanced gathering research | 1 | 1 | Better odds of latent/rare traits when gathering. |
+| `life_incr` | Stops bleeding | 10 | 1 | Bleeding stops; HP up. |
+| `life_decr` | Bleeding | 10 | 1 | Bleeding; HP down. |
+| `health_incr` | Regeneration | 10 | 1 | Wounds heal; health up. |
+| `health_decr` | Deep wound | 10 | 1 | Deep wound; health down. |
+| `stamina_incr` | Deep emotion | 10 | 1 | Something good happened; stamina up. |
+| `stamina_decr` | Disappointment | 10 | 1 | Disappointed; stamina down. |
+| `energy_incr` | Vigor | 10 | 1 | Full of vigor; energy up. |
+| `energy_decr` | Despair | 10 | 1 | Hopeless; energy down. |
+| `hit_rate_incr` | Focus | 10 | 1 | Focused; accuracy up. |
+| `hit_rate_decr` | Distracted | 10 | 1 | Can't focus; accuracy down. |
+| `sadism` | Sadism | 10 | 1 | HP up. |
+| `animal_rage` | Rage | 60 | 1 | Enraged; attacks stronger. |
+| `animal_exhausted` | Fatigue | 60 | 1 | Exhausted; can barely dodge. |
+| `life_allo_phase01` | Allosaurus excitement | 1 | 1 | Excited Allosaurus regens a bit more HP. |
+| `life_allo_phase02` | Allosaurus rage | 1 | 1 | Furious Allosaurus regens HP fast. |
+| `exertion_headache` | Exercise headache | 1 | 0 | Head throbs. Trying to heal further seems risky. |
+| `test_selfimprovement_package` | Test self-improvement effect | 1 | 2 | Skill research -20% time, tstone +5%. |
+| `attention` | Taunted | 60 | 0 | Taunted; can't switch targets. |
+| `survival_exp_1.5_event` | Survival skill 50% event | 1 | 1 |  |
+| `survival_exp_2_event` | Survival skill 100% event | 1 | 1 |  |
+| `survival_exp_3_event` | Survival skill 200% event | 1 | 1 |  |
+| `survival_exp_4_event` | Survival skill 300% event | 1 | 1 |  |
+| `melee_exp_1.5_event` | Melee skill 50% event | 1 | 1 |  |
+| `melee_exp_2_event` | Melee skill 100% event | 1 | 1 |  |
+| `melee_exp_3_event` | Melee skill 200% event | 1 | 1 |  |
+| `melee_exp_4_event` | Melee skill 300% event | 1 | 1 |  |
+| `ranged_exp_1.5_event` | Archery skill 50% event | 1 | 1 |  |
+| `ranged_exp_2_event` | Archery skill 100% event | 1 | 1 |  |
+| `ranged_exp_3_event` | Archery skill 200% event | 1 | 1 |  |
+| `ranged_exp_4_event` | Archery skill 300% event | 1 | 1 |  |
+| `defense_exp_1.5_event` | Defense skill 50% event | 1 | 1 |  |
+| `defense_exp_2_event` | Defense skill 100% event | 1 | 1 |  |
+| `defense_exp_3_event` | Defense skill 200% event | 1 | 1 |  |
+| `defense_exp_4_event` | Defense skill 300% event | 1 | 1 |  |
+| `butchery_exp_1.5_event` | Butchery skill 50% event | 1 | 1 |  |
+| `butchery_exp_2_event` | Butchery skill 100% event | 1 | 1 |  |
+| `butchery_exp_3_event` | Butchery skill 200% event | 1 | 1 |  |
+| `butchery_exp_4_event` | Butchery skill 300% event | 1 | 1 |  |
+| `gathering_exp_1.5_event` | Gathering skill 50% event | 1 | 1 |  |
+| `gathering_exp_2_event` | Gathering skill 100% event | 1 | 1 |  |
+| `gathering_exp_3_event` | Gathering skill 200% event | 1 | 1 |  |
+| `gathering_exp_4_event` | Gathering skill 300% event | 1 | 1 |  |
+| `cooking_exp_1.5_event` | Cooking skill 50% event | 1 | 1 |  |
+| `cooking_exp_2_event` | Cooking skill 100% event | 1 | 1 |  |
+| `cooking_exp_3_event` | Cooking skill 200% event | 1 | 1 |  |
+| `cooking_exp_4_event` | Cooking skill 300% event | 1 | 1 |  |
+| `weaponcrafting_exp_1.5_event` | Weapon/tool skill 50% event | 1 | 1 |  |
+| `weaponcrafting_exp_2_event` | Weapon/tool skill 100% event | 1 | 1 |  |
+| `weaponcrafting_exp_3_event` | Weapon/tool skill 200% event | 1 | 1 |  |
+| `weaponcrafting_exp_4_event` | Weapon/tool skill 300% event | 1 | 1 |  |
+| `armorcrafting_exp_1.5_event` | Clothing skill 50% event | 1 | 1 |  |
+| `armorcrafting_exp_2_event` | Clothing skill 100% event | 1 | 1 |  |
+| `armorcrafting_exp_3_event` | Clothing skill 200% event | 1 | 1 |  |
+| `armorcrafting_exp_4_event` | Clothing skill 300% event | 1 | 1 |  |
+| `constructing_exp_1.5_event` | Construction skill 50% event | 1 | 1 |  |
+| `constructing_exp_2_event` | Construction skill 100% event | 1 | 1 |  |
+| `constructing_exp_3_event` | Construction skill 200% event | 1 | 1 |  |
+| `constructing_exp_4_event` | Construction skill 300% event | 1 | 1 |  |
+| `farming_exp_1.5_event` | Farming skill 50% event | 1 | 1 |  |
+| `farming_exp_2_event` | Farming skill 100% event | 1 | 1 |  |
+| `farming_exp_3_event` | Farming skill 200% event | 1 | 1 |  |
+| `farming_exp_4_event` | Farming skill 300% event | 1 | 1 |  |
+| `process_exp_1.5_event` | Processing skill 50% event | 1 | 1 |  |
+| `process_exp_2_event` | Processing skill 100% event | 1 | 1 |  |
+| `process_exp_3_event` | Processing skill 200% event | 1 | 1 |  |
+| `process_exp_4_event` | Processing skill 300% event | 1 | 1 |  |
+| `weaponcraft_plus_01_event` | Weapon craft up event | 1 | 1 | Weapon crafting up. |
+| `armorcraft_plus_01_event` | Clothing craft up event | 1 | 1 | Clothing crafting up. |
+| `tailor_plus_01_event` | Sewing up event | 1 | 1 | Sewing up. |
+| `handicraft_plus_01_event` | Handicraft up event | 1 | 1 | Handicraft up. |
+| `smith_plus_01_event` | Metalwork up event | 1 | 1 | Metalwork up. |
+| `construction_plus_01_event` | Construction up event | 1 | 1 | Construction up. |
+| `furnishing_plus_01_event` | Furniture craft up event | 1 | 1 | Furniture crafting up. |
+| `cook_plus_01_event` | Cooking up event | 1 | 1 | Cooking up. |
+| `farming_plus_01_event` | Farming up event | 1 | 1 | Farming up. |
+| `gathering_plus_01_event` | Plant gathering up event | 1 | 1 | Plant gathering up. |
+| `mining_plus_01_event` | Mining up event | 1 | 1 | Mining up. |
+| `butchering_plus_01_event` | Butchery up event | 1 | 1 | Butchery up. |
+| `returner` | Returned pioneer | 60 | 1 |  |
+| `nausea` | Nausea | 1 | 1 | Oil-island fatigue causes nausea. Lower fatigue past a point to settle it. |
+| `headache` | Confusion | 1 | 2 | Oil-island climate fatigue leaves you reeling, about to collapse. Lower fatigue past a point. |
+| `mental_confusion` | Confusion | 1 | 4 | Oil-island climate fatigue leaves you reeling, about to collapse. Lower fatigue past a point. |
+| `s02_inside` | Fog shelter effect | 1 | 2 | Built shelter against the oil-island climate. Softens the oil fog. |
+| `s02_inside_02` | Chimney fog shelter effect | 1 | 2 | Built shelter against the oil-island climate. Greatly softens the oil fog. |
+| `poison_oil` | Oil poison | 1 | 1 | Caught oil poison while gathering; health slightly down. Proper clothing lowers the odds. |
+| `s02_longlife` | Stable meal effect | 10 | 1 | Stable food speeds HP and fatigue recovery. |
+| `cure_poison_oil` | Cure oil poison | 1 | 0 | Oil poison cured. |
+| `immune_poison_oil` | Oil-poison immunity | 20 | 1 | Immune to oil-poison damage for the duration. |
+| `s02_energetic` | Vitality | 1 | 1 | Energized; fatigue slightly down. |
+| `pet_master_charming` | Cuteness burst | 10 | 1 | Cuteness reduces fatigue. |
+| `pet_exp_1.2` | Pet EXP +20% | 1 | 1 | Companion pet EXP +20% (doesn't stack with character EXP events). |
+| `pet_exp_1.5` | Pet EXP +50% | 1 | 1 | Companion pet EXP +50% (doesn't stack with character EXP events). |
+| `pet_exp_2` | Pet EXP +100% | 1 | 1 | Companion pet EXP +100% (doesn't stack with character EXP events). |
+| `pet_life_incr` | Pet HP up | 10 | 1 | Bleeding stops; HP up. |
+| `pet_exp_1.2_event` | Pet EXP +20% | 1 | 1 | Companion pet EXP +20% (doesn't stack with character EXP events). |
+| `pet_exp_1.5_event` | Pet EXP +50% | 1 | 1 | Companion pet EXP +50% (doesn't stack with character EXP events). |
+| `pet_exp_2_event` | Pet EXP +100% | 1 | 1 | Companion pet EXP +100% (doesn't stack with character EXP events). |
+| `pet_speed_amplifier` | Pet speed amp | 10 | 1 | Pet speed amplified. |
+| `pet_speed_plus` | Pet speed up | 10 | 1 | Pet speed up. |
+| `pet_bag_amplifier` | Pet bag capacity amp | 10 | 1 | Pet bag capacity amplified. |
+| `pet_bag_plus` | Pet bag capacity up | 10 | 1 | Pet bag capacity up. |
+| `pet_attack_amplifier` | Pet attack amp | 10 | 1 | Pet attack amplified. |
+| `pet_attack_plus` | Pet attack up | 10 | 1 | Pet attack up. |
+| `pet_defense_amplifier` | Pet defense amp | 10 | 1 | Pet defense amplified. |
+| `pet_defense_plus` | Pet defense up | 10 | 1 | Pet attack up. |
+| `pet_cooltime_ratio` | Pet cooldown down | 10 | 1 | Pet cooldown down; attacks faster. |
+| `pet_life_max_amplifier` | Pet max HP amp | 10 | 1 | Pet max HP amplified. |
+| `pet_life_max_plus` | Pet max HP up | 10 | 1 | Pet max HP up. |
+| `pet_life_regen_amplifier` | Pet regen amp | 10 | 1 | Pet hourly regen amplified. |
+| `pet_life_regen_plus` | Pet regen up | 10 | 1 | Pet hourly regen up. |
+| `pet_accuracy_amplifier` | Pet accuracy amp | 10 | 1 | Pet accuracy amplified on attack. |
+| `pet_accuracy_plus` | Pet accuracy up | 10 | 1 | Pet accuracy up on attack. |
+| `clean_pet` | Licked clean | 10 | 1 | Pet licked you. Weird but clean; heat and fatigue bearable. |
+| `clean_pet_02` | Seawater wash | 10 | 1 | Pet splashed seawater on you. Salty but clean; heat and fatigue bearable. |
+| `life_up_pet` | Medic support | 10 | 1 | Pet support slowly restores HP. |
+| `stamina_up_pet` | Rear support | 10 | 1 | Pet cheers speed stamina regen. |
+| `pet_vitality_ratio` | Pet vigor decay slowed | 10 | 1 | Pet vigor decays slower. |
+| `excited_pet` | Friendliness | 10 | 1 | Pet friendliness makes fatigue bearable. |
+| `energetic_pet` | Mutual aid | 10 | 1 | Pet help reduces energy use. |
+| `mood_bubbly` | Cute mood | 30 | 0 | Max energy up. |
+| `mood_horrible` | Gloomy mood | 30 | 0 | Pet preemptive range down. |
+| `mood_luxurious` | Luxurious mood | 30 | 0 | Shorter fullness from cooked food. |
+| `energy_regen_by_food` | Energy regen | 1 | 0 | Food steadily restores energy. |
+| `set_bedroom` | Bedroom set effect | 60 | 0 | Set-composition effect. |
+| `set_kitchen` | Kitchen set effect | 60 | 0 | Set-composition effect. |
+| `set_drawingroom` | Parlor set effect | 60 | 0 | Set-composition effect. |
+| `set_dressroom` | Dressing-room set effect | 60 | 0 | Set-composition effect. |
+| `search_poi` | Search aftereffect | 60 | 1 | Energy down after searching. |
+| `fatigue_warning` | Tiredness | 10 | 1 | Fatigue and hunger set in. |
+| `fatigue_notice` | Hardship | 10 | 1 | Exhausted and hungry. |
+| `living_tech_butchering` | Butchery research | 3 | 1 | Butchery up. |
+| `living_tech_armorcraft` | Clothing crafting research | 3 | 1 | Clothing crafting up. |
+| `living_tech_tailor` | Sewing research | 3 | 1 | Sewing up. |
+| `living_tech_cook` | Cooking research | 3 | 1 | Cooking up. |
+| `living_tech_dodge` | Evasion research | 1 | 1 | Evasion up. |
+| `living_tech_energy` | Energy research | 1 | 1 | Max energy up. |
+| `living_tech_hiding` | Stealth research | 1 | 1 | Stealth up. |
+| `light_tech_gathering` | Plant gathering research | 3 | 1 | Plant gathering up. |
+| `light_tech_farming` | Farming research | 3 | 1 | Farming up. |
+| `light_tech_handicraft` | Handicraft research | 3 | 1 | Handicraft up. |
+| `light_tech_furnishing` | Furniture research | 3 | 1 | Furniture crafting up. |
+| `light_tech_attack` | Attack power research | 1 | 1 | Attack up. |
+| `light_tech_accuracy` | Accuracy research | 1 | 1 | Combat accuracy up. |
+| `heavy_tech_disassembling` | Disassembly research | 3 | 1 | Disassembly up. |
+| `heavy_tech_mining` | Mining research | 3 | 1 | Mining up. |
+| `heavy_tech_weaponcraft` | Weapon crafting research | 3 | 1 | Weapon crafting up. |
+| `heavy_tech_smith` | Metalwork research | 3 | 1 | Metalwork up. |
+| `heavy_tech_construction` | Construction research | 3 | 1 | Construction up. |
+| `heavy_tech_attack_rating` | Armor pierce research | 1 | 1 | Armor pierce up. |
+| `heavy_tech_critical` | Critical research | 4 | 1 | Combat crit up. |
+| `temporary_fortune_craft` | One luck: crafting | 1 | 1 | Next craft's jackpot odds up. |
+| `temporary_concentration_craft` | One focus: crafting | 1 | 1 | Next craft's success rate up, even past 99%. |
+| `rainy_fortune_collect` | Rainy luck: gathering | 1 | 1 | Rainy-day gathering jackpot odds up. |
+| `rainy_fortune_craft` | Rainy luck: crafting | 1 | 1 | Rainy-day crafting jackpot odds up. |
+| `stable_immersion_collect` | Steady focus: gathering | 1 | 1 | Faster gathering on personal/city islands. |
+| `stable_immersion_craft` | Steady focus: crafting | 1 | 1 | Faster crafting on personal/city islands. |
+| `sadism_minor` | Lesser sadism | 10 | 1 | HP slightly up. |
+| `eat_bizarre_food` | Bizarre food | 1 | 1 | If you eat this, what can't you? |
+| `mood_classroom01` | Classroom mood | 1 | 0 | Learning cuts skill research time. |
+| `mood_classroom02` | Studious mood | 1 | 0 | Studious mood cuts skill research time. |
+| `mood_springtime` | Spring mood | 30 | 0 | Fresh spring air; good things feel near. |
+| `energy_regen_by_trampoline_01` | Energy burst! | 1 | 1 | Huge fun; energy bursts. |
+| `energy_regen_by_rocking_horse_01` | Childlike heart | 1 | 2 | Childhood memories heal mind and body. |
+| `test_skill_package` | Skill package | 1 | 3 | Lasts till character/lineage lv55. |
+| `welcome_package_55lv` | Fast lv55 package | 1 | 3 | Till lv55. Instant skill research! |
+| `premium_support_package` | Advanced support package | 1 | 3 | Faster craft/gather/build/farm with better success! Daily bonus: map opens, instant revives, skill unlearns. |
+| `warp_rush_reward_increase_50` | Warp rush +50% | 1 | 1 | Warp rush stones 150% (bonus 50%). |
+| `warp_rush_reward_increase_100` | Warp rush +100% | 1 | 1 | Warp rush stones 200% (bonus 100%). |
+| `warp_rush_reward_increase_200` | Warp rush +200% | 1 | 1 | Warp rush stones 300% (bonus 200%). |
+| `artifact_reaction_heat_resistant` | Using building | 1 | 3 | Using buildings boosts climate survival. |
+| `random_number_piece_package` | Random shard package | 1 | 0 | 30 random shards daily. |
+| `effect_jasmine` | Jasmine scent | 2 | 1 | Jasmine scent reduces energy use. |
+| `life_health_up_pet` | Festival start! | 10 | 2 | Rousing cheers restore HP and health. |
+| `drunk` | Refreshment | 1 | 2 | Cool drink makes fatigue bearable! |
+| `artifact_reaction_great_success_plus` | Using building | 1 | 1 | Using buildings boosts crafting jackpot odds. |
+| `master_attack_up_pet` | Hit harder! | 3 | 1 | Clown Compy cheers boost attack. |
+| `unlimited_pet_vigor` | Infinite vigor | 30 | 1 | Pet vigor never drops. |
+| `unlimited_pet_vigor_1d` | Infinite vigor | 1 | 1 | Pet vigor never drops. |
+| `tea_effect_01` | Stat boost | 70 | 1 | Ate food; abilities improved. |
+| `tea_effect_02` | Stat boost | 70 | 1 | Ate food; abilities improved. |
+| `unlimited_pet_vigor_3d` | Infinite vigor | 1 | 1 | Pet vigor never drops. |
+| `event_reduce_warp_cost` | Warp cost down | 1 | 1 | Warp-hole travel costs less. |
+| `clean_volcanic_lake_01` | Onsen: health regen | 10 | 1 | Onsen baths close wounds; health regens. |
+| `clean_volcanic_lake_02` | Onsen: attack up | 10 | 1 | Onsen bath invigorates; attack up. |
+| `wet_volcanic_lake` | Onsen damp | 10 | 2 | Soaked in the onsen; safe from volcanic storms. |
+| `volcanic_storm_sign` | Omen | 10 | 1 | Stamina drains. A volcanic storm is coming. |
+| `volcanic_storm` | Volcanic storm | 10 | 1 | Health drains. Get in an onsen or wear storm gear. |
+| `lava` | Lava damage | 10 | 1 | Touched lava; HP drops hard. |
+| `burn` | Burn | 10 | 1 | Burned; health drains. Get in water nearby. |
+| `immune_lava` | Lava immunity | 1 | 1 | Immune to lava damage. |
+| `immune_volcanic_storm` | Storm immunity | 1 | 1 | Immune to volcanic storms. |
+| `mood_fiery` | Heated mood | 30 | 0 | Attack up. |
+| `iguana_great_success_craft` | Shining hands | 10 | 1 | Crafting jackpot odds up. |
+| `tyrano_shout` | Tyranno roar | 10 | 1 | Tyranno roar wrecks eardrums. |
+| `immune_tyrano_shout` | Eardrum guard | 10 | 1 | Can't hear the Tyranno roar. |
+| `iguana_fire_dung` | Ember | 10 | 1 | Hit by iguana embers; damage down. |
+| `immune_iguana_fire_dung` | Prevent embers | 10 | 1 | Immune to spot-iguana embers. |
+| `tyrano_bruise` | Bruise | 10 | 1 | Headbutted by a Tyranno; bruised. |
+| `tyrano_rage_01` | Tyrannosaurus excitement | 1 | 2 | Tyrannosaurus excited; attacks harder. |
+| `tyrano_rage_02` | Tyrannosaurus rage | 1 | 2 | Tyrannosaurus furious; attacks much harder. |
+| `tyrano_rage_03` | Tyrannosaurus fury | 1 | 2 | Tyrannosaurus enraged; attacks unstoppably. |
+| `hadro_cheer_up` | Combat cheer | 10 | 6 | Combat improved. |
+| `immune_burn` | Burn immunity | 10 | 1 | Immune to burns. |
+| `artifact_reaction_volcanic_heat_resistant` | Using sauna | 1 | 1 | Cold bath helps endure volcanic heat. |
+| `food_energy_incr` | Ongoing energy regen | 10 | 1 | Full of nutrition; energy keeps rising. |
+| `event_statue_aura` | Statue aura | 1 | 2 |  |
+| `rest_sauna_01` | Using sauna | 60 | 2 | Resting somewhere proper melts fatigue away. |
+| `immune_lava_2` | Lava immunity | 1 | 1 | Immune to lava damage. |
+| `food_max_health_energy_incr` | Energizing sweetness | 60 | 2 | Tasty food raises max health and energy. |
+| `food_fatigue_decr` | Cool drink | 60 | 1 | Cool drink relieves fatigue. |
+| `engagement_reward` | Play focus check | 1 | 2 | Max health +150, max energy +50. |
+| `pvp_fog` | Fog | 1 | 0 | Fog blocks sight; can't enter combat mode. Gear/food OK. |
+| `pvp_rain` | Rain | 1 | 0 | Fog lifted; in combat mode. Can't leave it or use items. |
+| `pvp_storm` | Storm | 1 | 1 | Storm rages; health drops. Shelters protect. |
+| `pvp_hypothermy` | Hypothermia | 1 | 1 | Storm too fierce even for shelters; health drops. |
+| `pvp_shelter` | Shelter | 1 | 1 | Sheltered from the storm; health safe. |
+| `climate_nervous` | Unease | 1 | 0 | Unprecedented storms; the island feels uneasy. |
+| `climate_strange_phenomenon` | Strange phenomenon | 1 | 0 | Warp abuse keeps Durango weather strange. |
+| `fruit_sandwich_effects` | Fruit sandwich | 1 | 9 | Ate food; abilities improved. |
+| `epic_lama_deodorant` | Deodorizer | 60 | 1 | Scent gone; animals don't notice you. |

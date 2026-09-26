@@ -3,2901 +3,2901 @@
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 7,
         "max": 10
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_rib_carni",
-        "name": "육식동물 갈비뼈",
+        "name": "Carnivore rib",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "케라토사우루스 (size 5)"
+    "note": "Ceratosaurus (size 5)"
   },
   "allo_warp_acc": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 7,
         "max": 10
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_rib_carni",
-        "name": "육식동물 갈비뼈",
+        "name": "Carnivore rib",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "알로사우루스 (size 5)"
+    "note": "Allosaurus (size 5)"
   },
   "amargasaurus": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 8,
         "max": 12
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 3,
         "max": 4
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 3,
         "max": 4
       },
       {
         "id": "bone_head_big",
-        "name": "큰 머리뼈",
+        "name": "Large skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 3,
         "max": 4
       }
     ],
-    "note": "아마르가사우루스 (size 7)"
+    "note": "Amargasaurus (size 7)"
   },
   "amargasaurus_02": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 8,
         "max": 12
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 3,
         "max": 4
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 3,
         "max": 4
       },
       {
         "id": "bone_head_big",
-        "name": "큰 머리뼈",
+        "name": "Large skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 3,
         "max": 4
       }
     ],
-    "note": "통신용 아마르가사우루스 (size 7)"
+    "note": "Comms Amargasaurus (size 7)"
   },
   "andrewsarchus": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw_fur",
-        "name": "털가죽",
+        "name": "Fur pelt",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "앤드루사르쿠스 (size 2)"
+    "note": "Andrewsarchus (size 2)"
   },
   "andrewsarchus_02": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw_fur",
-        "name": "털가죽",
+        "name": "Fur pelt",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "청소부 앤드루사르쿠스 (size 2)"
+    "note": "Scavenger Andrewsarchus (size 2)"
   },
   "ankylo": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 5,
         "max": 8
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "leather_raw_armored",
-        "name": "갑주",
+        "name": "Carapace",
         "min": 2,
         "max": 3
       }
     ],
-    "note": "안킬로사우루스 (size 4)"
+    "note": "Ankylosaurus (size 4)"
   },
   "ankylo_baby": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "어린 안킬로사우루스 (size 1)"
+    "note": "Young Ankylosaurus (size 1)"
   },
   "apato": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 8,
         "max": 12
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 3,
         "max": 4
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 3,
         "max": 4
       },
       {
         "id": "bone_head_big",
-        "name": "큰 머리뼈",
+        "name": "Large skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 3,
         "max": 4
       }
     ],
-    "note": "아파토사우루스 (size 7)"
+    "note": "Apatosaurus (size 7)"
   },
   "bonu": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 5,
         "max": 8
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "bone_horn",
-        "name": "뿔",
+        "name": "Horn",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 2,
         "max": 3
       }
     ],
-    "note": "카스모사우루스 (size 4)"
+    "note": "Chasmosaurus (size 4)"
   },
   "brachio": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 8,
         "max": 12
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 3,
         "max": 4
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 3,
         "max": 4
       },
       {
         "id": "bone_head_big",
-        "name": "큰 머리뼈",
+        "name": "Large skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 3,
         "max": 4
       }
     ],
-    "note": "브라키오사우루스 (size 6)"
+    "note": "Brachiosaurus (size 6)"
   },
   "brachio_baby": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "어린 브라키오사우루스 (size 2)"
+    "note": "Brachiosaurus Young (size 2)"
   },
   "centro": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_horn",
-        "name": "뿔",
+        "name": "Horn",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "센트로사우루스 (size 2)"
+    "note": "Centrosaurus (size 2)"
   },
   "chasmosaurus_volcanic": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 5,
         "max": 8
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "bone_horn",
-        "name": "뿔",
+        "name": "Horn",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 2,
         "max": 3
       }
     ],
-    "note": "화산재 카스모사우루스 (size 4)"
+    "note": "Volcanic-ash Chasmosaurus (size 4)"
   },
   "coelo": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 3,
         "max": 5
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_rib_carni",
-        "name": "육식동물 갈비뼈",
+        "name": "Carnivore rib",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       },
       {
         "id": "feather",
-        "name": "깃털",
+        "name": "Feather",
         "min": 1,
         "max": 3
       },
       {
         "id": "tendon",
-        "name": "힘줄",
+        "name": "Sinew",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "우두머리 오르니토미무스 (size 3)"
+    "note": "Alpha Ornithomimus (size 3)"
   },
   "coelo_baby": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "feather",
-        "name": "깃털",
+        "name": "Feather",
         "min": 1,
         "max": 3
       },
       {
         "id": "tendon",
-        "name": "힘줄",
+        "name": "Sinew",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "어린 갈리미무스 (size 1)"
+    "note": "Young Gallimimus (size 1)"
   },
   "coelo_s02": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       },
       {
         "id": "feather",
-        "name": "깃털",
+        "name": "Feather",
         "min": 1,
         "max": 3
       },
       {
         "id": "tendon",
-        "name": "힘줄",
+        "name": "Sinew",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "다친 코엘로피시스 (size 2)"
+    "note": "Wounded Coelophysis (size 2)"
   },
   "coelo_snow": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       },
       {
         "id": "feather",
-        "name": "깃털",
+        "name": "Feather",
         "min": 1,
         "max": 3
       },
       {
         "id": "tendon",
-        "name": "힘줄",
+        "name": "Sinew",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "설원 코엘로피시스 (size 2)"
+    "note": "Snow Coelophysis (size 2)"
   },
   "compso": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "콤프소그나투스 (size 1)"
+    "note": "Compsognathus (size 1)"
   },
   "compso_paper": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "콤프소그나투스 (size 1)"
+    "note": "Compsognathus (size 1)"
   },
   "compso_paper_elite": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "대장 콤프소그나투스 (size 1)"
+    "note": "Captain Compsognathus (size 1)"
   },
   "compso_stripe": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "줄무늬 콤프소그나투스 (size 1)"
+    "note": "Striped Compsognathus (size 1)"
   },
   "deinonychus": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "데이노니쿠스 (size 2)"
+    "note": "Deinonychus (size 2)"
   },
   "deinonychus_savana": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "아케니쿠스 (size 2)"
+    "note": "Achenicus (size 2)"
   },
   "dimetrodon": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 3,
         "max": 5
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_rib_carni",
-        "name": "육식동물 갈비뼈",
+        "name": "Carnivore rib",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "디메트로돈 (size 3)"
+    "note": "Dimetrodon (size 3)"
   },
   "dodo": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "도도피시스 (size 1)"
+    "note": "Dodophysis (size 1)"
   },
   "edmontosaurus": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 5,
         "max": 8
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 2,
         "max": 3
       }
     ],
-    "note": "에드몬토사우루스 (size 4)"
+    "note": "Edmontosaurus (size 4)"
   },
   "elephant": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 7,
         "max": 10
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "bone_ivory",
-        "name": "상아",
+        "name": "Ivory",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw_fur",
-        "name": "털가죽",
+        "name": "Fur pelt",
         "min": 2,
         "max": 3
       },
       {
         "id": "fat",
-        "name": "지방",
+        "name": "Fat",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "아랫뿔코끼리 (size 5)"
+    "note": "Lower-tusk Elephant (size 5)"
   },
   "elephantulus": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "엘리펀툴루스 (size 1)"
+    "note": "Elephantulus (size 1)"
   },
   "gallimimus": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 3,
         "max": 5
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       },
       {
         "id": "feather",
-        "name": "깃털",
+        "name": "Feather",
         "min": 1,
         "max": 3
       },
       {
         "id": "tendon",
-        "name": "힘줄",
+        "name": "Sinew",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "갈리미무스 (size 3)"
+    "note": "Gallimimus (size 3)"
   },
   "hadrosaurus_volcanic": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 5,
         "max": 8
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 2,
         "max": 3
       }
     ],
-    "note": "용암 하드로사우루스 (size 4)"
+    "note": "Lava Hadrosaurus (size 4)"
   },
   "horseshoecrab": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "투구게 (size 2)"
+    "note": "Horseshoe Crab (size 2)"
   },
   "iguana_rock": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 3,
         "max": 5
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_rib_carni",
-        "name": "육식동물 갈비뼈",
+        "name": "Carnivore rib",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "흰줄무늬 이구아나 (size 3)"
+    "note": "White-striped Iguana (size 3)"
   },
   "iguana_volcanic": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 3,
         "max": 5
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_rib_carni",
-        "name": "육식동물 갈비뼈",
+        "name": "Carnivore rib",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "불점박이 이구아나 (size 3)"
+    "note": "Fire-spotted Iguana (size 3)"
   },
   "iguanodon": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 5,
         "max": 8
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 2,
         "max": 3
       }
     ],
-    "note": "이구아노돈 (size 4)"
+    "note": "Iguanodon (size 4)"
   },
   "kentro": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 5,
         "max": 8
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 2,
         "max": 3
       }
     ],
-    "note": "켄트로사우루스 (size 4)"
+    "note": "Kentrosaurus (size 4)"
   },
   "kentro_baby": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "어린 투오지앙고사우루스 (size 2)"
+    "note": "Young Tuojiangosaurus (size 2)"
   },
   "lizard": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "도마뱀 (size 1)"
+    "note": "Lizard (size 1)"
   },
   "lizard_poisonous": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 3,
         "max": 5
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_rib_carni",
-        "name": "육식동물 갈비뼈",
+        "name": "Carnivore rib",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "붉은점도마뱀 (size 3)"
+    "note": "Red-spotted Lizard (size 3)"
   },
   "lizard_poisonous_volcanic": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 3,
         "max": 5
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_rib_carni",
-        "name": "육식동물 갈비뼈",
+        "name": "Carnivore rib",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "독 도마뱀 (size 3)"
+    "note": "Venomous Lizard (size 3)"
   },
   "macrau": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 3,
         "max": 5
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw_fur",
-        "name": "털가죽",
+        "name": "Fur pelt",
         "min": 1,
         "max": 2
       },
       {
         "id": "fat",
-        "name": "지방",
+        "name": "Fat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg",
-        "name": "다리뼈",
+        "name": "Leg bone",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "루돌프 메갈로케로스 (size 3)"
+    "note": "Rudolf Megaloceros (size 3)"
   },
   "mammoth": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 7,
         "max": 10
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "bone_ivory",
-        "name": "상아",
+        "name": "Ivory",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw_fur",
-        "name": "털가죽",
+        "name": "Fur pelt",
         "min": 2,
         "max": 3
       },
       {
         "id": "fat",
-        "name": "지방",
+        "name": "Fat",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "매머드 (size 5)"
+    "note": "Mammoth (size 5)"
   },
   "megalo": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 3,
         "max": 5
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw_fur",
-        "name": "털가죽",
+        "name": "Fur pelt",
         "min": 1,
         "max": 2
       },
       {
         "id": "fat",
-        "name": "지방",
+        "name": "Fat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_horn",
-        "name": "뿔",
+        "name": "Horn",
         "min": 1,
         "max": 2
       },
       {
         "id": "tendon",
-        "name": "힘줄",
+        "name": "Sinew",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "수컷 메갈로케로스 (size 3)"
+    "note": "Male Megaloceros (size 3)"
   },
   "megalo_b": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "어린 메갈로케로스 (size 1)"
+    "note": "Young Megaloceros (size 1)"
   },
   "megalo_f": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw_fur",
-        "name": "털가죽",
+        "name": "Fur pelt",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "암컷 메갈로케로스 (size 2)"
+    "note": "Female Megaloceros (size 2)"
   },
   "megalo_snow": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 3,
         "max": 5
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw_fur",
-        "name": "털가죽",
+        "name": "Fur pelt",
         "min": 1,
         "max": 2
       },
       {
         "id": "fat",
-        "name": "지방",
+        "name": "Fat",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "수컷 흰배메갈로케로스 (size 3)"
+    "note": "White-bellied Male Megaloceros (size 3)"
   },
   "megalo_snow_b": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "어린 흰배메갈로케로스 (size 1)"
+    "note": "Young White-bellied Megaloceros (size 1)"
   },
   "megalo_snow_f": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw_fur",
-        "name": "털가죽",
+        "name": "Fur pelt",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "암컷 흰배메갈로케로스 (size 2)"
+    "note": "White-bellied Female Megaloceros (size 2)"
   },
   "muntant_animals": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 5,
         "max": 8
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "leather_raw_armored",
-        "name": "갑주",
+        "name": "Carapace",
         "min": 2,
         "max": 3
       }
     ],
-    "note": "미확인 땅거북안킬로 (size 4)"
+    "note": "Unknown Land-tortoise Ankylo (size 4)"
   },
   "ornitho": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 3,
         "max": 5
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_rib_carni",
-        "name": "육식동물 갈비뼈",
+        "name": "Carnivore rib",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       },
       {
         "id": "feather",
-        "name": "깃털",
+        "name": "Feather",
         "min": 1,
         "max": 3
       },
       {
         "id": "tendon",
-        "name": "힘줄",
+        "name": "Sinew",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "오르니토미무스 (size 3)"
+    "note": "Ornithomimus (size 3)"
   },
   "ornitho_baby": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       },
       {
         "id": "feather",
-        "name": "깃털",
+        "name": "Feather",
         "min": 1,
         "max": 3
       },
       {
         "id": "tendon",
-        "name": "힘줄",
+        "name": "Sinew",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "어린 오르니토미무스 (size 2)"
+    "note": "Young Ornithomimus (size 2)"
   },
   "oviraptor": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "오비랍토르 (size 2)"
+    "note": "Oviraptor (size 2)"
   },
   "oviraptor_snowy": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "알비랍토르 (size 2)"
+    "note": "Albirraptor (size 2)"
   },
   "oviraptor_tropical": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "픽타랍토르 (size 2)"
+    "note": "Pictaraptor (size 2)"
   },
   "pachycephalosaurus": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 5,
         "max": 8
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "bone_horn",
-        "name": "뿔",
+        "name": "Horn",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 2,
         "max": 3
       }
     ],
-    "note": "파키케팔로사우루스 (size 4)"
+    "note": "Pachycephalosaurus (size 4)"
   },
   "parasaurolophus": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 5,
         "max": 8
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 2,
         "max": 3
       }
     ],
-    "note": "파라사우롤로푸스 (size 4)"
+    "note": "Parasaurolophus (size 4)"
   },
   "pavomimus": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       },
       {
         "id": "feather",
-        "name": "깃털",
+        "name": "Feather",
         "min": 1,
         "max": 3
       },
       {
         "id": "tendon",
-        "name": "힘줄",
+        "name": "Sinew",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "파보미무스 (size 2)"
+    "note": "Pavomimus (size 2)"
   },
   "phenaco": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw_fur",
-        "name": "털가죽",
+        "name": "Fur pelt",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg",
-        "name": "다리뼈",
+        "name": "Leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "우두머리 페나코두스 (size 2)"
+    "note": "Alpha Phenacodus (size 2)"
   },
   "phenaco_paper": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "페나코두스 (size 1)"
+    "note": "Phenacodus (size 1)"
   },
   "phenaco_paper_elite": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "대장 페나코두스 (size 1)"
+    "note": "Captain Phenacodus (size 1)"
   },
   "proto": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_horn",
-        "name": "뿔",
+        "name": "Horn",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "bone_leg_thick",
-        "name": "큰 다리뼈",
+        "name": "Large leg bone",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "프로토케라톱스 (size 2)"
+    "note": "Protoceratops (size 2)"
   },
   "proto_pink": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_horn",
-        "name": "뿔",
+        "name": "Horn",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "연분홍 프로토케라톱스 (size 2)"
+    "note": "Pink Protoceratops (size 2)"
   },
   "raptor": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "랩터 (size 2)"
+    "note": "Raptor (size 2)"
   },
   "raptor_coward": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "겁쟁이 랩터 (size 2)"
+    "note": "Coward Raptor (size 2)"
   },
   "raptor_teeth": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "우두머리 유타랍토르 (size 2)"
+    "note": "Alpha Utahraptor (size 2)"
   },
   "rat": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "거대 쥐 (size 1)"
+    "note": "Giant Rat (size 1)"
   },
   "rat_s02": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "병든 거대 쥐 (size 1)"
+    "note": "Sick Giant Rat (size 1)"
   },
   "recruiter_common": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "징병관 (size 1)"
+    "note": "Recruiter (size 1)"
   },
   "recruiter_lead": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "징병대장 (size 1)"
+    "note": "Recruit Captain (size 1)"
   },
   "saurolophus": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 5,
         "max": 8
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 2,
         "max": 3
       }
     ],
-    "note": "사우롤로푸스 (size 4)"
+    "note": "Saurolophus (size 4)"
   },
   "skunkodus": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw_fur_narrow",
-        "name": "털가죽 조각",
+        "name": "Fur scrap",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "스컹코두스 (size 1)"
+    "note": "Skunkodous (size 1)"
   },
   "skunkodus_s02": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "취한 스컹코두스 (size 1)"
+    "note": "Drunk Skunkodous (size 1)"
   },
   "skunkodus_sulphur": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "유황 스컹코두스 (size 1)"
+    "note": "Sulfur Skunkodous (size 1)"
   },
   "smilodon": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 5,
         "max": 8
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_rib_carni",
-        "name": "육식동물 갈비뼈",
+        "name": "Carnivore rib",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "leather_raw_fur",
-        "name": "털가죽",
+        "name": "Fur pelt",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       },
       {
         "id": "fat",
-        "name": "지방",
+        "name": "Fat",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "스밀로돈 (size 4)"
+    "note": "Smilodon (size 4)"
   },
   "smilodon_snow_s01": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 5,
         "max": 8
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_rib_carni",
-        "name": "육식동물 갈비뼈",
+        "name": "Carnivore rib",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "leather_raw_fur",
-        "name": "털가죽",
+        "name": "Fur pelt",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       },
       {
         "id": "fat",
-        "name": "지방",
+        "name": "Fat",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "흰털스밀로돈 (size 4)"
+    "note": "White-furred Smilodon (size 4)"
   },
   "stego": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 5,
         "max": 8
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 2,
         "max": 3
       },
       {
         "id": "fat",
-        "name": "지방",
+        "name": "Fat",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "스테고사우루스 (size 4)"
+    "note": "Stegosaurus (size 4)"
   },
   "stego_baby": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "어린 스테고사우루스 (size 2)"
+    "note": "Young Stegosaurus (size 2)"
   },
   "styraco": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 5,
         "max": 8
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "bone_horn",
-        "name": "뿔",
+        "name": "Horn",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 2,
         "max": 3
       }
     ],
-    "note": "스티라코사우루스 (size 4)"
+    "note": "Styracosaurus (size 4)"
   },
   "styraco_baby": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_horn",
-        "name": "뿔",
+        "name": "Horn",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "어린 스티라코사우루스 (size 2)"
+    "note": "Young Styracosaurus (size 2)"
   },
   "tarbo": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 8,
         "max": 12
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 3,
         "max": 4
       },
       {
         "id": "bone_rib_carni",
-        "name": "육식동물 갈비뼈",
+        "name": "Carnivore rib",
         "min": 3,
         "max": 4
       },
       {
         "id": "bone_head_big",
-        "name": "큰 머리뼈",
+        "name": "Large skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 3,
         "max": 4
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "우두머리 티라노사우루스 (size 7)"
+    "note": "Tyrannosaurus Alpha (size 7)"
   },
   "tarbo_feather": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 7,
         "max": 10
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_rib_carni",
-        "name": "육식동물 갈비뼈",
+        "name": "Carnivore rib",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "타르보사우루스 (size 5)"
+    "note": "Tarbosaurus (size 5)"
   },
   "trex": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 8,
         "max": 12
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 3,
         "max": 4
       },
       {
         "id": "bone_rib_carni",
-        "name": "육식동물 갈비뼈",
+        "name": "Carnivore rib",
         "min": 3,
         "max": 4
       },
       {
         "id": "bone_head_big",
-        "name": "큰 머리뼈",
+        "name": "Large skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 3,
         "max": 4
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "티라노사우루스 (size 7)"
+    "note": "Tyrannosaurus (size 7)"
   },
   "tricera": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 5,
         "max": 8
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "bone_horn",
-        "name": "뿔",
+        "name": "Horn",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 2,
         "max": 3
       }
     ],
-    "note": "트리케라톱스 (size 4)"
+    "note": "Triceratops (size 4)"
   },
   "tricera_baby": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_horn",
-        "name": "뿔",
+        "name": "Horn",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "어린 트리케라톱스 (size 2)"
+    "note": "Young Triceratops (size 2)"
   },
   "tricera_s02": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 5,
         "max": 8
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "bone_horn",
-        "name": "뿔",
+        "name": "Horn",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 2,
         "max": 3
       }
     ],
-    "note": "중독된 트리케라톱스 (size 4)"
+    "note": "Poisoned Triceratops (size 4)"
   },
   "tuojiango": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 5,
         "max": 8
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_rib_herv",
-        "name": "초식동물 갈비뼈",
+        "name": "Herbivore rib",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_head",
-        "name": "머리뼈",
+        "name": "Skull",
         "min": 1,
         "max": 1
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 2,
         "max": 3
       }
     ],
-    "note": "투오지앙고사우루스 (size 4)"
+    "note": "Tuojiangosaurus (size 4)"
   },
   "utahraptor": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "유타랍토르 (size 2)"
+    "note": "Utahraptor (size 2)"
   },
   "utahraptor_volcanic": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "검은머리 유타랍토르 (size 2)"
+    "note": "Black-headed Utahraptor (size 2)"
   },
   "watermelon_01_monster": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "watermelon_01_rind",
-        "name": "수박 껍질",
+        "name": "Watermelon rind",
         "min": 1,
         "max": 2
       },
       {
         "id": "stem",
-        "name": "줄기",
+        "name": "Stem",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "수상한 수박 (size 1)"
+    "note": "Suspicious Watermelon (size 1)"
   },
   "wolf": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw_fur",
-        "name": "털가죽",
+        "name": "Fur pelt",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "다이어울프 (size 2)"
+    "note": "Direwolf (size 2)"
   },
   "wolf_baby": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "어린 다이어울프 (size 1)"
+    "note": "Young Direwolf (size 1)"
   },
   "wolf_snow": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_carni",
-        "name": "육식동물 다리뼈",
+        "name": "Carnivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw_fur",
-        "name": "털가죽",
+        "name": "Fur pelt",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_tooth",
-        "name": "이빨",
+        "name": "Tooth",
         "min": 1,
         "max": 1
       }
     ],
-    "note": "흰털다이어울프 (size 2)"
+    "note": "White-furred Direwolf (size 2)"
   },
   "zebra": {
     "items": [
       {
         "id": "meat",
-        "name": "고기",
+        "name": "Meat",
         "min": 2,
         "max": 3
       },
       {
         "id": "bone_leg_herv",
-        "name": "초식동물 다리뼈",
+        "name": "Herbivore leg bone",
         "min": 1,
         "max": 2
       },
       {
         "id": "bone_horn",
-        "name": "뿔",
+        "name": "Horn",
         "min": 1,
         "max": 2
       },
       {
         "id": "leather_raw",
-        "name": "가죽",
+        "name": "Hide",
         "min": 1,
         "max": 2
       }
     ],
-    "note": "제브라케라톱스 (size 2)"
+    "note": "Zebra Ceratops (size 2)"
   }
 }

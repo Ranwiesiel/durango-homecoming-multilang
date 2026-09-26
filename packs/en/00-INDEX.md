@@ -8,7 +8,7 @@ date: 2026-09-12
 
 # Durango:0 Homecoming Field Databook (English)
 
-Translated/reorganized from the Homecoming Dreamer **야외 자료집**.
+Translated/reorganized from the Homecoming Dreamer **Field Databook**.
 
 ## Credit / Source
 

@@ -8,29 +8,29 @@
 - Please keep credit to kghj76138 when resharing
 
 
-## Animal filters (original UI)
+## Animal filters (UI)
 
-| Korean | English |
+| Filter label (English) | Meaning |
 |---|---|
-| 초식 | Herbivore |
-| 육식 | Carnivore |
-| 길들이기 가능 | Tamable |
-| 대형(크기 5+) | Large (size 5+) |
-| 고속 재생 1%/초 | Fast regen 1%/sec |
-| 출현 자리 없음 | No spawn on reachable islands |
-| 갈 수 없는 섬에만 산다 | Lives only on unreachable islands |
+| Herbivore | Herbivores only |
+| Carnivore | Carnivores only |
+| Tamable | Can be tamed |
+| Large (size 5+) | Size 5 and up |
+| Fast regen 1%/sec | Fast regen 1% per second |
+| No spawn slot | No spawn slot on reachable islands |
+| Unreachable only | Lives only on unreachable islands |
 
 ## Animal table columns
 
-| Source | English |
+| Column | Meaning |
 |---|---|
-| 이름 | Name (KR as in source) |
-| 성향 | Diet type |
-| 크기 | Size |
-| 레벨 | Level |
-| 생명 lv60 | HP at lv60 |
-| 공격 | Attack |
-| 방어 | Defense |
-| 공격주기 | Attack interval |
-| 경직저항 | Stagger resist |
-| 서식 | Habitat |
+| Name | Animal name |
+| Diet type | Herbivore / Carnivore / Scavenger / Sandbag |
+| Size | Number + size name |
+| Level | Level range |
+| HP at lv60 | HP at level 60 |
+| Attack | Attack value |
+| Defense | Defense value |
+| Attack interval | Time between attacks (sec) |
+| Stagger resist | Stagger resistance |
+| Habitat | Spawn biomes |

@@ -1,8 +1,8 @@
 [
   {
     "id": "op60tr170712",
-    "kind": "특수",
-    "biome": "열대",
+    "kind": "Special",
+    "biome": "Tropical",
     "lv": 60,
     "herds": {
       "land": {
@@ -23,15 +23,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "개척지",
+    "role": "Pioneer/colony",
     "reach": false,
     "active": false,
     "crHerd": 200120
   },
   {
     "id": "op60tr171228",
-    "kind": "특수",
-    "biome": "열대",
+    "kind": "Special",
+    "biome": "Tropical",
     "lv": 60,
     "herds": {
       "land": {
@@ -57,15 +57,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "개척지",
+    "role": "Pioneer/colony",
     "reach": false,
     "active": false,
     "crHerd": 200120
   },
   {
     "id": "op60tr180220",
-    "kind": "특수",
-    "biome": "열대",
+    "kind": "Special",
+    "biome": "Tropical",
     "lv": 60,
     "herds": {
       "land": {
@@ -91,15 +91,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "개척지",
+    "role": "Pioneer/colony",
     "reach": false,
     "active": true,
     "crHerd": 200120
   },
   {
     "id": "op60te170615",
-    "kind": "특수",
-    "biome": "온대",
+    "kind": "Special",
+    "biome": "Temperate",
     "lv": 60,
     "herds": {
       "land": {
@@ -121,15 +121,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "개척지",
+    "role": "Pioneer/colony",
     "reach": false,
     "active": false,
     "crHerd": 202920
   },
   {
     "id": "op60te171228",
-    "kind": "특수",
-    "biome": "온대",
+    "kind": "Special",
+    "biome": "Temperate",
     "lv": 60,
     "herds": {
       "land": {
@@ -155,15 +155,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "개척지",
+    "role": "Pioneer/colony",
     "reach": false,
     "active": false,
     "crHerd": 202920
   },
   {
     "id": "op60te180220",
-    "kind": "특수",
-    "biome": "온대",
+    "kind": "Special",
+    "biome": "Temperate",
     "lv": 60,
     "herds": {
       "land": {
@@ -189,15 +189,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "개척지",
+    "role": "Pioneer/colony",
     "reach": false,
     "active": true,
     "crHerd": 202920
   },
   {
     "id": "op60tr170615",
-    "kind": "특수",
-    "biome": "열대",
+    "kind": "Special",
+    "biome": "Tropical",
     "lv": 60,
     "herds": {
       "land": {
@@ -218,7 +218,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "개척지",
+    "role": "Pioneer/colony",
     "reach": false,
     "active": false,
     "crHerd": 201520
@@ -226,7 +226,7 @@
   {
     "id": "tr60te170613",
     "kind": null,
-    "biome": "온대",
+    "biome": "Temperate",
     "lv": 60,
     "herds": {
       "lake_shallow": {
@@ -266,7 +266,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "개척지",
+    "role": "Pioneer/colony",
     "reach": false,
     "active": false,
     "crHerd": 201520
@@ -274,7 +274,7 @@
   {
     "id": "tr60te170511",
     "kind": null,
-    "biome": "온대",
+    "biome": "Temperate",
     "lv": 60,
     "herds": {
       "lake_shallow": {
@@ -314,7 +314,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "개척지",
+    "role": "Pioneer/colony",
     "reach": false,
     "active": false,
     "crHerd": "None"
@@ -327,7 +327,7 @@
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "개척지",
+    "role": "Pioneer/colony",
     "reach": false,
     "active": false,
     "crHerd": "None"
@@ -340,80 +340,80 @@
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "개척지",
+    "role": "Pioneer/colony",
     "reach": false,
     "active": false,
     "crHerd": "None"
   },
   {
     "id": "pe10gr_1",
-    "kind": "개인 섬",
-    "biome": "초원",
+    "kind": "Personal island",
+    "biome": "Grassland",
     "lv": 10,
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "개인 섬",
+    "role": "Personal island",
     "reach": true,
     "active": true,
     "crHerd": "None"
   },
   {
     "id": "pe10gr_2",
-    "kind": "개인 섬",
-    "biome": "초원",
+    "kind": "Personal island",
+    "biome": "Grassland",
     "lv": 10,
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "개인 섬",
+    "role": "Personal island",
     "reach": true,
     "active": true,
     "crHerd": "None"
   },
   {
     "id": "pe10gr_3",
-    "kind": "개인 섬",
-    "biome": "초원",
+    "kind": "Personal island",
+    "biome": "Grassland",
     "lv": 10,
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "개인 섬",
+    "role": "Personal island",
     "reach": true,
     "active": true,
     "crHerd": "None"
   },
   {
     "id": "pe10gr_4",
-    "kind": "개인 섬",
-    "biome": "초원",
+    "kind": "Personal island",
+    "biome": "Grassland",
     "lv": 10,
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "개인 섬",
+    "role": "Personal island",
     "reach": true,
     "active": true,
     "crHerd": "None"
   },
   {
     "id": "pe10gr_5",
-    "kind": "개인 섬",
-    "biome": "초원",
+    "kind": "Personal island",
+    "biome": "Grassland",
     "lv": 10,
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "개인 섬",
+    "role": "Personal island",
     "reach": true,
     "active": true,
     "crHerd": "None"
   },
   {
     "id": "ri15sa171228",
-    "kind": "안정 섬",
-    "biome": "사바나",
+    "kind": "Stable island",
+    "biome": "Savanna",
     "lv": 15,
     "herds": {
       "land": {
@@ -428,15 +428,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": true,
     "crHerd": 204220
   },
   {
     "id": "ri20te171228",
-    "kind": "안정 섬",
-    "biome": "온대",
+    "kind": "Stable island",
+    "biome": "Temperate",
     "lv": 20,
     "herds": {
       "land": {
@@ -458,15 +458,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": true,
     "crHerd": 201520
   },
   {
     "id": "ri25tr180122",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 25,
     "herds": {
       "land": {
@@ -488,15 +488,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ri15sa190710",
-    "kind": "안정 섬",
-    "biome": "사바나",
+    "kind": "Stable island",
+    "biome": "Savanna",
     "lv": 15,
     "herds": {
       "land": {
@@ -511,15 +511,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 204220
   },
   {
     "id": "ri20te190710",
-    "kind": "안정 섬",
-    "biome": "온대",
+    "kind": "Stable island",
+    "biome": "Temperate",
     "lv": 20,
     "herds": {
       "land": {
@@ -535,15 +535,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 201520
   },
   {
     "id": "ri25tr190710",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 25,
     "herds": {
       "land": {
@@ -559,15 +559,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ri30tu171228",
-    "kind": "안정 섬",
-    "biome": "툰드라",
+    "kind": "Stable island",
+    "biome": "Tundra",
     "lv": 30,
     "herds": {
       "land": {
@@ -583,15 +583,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203320
   },
   {
     "id": "ri30tuSub01",
-    "kind": "안정 섬",
-    "biome": "툰드라",
+    "kind": "Stable island",
+    "biome": "Tundra",
     "lv": 30,
     "herds": {
       "land": {
@@ -607,15 +607,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203320
   },
   {
     "id": "ri30tuSub02",
-    "kind": "안정 섬",
-    "biome": "툰드라",
+    "kind": "Stable island",
+    "biome": "Tundra",
     "lv": 30,
     "herds": {
       "land": {
@@ -631,15 +631,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203320
   },
   {
     "id": "ri30tuSub03_camp",
-    "kind": "안정 섬",
-    "biome": "툰드라",
+    "kind": "Stable island",
+    "biome": "Tundra",
     "lv": 30,
     "herds": {
       "land": {
@@ -655,15 +655,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203320
   },
   {
     "id": "ri35de171228",
-    "kind": "안정 섬",
-    "biome": "사막",
+    "kind": "Stable island",
+    "biome": "Desert",
     "lv": 35,
     "herds": {
       "land": {
@@ -679,15 +679,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 200220
   },
   {
     "id": "ri35deSub01",
-    "kind": "안정 섬",
-    "biome": "사막",
+    "kind": "Stable island",
+    "biome": "Desert",
     "lv": 35,
     "herds": {
       "land": {
@@ -703,15 +703,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 200220
   },
   {
     "id": "ri35deSub02",
-    "kind": "안정 섬",
-    "biome": "사막",
+    "kind": "Stable island",
+    "biome": "Desert",
     "lv": 35,
     "herds": {
       "land": {
@@ -727,15 +727,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 200220
   },
   {
     "id": "ri35deSub03_car",
-    "kind": "안정 섬",
-    "biome": "사막",
+    "kind": "Stable island",
+    "biome": "Desert",
     "lv": 35,
     "herds": {
       "land": {
@@ -751,15 +751,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 200220
   },
   {
     "id": "ri35te171228",
-    "kind": "안정 섬",
-    "biome": "온대",
+    "kind": "Stable island",
+    "biome": "Temperate",
     "lv": 35,
     "herds": {
       "land": {
@@ -782,15 +782,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 201520
   },
   {
     "id": "ri35teSub01",
-    "kind": "안정 섬",
-    "biome": "온대",
+    "kind": "Stable island",
+    "biome": "Temperate",
     "lv": 35,
     "herds": {
       "land": {
@@ -807,15 +807,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 201520
   },
   {
     "id": "ri35teSub02",
-    "kind": "안정 섬",
-    "biome": "온대",
+    "kind": "Stable island",
+    "biome": "Temperate",
     "lv": 35,
     "herds": {
       "land": {
@@ -832,15 +832,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 201520
   },
   {
     "id": "ri35teSub03_copper",
-    "kind": "안정 섬",
-    "biome": "온대",
+    "kind": "Stable island",
+    "biome": "Temperate",
     "lv": 35,
     "herds": {
       "land": {
@@ -857,15 +857,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 201520
   },
   {
     "id": "ri40tu171228",
-    "kind": "안정 섬",
-    "biome": "툰드라",
+    "kind": "Stable island",
+    "biome": "Tundra",
     "lv": 40,
     "herds": {
       "land": {
@@ -882,15 +882,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203320
   },
   {
     "id": "ri40tuSub01",
-    "kind": "안정 섬",
-    "biome": "툰드라",
+    "kind": "Stable island",
+    "biome": "Tundra",
     "lv": 40,
     "herds": {
       "land": {
@@ -907,15 +907,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203320
   },
   {
     "id": "ri40tuSub02",
-    "kind": "안정 섬",
-    "biome": "툰드라",
+    "kind": "Stable island",
+    "biome": "Tundra",
     "lv": 40,
     "herds": {
       "land": {
@@ -932,15 +932,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203320
   },
   {
     "id": "ri40tuSub03_powerbox",
-    "kind": "안정 섬",
-    "biome": "툰드라",
+    "kind": "Stable island",
+    "biome": "Tundra",
     "lv": 40,
     "herds": {
       "land": {
@@ -957,15 +957,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203320
   },
   {
     "id": "ri40tr171228",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 40,
     "herds": {
       "land": {
@@ -989,15 +989,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ri40trSub01",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 40,
     "herds": {
       "land": {
@@ -1015,15 +1015,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ri40trSub02",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 40,
     "herds": {
       "land": {
@@ -1041,15 +1041,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ri40trSub03_car",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 40,
     "herds": {
       "land": {
@@ -1067,15 +1067,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ri45sa171228",
-    "kind": "안정 섬",
-    "biome": "사바나",
+    "kind": "Stable island",
+    "biome": "Savanna",
     "lv": 45,
     "herds": {
       "land": {
@@ -1099,15 +1099,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 204220
   },
   {
     "id": "ri45saSub01",
-    "kind": "안정 섬",
-    "biome": "사바나",
+    "kind": "Stable island",
+    "biome": "Savanna",
     "lv": 45,
     "herds": {
       "land": {
@@ -1125,15 +1125,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 204220
   },
   {
     "id": "ri45saSub02",
-    "kind": "안정 섬",
-    "biome": "사바나",
+    "kind": "Stable island",
+    "biome": "Savanna",
     "lv": 45,
     "herds": {
       "land": {
@@ -1151,15 +1151,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 204220
   },
   {
     "id": "ri45saSub03_mud",
-    "kind": "안정 섬",
-    "biome": "사바나",
+    "kind": "Stable island",
+    "biome": "Savanna",
     "lv": 45,
     "herds": {
       "land": {
@@ -1177,15 +1177,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 204220
   },
   {
     "id": "ri45sw171228",
-    "kind": "안정 섬",
-    "biome": "늪",
+    "kind": "Stable island",
+    "biome": "Swamp",
     "lv": 45,
     "herds": {
       "land": {
@@ -1201,15 +1201,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203820
   },
   {
     "id": "ri45swSub01",
-    "kind": "안정 섬",
-    "biome": "늪",
+    "kind": "Stable island",
+    "biome": "Swamp",
     "lv": 45,
     "herds": {
       "land": {
@@ -1225,15 +1225,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203820
   },
   {
     "id": "ri45swSub02",
-    "kind": "안정 섬",
-    "biome": "늪",
+    "kind": "Stable island",
+    "biome": "Swamp",
     "lv": 45,
     "herds": {
       "land": {
@@ -1249,15 +1249,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203820
   },
   {
     "id": "ri45swSub03_billboard",
-    "kind": "안정 섬",
-    "biome": "늪",
+    "kind": "Stable island",
+    "biome": "Swamp",
     "lv": 45,
     "herds": {
       "land": {
@@ -1273,15 +1273,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203820
   },
   {
     "id": "ri50de171228",
-    "kind": "안정 섬",
-    "biome": "사막",
+    "kind": "Stable island",
+    "biome": "Desert",
     "lv": 50,
     "herds": {
       "land": {
@@ -1299,15 +1299,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 204320
   },
   {
     "id": "ri50deSub01",
-    "kind": "안정 섬",
-    "biome": "사막",
+    "kind": "Stable island",
+    "biome": "Desert",
     "lv": 50,
     "herds": {
       "land": {
@@ -1325,15 +1325,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 204320
   },
   {
     "id": "ri50deSub02",
-    "kind": "안정 섬",
-    "biome": "사막",
+    "kind": "Stable island",
+    "biome": "Desert",
     "lv": 50,
     "herds": {
       "land": {
@@ -1351,15 +1351,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 204320
   },
   {
     "id": "ri50deSub03_overpass",
-    "kind": "안정 섬",
-    "biome": "사막",
+    "kind": "Stable island",
+    "biome": "Desert",
     "lv": 50,
     "herds": {
       "land": {
@@ -1377,15 +1377,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 204320
   },
   {
     "id": "ri50sn171228",
-    "kind": "안정 섬",
-    "biome": "설원",
+    "kind": "Stable island",
+    "biome": "Snowfield",
     "lv": 50,
     "herds": {
       "land": {
@@ -1403,15 +1403,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 202010
   },
   {
     "id": "ri50snSub01",
-    "kind": "안정 섬",
-    "biome": "설원",
+    "kind": "Stable island",
+    "biome": "Snowfield",
     "lv": 50,
     "herds": {
       "land": {
@@ -1428,15 +1428,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 202010
   },
   {
     "id": "ri50snSub02",
-    "kind": "안정 섬",
-    "biome": "설원",
+    "kind": "Stable island",
+    "biome": "Snowfield",
     "lv": 50,
     "herds": {
       "land": {
@@ -1453,15 +1453,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 202010
   },
   {
     "id": "ri50snSub03_mammoth",
-    "kind": "안정 섬",
-    "biome": "설원",
+    "kind": "Stable island",
+    "biome": "Snowfield",
     "lv": 50,
     "herds": {
       "land": {
@@ -1473,15 +1473,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 202010
   },
   {
     "id": "ri55tb171228",
-    "kind": "안정 섬",
-    "biome": "대나무",
+    "kind": "Stable island",
+    "biome": "Bamboo",
     "lv": 55,
     "herds": {
       "land": {
@@ -1504,15 +1504,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ri55trSub01",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 55,
     "herds": {
       "land": {
@@ -1529,15 +1529,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ri55trSub02",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 55,
     "herds": {
       "land": {
@@ -1554,15 +1554,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ri55trSub03_camp",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 55,
     "herds": {
       "land": {
@@ -1579,15 +1579,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ri55tu171228",
-    "kind": "안정 섬",
-    "biome": "툰드라",
+    "kind": "Stable island",
+    "biome": "Tundra",
     "lv": 55,
     "herds": {
       "land": {
@@ -1604,15 +1604,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203320
   },
   {
     "id": "ri55tuSub01",
-    "kind": "안정 섬",
-    "biome": "툰드라",
+    "kind": "Stable island",
+    "biome": "Tundra",
     "lv": 55,
     "herds": {
       "land": {
@@ -1629,15 +1629,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203320
   },
   {
     "id": "ri55tuSub02",
-    "kind": "안정 섬",
-    "biome": "툰드라",
+    "kind": "Stable island",
+    "biome": "Tundra",
     "lv": 55,
     "herds": {
       "land": {
@@ -1654,15 +1654,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203320
   },
   {
     "id": "ri55tuSub03_camp",
-    "kind": "안정 섬",
-    "biome": "툰드라",
+    "kind": "Stable island",
+    "biome": "Tundra",
     "lv": 55,
     "herds": {
       "land": {
@@ -1679,15 +1679,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203320
   },
   {
     "id": "ri55sw171228",
-    "kind": "안정 섬",
-    "biome": "늪",
+    "kind": "Stable island",
+    "biome": "Swamp",
     "lv": 55,
     "herds": {
       "land": {
@@ -1703,15 +1703,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203820
   },
   {
     "id": "ri55swSub01",
-    "kind": "안정 섬",
-    "biome": "늪",
+    "kind": "Stable island",
+    "biome": "Swamp",
     "lv": 55,
     "herds": {
       "land": {
@@ -1727,15 +1727,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203820
   },
   {
     "id": "ri55swSub02",
-    "kind": "안정 섬",
-    "biome": "늪",
+    "kind": "Stable island",
+    "biome": "Swamp",
     "lv": 55,
     "herds": {
       "land": {
@@ -1751,15 +1751,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203820
   },
   {
     "id": "ri55swSub03_billboard",
-    "kind": "안정 섬",
-    "biome": "늪",
+    "kind": "Stable island",
+    "biome": "Swamp",
     "lv": 55,
     "herds": {
       "land": {
@@ -1775,15 +1775,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203820
   },
   {
     "id": "ra60sn171228",
-    "kind": "불안정 섬(지형)",
-    "biome": "설원",
+    "kind": "Unstable island (terrain)",
+    "biome": "Snowfield",
     "lv": 60,
     "herds": {
       "land": {
@@ -1796,15 +1796,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 201520
   },
   {
     "id": "ra60sw180226",
-    "kind": "불안정 섬(지형)",
-    "biome": "늪",
+    "kind": "Unstable island (terrain)",
+    "biome": "Swamp",
     "lv": 60,
     "herds": {
       "land": {
@@ -1817,28 +1817,28 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": "None"
   },
   {
     "id": "ri60vo180404",
-    "kind": "안정 섬",
-    "biome": "화산",
+    "kind": "Stable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": "None"
   },
   {
     "id": "ev40te180312",
-    "kind": "이벤트",
-    "biome": "온대",
+    "kind": "Event",
+    "biome": "Temperate",
     "lv": 40,
     "herds": {
       "land": {
@@ -1851,7 +1851,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": "None"
@@ -1875,7 +1875,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 203320
@@ -1901,7 +1901,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 203620
@@ -1927,7 +1927,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 203520
@@ -1948,15 +1948,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": "None"
   },
   {
     "id": "ev50tr180723",
-    "kind": "이벤트",
-    "biome": "열대",
+    "kind": "Event",
+    "biome": "Tropical",
     "lv": 50,
     "herds": {
       "land": {
@@ -1970,15 +1970,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 209320
   },
   {
     "id": "ev45te180803",
-    "kind": "이벤트",
-    "biome": "온대",
+    "kind": "Event",
+    "biome": "Temperate",
     "lv": 45,
     "herds": {
       "land": {
@@ -1993,7 +1993,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 202220
@@ -2017,7 +2017,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "시즌 · PvP",
+    "role": "Season · PvP",
     "reach": false,
     "active": true,
     "crHerd": 214202
@@ -2030,7 +2030,7 @@
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "시즌 · PvP",
+    "role": "Season · PvP",
     "reach": false,
     "active": true,
     "crHerd": "None"
@@ -2054,15 +2054,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "시즌 · PvP",
+    "role": "Season · PvP",
     "reach": false,
     "active": true,
     "crHerd": 214203
   },
   {
     "id": "ua60snMain01",
-    "kind": "불안정 섬",
-    "biome": "설원",
+    "kind": "Unstable island",
+    "biome": "Snowfield",
     "lv": 60,
     "herds": {
       "land": {
@@ -2080,15 +2080,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 202010
   },
   {
     "id": "ua60snMain02_elite",
-    "kind": "불안정 섬",
-    "biome": "설원",
+    "kind": "Unstable island",
+    "biome": "Snowfield",
     "lv": 60,
     "herds": {
       "land": {
@@ -2106,15 +2106,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 202010
   },
   {
     "id": "ua60snMain03",
-    "kind": "불안정 섬",
-    "biome": "설원",
+    "kind": "Unstable island",
+    "biome": "Snowfield",
     "lv": 60,
     "herds": {
       "land": {
@@ -2132,15 +2132,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 202010
   },
   {
     "id": "ua60snMain04_elite",
-    "kind": "불안정 섬",
-    "biome": "설원",
+    "kind": "Unstable island",
+    "biome": "Snowfield",
     "lv": 60,
     "herds": {
       "land": {
@@ -2158,15 +2158,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 202010
   },
   {
     "id": "ua60snSub01",
-    "kind": "불안정 섬",
-    "biome": "설원",
+    "kind": "Unstable island",
+    "biome": "Snowfield",
     "lv": 60,
     "herds": {
       "land": {
@@ -2183,15 +2183,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 202010
   },
   {
     "id": "ua60snSub02",
-    "kind": "불안정 섬",
-    "biome": "설원",
+    "kind": "Unstable island",
+    "biome": "Snowfield",
     "lv": 60,
     "herds": {
       "land": {
@@ -2208,15 +2208,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 202010
   },
   {
     "id": "ua60snSub03_mammoth",
-    "kind": "불안정 섬",
-    "biome": "설원",
+    "kind": "Unstable island",
+    "biome": "Snowfield",
     "lv": 60,
     "herds": {
       "land": {
@@ -2228,15 +2228,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 202010
   },
   {
     "id": "ua60trMain01",
-    "kind": "불안정 섬",
-    "biome": "열대",
+    "kind": "Unstable island",
+    "biome": "Tropical",
     "lv": 60,
     "herds": {
       "land": {
@@ -2259,15 +2259,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ua60trSub01",
-    "kind": "불안정 섬",
-    "biome": "열대",
+    "kind": "Unstable island",
+    "biome": "Tropical",
     "lv": 60,
     "herds": {
       "land": {
@@ -2284,15 +2284,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ua60trSub02",
-    "kind": "불안정 섬",
-    "biome": "열대",
+    "kind": "Unstable island",
+    "biome": "Tropical",
     "lv": 60,
     "herds": {
       "land": {
@@ -2309,15 +2309,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ua60trSub03_car",
-    "kind": "불안정 섬",
-    "biome": "열대",
+    "kind": "Unstable island",
+    "biome": "Tropical",
     "lv": 60,
     "herds": {
       "land": {
@@ -2334,15 +2334,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ua60deMain01",
-    "kind": "불안정 섬",
-    "biome": "사막",
+    "kind": "Unstable island",
+    "biome": "Desert",
     "lv": 60,
     "herds": {
       "land": {
@@ -2360,15 +2360,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 204320
   },
   {
     "id": "ua60deMain02_elite",
-    "kind": "불안정 섬",
-    "biome": "사막",
+    "kind": "Unstable island",
+    "biome": "Desert",
     "lv": 60,
     "herds": {
       "land": {
@@ -2386,15 +2386,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 204320
   },
   {
     "id": "ua60deMain03",
-    "kind": "불안정 섬",
-    "biome": "사막",
+    "kind": "Unstable island",
+    "biome": "Desert",
     "lv": 60,
     "herds": {
       "land": {
@@ -2412,15 +2412,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 204320
   },
   {
     "id": "ua60deMain04_elite",
-    "kind": "불안정 섬",
-    "biome": "사막",
+    "kind": "Unstable island",
+    "biome": "Desert",
     "lv": 60,
     "herds": {
       "land": {
@@ -2438,15 +2438,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 204320
   },
   {
     "id": "ua60deSub01",
-    "kind": "불안정 섬",
-    "biome": "사막",
+    "kind": "Unstable island",
+    "biome": "Desert",
     "lv": 60,
     "herds": {
       "land": {
@@ -2464,15 +2464,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 204320
   },
   {
     "id": "ua60deSub02",
-    "kind": "불안정 섬",
-    "biome": "사막",
+    "kind": "Unstable island",
+    "biome": "Desert",
     "lv": 60,
     "herds": {
       "land": {
@@ -2490,15 +2490,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 204320
   },
   {
     "id": "ua60deSub03_car",
-    "kind": "불안정 섬",
-    "biome": "사막",
+    "kind": "Unstable island",
+    "biome": "Desert",
     "lv": 60,
     "herds": {
       "land": {
@@ -2516,15 +2516,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 204320
   },
   {
     "id": "ua60tuMain01",
-    "kind": "불안정 섬",
-    "biome": "툰드라",
+    "kind": "Unstable island",
+    "biome": "Tundra",
     "lv": 60,
     "herds": {
       "land": {
@@ -2541,15 +2541,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203320
   },
   {
     "id": "ua60tuSub01",
-    "kind": "불안정 섬",
-    "biome": "툰드라",
+    "kind": "Unstable island",
+    "biome": "Tundra",
     "lv": 60,
     "herds": {
       "land": {
@@ -2566,15 +2566,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203320
   },
   {
     "id": "ua60tuSub02",
-    "kind": "불안정 섬",
-    "biome": "툰드라",
+    "kind": "Unstable island",
+    "biome": "Tundra",
     "lv": 60,
     "herds": {
       "land": {
@@ -2591,15 +2591,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203320
   },
   {
     "id": "ua60tuSub03_camp",
-    "kind": "불안정 섬",
-    "biome": "툰드라",
+    "kind": "Unstable island",
+    "biome": "Tundra",
     "lv": 60,
     "herds": {
       "land": {
@@ -2616,15 +2616,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203320
   },
   {
     "id": "ua60swMain01",
-    "kind": "불안정 섬",
-    "biome": "늪",
+    "kind": "Unstable island",
+    "biome": "Swamp",
     "lv": 60,
     "herds": {
       "land": {
@@ -2640,15 +2640,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203820
   },
   {
     "id": "ua60swMain02_elite",
-    "kind": "불안정 섬",
-    "biome": "늪",
+    "kind": "Unstable island",
+    "biome": "Swamp",
     "lv": 60,
     "herds": {
       "land": {
@@ -2665,15 +2665,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203820
   },
   {
     "id": "ua60swMain03",
-    "kind": "불안정 섬",
-    "biome": "늪",
+    "kind": "Unstable island",
+    "biome": "Swamp",
     "lv": 60,
     "herds": {
       "land": {
@@ -2689,15 +2689,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203820
   },
   {
     "id": "ua60swMain04_elite",
-    "kind": "불안정 섬",
-    "biome": "늪",
+    "kind": "Unstable island",
+    "biome": "Swamp",
     "lv": 60,
     "herds": {
       "land": {
@@ -2714,15 +2714,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203820
   },
   {
     "id": "ua60swMain05",
-    "kind": "불안정 섬",
-    "biome": "늪",
+    "kind": "Unstable island",
+    "biome": "Swamp",
     "lv": 60,
     "herds": {
       "land": {
@@ -2738,15 +2738,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 203820
   },
   {
     "id": "ua60swMain06_elite",
-    "kind": "불안정 섬",
-    "biome": "늪",
+    "kind": "Unstable island",
+    "biome": "Swamp",
     "lv": 60,
     "herds": {
       "land": {
@@ -2763,15 +2763,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 203820
   },
   {
     "id": "ua60swSub01",
-    "kind": "불안정 섬",
-    "biome": "늪",
+    "kind": "Unstable island",
+    "biome": "Swamp",
     "lv": 60,
     "herds": {
       "land": {
@@ -2787,15 +2787,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203820
   },
   {
     "id": "ua60swSub02",
-    "kind": "불안정 섬",
-    "biome": "늪",
+    "kind": "Unstable island",
+    "biome": "Swamp",
     "lv": 60,
     "herds": {
       "land": {
@@ -2811,15 +2811,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203820
   },
   {
     "id": "ua60swSub03_billboard",
-    "kind": "불안정 섬",
-    "biome": "늪",
+    "kind": "Unstable island",
+    "biome": "Swamp",
     "lv": 60,
     "herds": {
       "land": {
@@ -2835,28 +2835,28 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203820
   },
   {
     "id": "ri24grSub01",
-    "kind": "안정 섬",
-    "biome": "초원",
+    "kind": "Stable island",
+    "biome": "Grassland",
     "lv": 24,
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 11031
   },
   {
     "id": "ua60sn02Main01",
-    "kind": "불안정 섬",
-    "biome": "설원",
+    "kind": "Unstable island",
+    "biome": "Snowfield",
     "lv": 60,
     "herds": {
       "land": {
@@ -2874,15 +2874,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 202010
   },
   {
     "id": "ua60sn02Main02_elite",
-    "kind": "불안정 섬",
-    "biome": "설원",
+    "kind": "Unstable island",
+    "biome": "Snowfield",
     "lv": 60,
     "herds": {
       "land": {
@@ -2900,15 +2900,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 202010
   },
   {
     "id": "ua60sn02Main03",
-    "kind": "불안정 섬",
-    "biome": "설원",
+    "kind": "Unstable island",
+    "biome": "Snowfield",
     "lv": 60,
     "herds": {
       "land": {
@@ -2926,15 +2926,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 202010
   },
   {
     "id": "ua60sn02Main04_elite",
-    "kind": "불안정 섬",
-    "biome": "설원",
+    "kind": "Unstable island",
+    "biome": "Snowfield",
     "lv": 60,
     "herds": {
       "land": {
@@ -2952,15 +2952,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 202010
   },
   {
     "id": "ua60sn02Sub01",
-    "kind": "불안정 섬",
-    "biome": "설원",
+    "kind": "Unstable island",
+    "biome": "Snowfield",
     "lv": 60,
     "herds": {
       "land": {
@@ -2977,15 +2977,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 202010
   },
   {
     "id": "ua60sn02Sub02",
-    "kind": "불안정 섬",
-    "biome": "설원",
+    "kind": "Unstable island",
+    "biome": "Snowfield",
     "lv": 60,
     "herds": {
       "land": {
@@ -3002,15 +3002,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 202010
   },
   {
     "id": "ua60sn02Sub03_mammoth",
-    "kind": "불안정 섬",
-    "biome": "설원",
+    "kind": "Unstable island",
+    "biome": "Snowfield",
     "lv": 60,
     "herds": {
       "land": {
@@ -3022,15 +3022,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 202010
   },
   {
     "id": "ua60tr02Main01",
-    "kind": "불안정 섬",
-    "biome": "열대",
+    "kind": "Unstable island",
+    "biome": "Tropical",
     "lv": 60,
     "herds": {
       "land": {
@@ -3053,15 +3053,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ua60tr02Sub01",
-    "kind": "불안정 섬",
-    "biome": "열대",
+    "kind": "Unstable island",
+    "biome": "Tropical",
     "lv": 60,
     "herds": {
       "land": {
@@ -3078,15 +3078,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ua60tr02Sub02",
-    "kind": "불안정 섬",
-    "biome": "열대",
+    "kind": "Unstable island",
+    "biome": "Tropical",
     "lv": 60,
     "herds": {
       "land": {
@@ -3103,15 +3103,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ua60tr02Sub03_car",
-    "kind": "불안정 섬",
-    "biome": "열대",
+    "kind": "Unstable island",
+    "biome": "Tropical",
     "lv": 60,
     "herds": {
       "land": {
@@ -3128,15 +3128,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ua60de02Main01",
-    "kind": "불안정 섬",
-    "biome": "사막",
+    "kind": "Unstable island",
+    "biome": "Desert",
     "lv": 60,
     "herds": {
       "land": {
@@ -3154,15 +3154,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 204320
   },
   {
     "id": "ua60de02Main02_elite",
-    "kind": "불안정 섬",
-    "biome": "사막",
+    "kind": "Unstable island",
+    "biome": "Desert",
     "lv": 60,
     "herds": {
       "land": {
@@ -3180,15 +3180,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 204320
   },
   {
     "id": "ua60de02Main03",
-    "kind": "불안정 섬",
-    "biome": "사막",
+    "kind": "Unstable island",
+    "biome": "Desert",
     "lv": 60,
     "herds": {
       "land": {
@@ -3206,15 +3206,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 204320
   },
   {
     "id": "ua60de02Main04_elite",
-    "kind": "불안정 섬",
-    "biome": "사막",
+    "kind": "Unstable island",
+    "biome": "Desert",
     "lv": 60,
     "herds": {
       "land": {
@@ -3232,15 +3232,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 204320
   },
   {
     "id": "ua60de02Sub01",
-    "kind": "불안정 섬",
-    "biome": "사막",
+    "kind": "Unstable island",
+    "biome": "Desert",
     "lv": 60,
     "herds": {
       "land": {
@@ -3258,15 +3258,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 204320
   },
   {
     "id": "ua60de02Sub02",
-    "kind": "불안정 섬",
-    "biome": "사막",
+    "kind": "Unstable island",
+    "biome": "Desert",
     "lv": 60,
     "herds": {
       "land": {
@@ -3284,15 +3284,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 204320
   },
   {
     "id": "ua60de02Sub03_car",
-    "kind": "불안정 섬",
-    "biome": "사막",
+    "kind": "Unstable island",
+    "biome": "Desert",
     "lv": 60,
     "herds": {
       "land": {
@@ -3310,15 +3310,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 204320
   },
   {
     "id": "ua60tu02Main01",
-    "kind": "불안정 섬",
-    "biome": "툰드라",
+    "kind": "Unstable island",
+    "biome": "Tundra",
     "lv": 60,
     "herds": {
       "land": {
@@ -3335,15 +3335,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203320
   },
   {
     "id": "ua60tu02Sub01",
-    "kind": "불안정 섬",
-    "biome": "툰드라",
+    "kind": "Unstable island",
+    "biome": "Tundra",
     "lv": 60,
     "herds": {
       "land": {
@@ -3360,15 +3360,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203320
   },
   {
     "id": "ua60tu02Sub02",
-    "kind": "불안정 섬",
-    "biome": "툰드라",
+    "kind": "Unstable island",
+    "biome": "Tundra",
     "lv": 60,
     "herds": {
       "land": {
@@ -3385,15 +3385,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203320
   },
   {
     "id": "ua60tu02Sub03_camp",
-    "kind": "불안정 섬",
-    "biome": "툰드라",
+    "kind": "Unstable island",
+    "biome": "Tundra",
     "lv": 60,
     "herds": {
       "land": {
@@ -3410,15 +3410,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203320
   },
   {
     "id": "ua60sw02Main01",
-    "kind": "불안정 섬",
-    "biome": "늪",
+    "kind": "Unstable island",
+    "biome": "Swamp",
     "lv": 60,
     "herds": {
       "land": {
@@ -3434,15 +3434,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203820
   },
   {
     "id": "ua60sw02Main02_elite",
-    "kind": "불안정 섬",
-    "biome": "늪",
+    "kind": "Unstable island",
+    "biome": "Swamp",
     "lv": 60,
     "herds": {
       "land": {
@@ -3459,15 +3459,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203820
   },
   {
     "id": "ua60sw02Main03",
-    "kind": "불안정 섬",
-    "biome": "늪",
+    "kind": "Unstable island",
+    "biome": "Swamp",
     "lv": 60,
     "herds": {
       "land": {
@@ -3483,15 +3483,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203820
   },
   {
     "id": "ua60sw02Main04_elite",
-    "kind": "불안정 섬",
-    "biome": "늪",
+    "kind": "Unstable island",
+    "biome": "Swamp",
     "lv": 60,
     "herds": {
       "land": {
@@ -3508,15 +3508,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203820
   },
   {
     "id": "ua60sw02Main05",
-    "kind": "불안정 섬",
-    "biome": "늪",
+    "kind": "Unstable island",
+    "biome": "Swamp",
     "lv": 60,
     "herds": {
       "land": {
@@ -3532,15 +3532,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 203820
   },
   {
     "id": "ua60sw02Main06_elite",
-    "kind": "불안정 섬",
-    "biome": "늪",
+    "kind": "Unstable island",
+    "biome": "Swamp",
     "lv": 60,
     "herds": {
       "land": {
@@ -3557,15 +3557,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 203820
   },
   {
     "id": "ua60sw02Sub01",
-    "kind": "불안정 섬",
-    "biome": "늪",
+    "kind": "Unstable island",
+    "biome": "Swamp",
     "lv": 60,
     "herds": {
       "land": {
@@ -3581,15 +3581,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203820
   },
   {
     "id": "ua60sw02Sub02",
-    "kind": "불안정 섬",
-    "biome": "늪",
+    "kind": "Unstable island",
+    "biome": "Swamp",
     "lv": 60,
     "herds": {
       "land": {
@@ -3605,15 +3605,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203820
   },
   {
     "id": "ua60sw02Sub03_billboard",
-    "kind": "불안정 섬",
-    "biome": "늪",
+    "kind": "Unstable island",
+    "biome": "Swamp",
     "lv": 60,
     "herds": {
       "land": {
@@ -3629,15 +3629,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203820
   },
   {
     "id": "ri15trMain01_summerclub",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 15,
     "herds": {
       "beach": {
@@ -3649,15 +3649,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": "None"
   },
   {
     "id": "ri25tr171228",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 25,
     "herds": {
       "land": {
@@ -3673,15 +3673,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 203620
   },
   {
     "id": "ri20te170712",
-    "kind": "안정 섬",
-    "biome": "온대",
+    "kind": "Stable island",
+    "biome": "Temperate",
     "lv": 20,
     "herds": {
       "land": {
@@ -3697,15 +3697,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "ri35de170712",
-    "kind": "안정 섬",
-    "biome": "사막",
+    "kind": "Stable island",
+    "biome": "Desert",
     "lv": 35,
     "herds": {
       "land": {
@@ -3721,15 +3721,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 200220
   },
   {
     "id": "ri40tr170712",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 40,
     "herds": {
       "land": {
@@ -3747,15 +3747,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 203620
   },
   {
     "id": "ri50de170712",
-    "kind": "안정 섬",
-    "biome": "사막",
+    "kind": "Stable island",
+    "biome": "Desert",
     "lv": 50,
     "herds": {
       "land": {
@@ -3773,15 +3773,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 204320
   },
   {
     "id": "ra40de170712",
-    "kind": "불안정 섬(지형)",
-    "biome": "사막",
+    "kind": "Unstable island (terrain)",
+    "biome": "Desert",
     "lv": 40,
     "herds": {
       "land": {
@@ -3794,15 +3794,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 202320
   },
   {
     "id": "ri15sa170724",
-    "kind": "안정 섬",
-    "biome": "사바나",
+    "kind": "Stable island",
+    "biome": "Savanna",
     "lv": 15,
     "herds": {
       "land": {
@@ -3817,15 +3817,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 204220
   },
   {
     "id": "ri45sa170724",
-    "kind": "안정 섬",
-    "biome": "사바나",
+    "kind": "Stable island",
+    "biome": "Savanna",
     "lv": 45,
     "herds": {
       "land": {
@@ -3843,15 +3843,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 204220
   },
   {
     "id": "ri15sa170615",
-    "kind": "안정 섬",
-    "biome": "사바나",
+    "kind": "Stable island",
+    "biome": "Savanna",
     "lv": 15,
     "herds": {
       "land": {
@@ -3866,15 +3866,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 204220
   },
   {
     "id": "ri20te170615",
-    "kind": "안정 섬",
-    "biome": "온대",
+    "kind": "Stable island",
+    "biome": "Temperate",
     "lv": 20,
     "herds": {
       "land": {
@@ -3890,15 +3890,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "ri25tr170615",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 25,
     "herds": {
       "land": {
@@ -3914,15 +3914,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 203620
   },
   {
     "id": "ri30tu170615",
-    "kind": "안정 섬",
-    "biome": "툰드라",
+    "kind": "Stable island",
+    "biome": "Tundra",
     "lv": 30,
     "herds": {
       "land": {
@@ -3938,15 +3938,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 203320
   },
   {
     "id": "ri35te170615",
-    "kind": "안정 섬",
-    "biome": "온대",
+    "kind": "Stable island",
+    "biome": "Temperate",
     "lv": 35,
     "herds": {
       "land": {
@@ -3963,15 +3963,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "ri35de170615",
-    "kind": "안정 섬",
-    "biome": "사막",
+    "kind": "Stable island",
+    "biome": "Desert",
     "lv": 35,
     "herds": {
       "land": {
@@ -3987,15 +3987,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 200220
   },
   {
     "id": "ri40tr170615",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 40,
     "herds": {
       "land": {
@@ -4013,15 +4013,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 203620
   },
   {
     "id": "ri40tu170615",
-    "kind": "안정 섬",
-    "biome": "툰드라",
+    "kind": "Stable island",
+    "biome": "Tundra",
     "lv": 40,
     "herds": {
       "land": {
@@ -4038,15 +4038,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 203320
   },
   {
     "id": "ri45sa170615",
-    "kind": "안정 섬",
-    "biome": "사바나",
+    "kind": "Stable island",
+    "biome": "Savanna",
     "lv": 45,
     "herds": {
       "land": {
@@ -4064,15 +4064,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 204220
   },
   {
     "id": "ri45sw170615",
-    "kind": "안정 섬",
-    "biome": "늪",
+    "kind": "Stable island",
+    "biome": "Swamp",
     "lv": 45,
     "herds": {
       "land": {
@@ -4088,15 +4088,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 203820
   },
   {
     "id": "ri50de170615",
-    "kind": "안정 섬",
-    "biome": "사막",
+    "kind": "Stable island",
+    "biome": "Desert",
     "lv": 50,
     "herds": {
       "land": {
@@ -4114,15 +4114,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 200220
   },
   {
     "id": "ri50sn170615",
-    "kind": "안정 섬",
-    "biome": "설원",
+    "kind": "Stable island",
+    "biome": "Snowfield",
     "lv": 50,
     "herds": {
       "land": {
@@ -4139,15 +4139,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 203520
   },
   {
     "id": "ri55tb170615",
-    "kind": "안정 섬",
-    "biome": "대나무",
+    "kind": "Stable island",
+    "biome": "Bamboo",
     "lv": 55,
     "herds": {
       "land": {
@@ -4164,15 +4164,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 203620
   },
   {
     "id": "ri55tu170615",
-    "kind": "안정 섬",
-    "biome": "툰드라",
+    "kind": "Stable island",
+    "biome": "Tundra",
     "lv": 55,
     "herds": {
       "land": {
@@ -4189,15 +4189,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 203320
   },
   {
     "id": "ra30gr170615",
-    "kind": "불안정 섬(지형)",
-    "biome": "초원",
+    "kind": "Unstable island (terrain)",
+    "biome": "Grassland",
     "lv": 30,
     "herds": {
       "land": {
@@ -4209,15 +4209,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "ra35sa170615",
-    "kind": "불안정 섬(지형)",
-    "biome": "사바나",
+    "kind": "Unstable island (terrain)",
+    "biome": "Savanna",
     "lv": 35,
     "herds": {
       "land": {
@@ -4230,15 +4230,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "ra40de170615",
-    "kind": "불안정 섬(지형)",
-    "biome": "사막",
+    "kind": "Unstable island (terrain)",
+    "biome": "Desert",
     "lv": 40,
     "herds": {
       "land": {
@@ -4251,15 +4251,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "ra45tu170615",
-    "kind": "불안정 섬(지형)",
-    "biome": "툰드라",
+    "kind": "Unstable island (terrain)",
+    "biome": "Tundra",
     "lv": 45,
     "herds": {
       "land": {
@@ -4272,15 +4272,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "ra50tr170615",
-    "kind": "불안정 섬(지형)",
-    "biome": "열대",
+    "kind": "Unstable island (terrain)",
+    "biome": "Tropical",
     "lv": 50,
     "herds": {
       "land": {
@@ -4293,15 +4293,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "ra55te170615",
-    "kind": "불안정 섬(지형)",
-    "biome": "온대",
+    "kind": "Unstable island (terrain)",
+    "biome": "Temperate",
     "lv": 55,
     "herds": {
       "land": {
@@ -4314,15 +4314,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "ra60sn170615",
-    "kind": "불안정 섬(지형)",
-    "biome": "설원",
+    "kind": "Unstable island (terrain)",
+    "biome": "Snowfield",
     "lv": 60,
     "herds": {
       "land": {
@@ -4335,15 +4335,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "ri15sa170531",
-    "kind": "안정 섬",
-    "biome": "사바나",
+    "kind": "Stable island",
+    "biome": "Savanna",
     "lv": 15,
     "herds": {
       "land": {
@@ -4357,15 +4357,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "ri20te170601",
-    "kind": "안정 섬",
-    "biome": "온대",
+    "kind": "Stable island",
+    "biome": "Temperate",
     "lv": 20,
     "herds": {
       "land": {
@@ -4379,15 +4379,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "ri25tr170602",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 25,
     "herds": {
       "land": {
@@ -4401,15 +4401,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "ri30tu170601",
-    "kind": "안정 섬",
-    "biome": "툰드라",
+    "kind": "Stable island",
+    "biome": "Tundra",
     "lv": 30,
     "herds": {
       "land": {
@@ -4423,15 +4423,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "ri35te170601",
-    "kind": "안정 섬",
-    "biome": "온대",
+    "kind": "Stable island",
+    "biome": "Temperate",
     "lv": 35,
     "herds": {
       "land": {
@@ -4445,15 +4445,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "ri35de170601",
-    "kind": "안정 섬",
-    "biome": "사막",
+    "kind": "Stable island",
+    "biome": "Desert",
     "lv": 35,
     "herds": {
       "land": {
@@ -4467,15 +4467,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "ri40tr170601",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 40,
     "herds": {
       "land": {
@@ -4489,15 +4489,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "ri40tu170601",
-    "kind": "안정 섬",
-    "biome": "툰드라",
+    "kind": "Stable island",
+    "biome": "Tundra",
     "lv": 40,
     "herds": {
       "land": {
@@ -4511,15 +4511,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "ri45sa170420",
-    "kind": "안정 섬",
-    "biome": "사바나",
+    "kind": "Stable island",
+    "biome": "Savanna",
     "lv": 45,
     "herds": {
       "land": {
@@ -4533,15 +4533,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "ri45sw170602",
-    "kind": "안정 섬",
-    "biome": "늪",
+    "kind": "Stable island",
+    "biome": "Swamp",
     "lv": 45,
     "herds": {
       "land": {
@@ -4555,15 +4555,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "ri50de170524",
-    "kind": "안정 섬",
-    "biome": "사막",
+    "kind": "Stable island",
+    "biome": "Desert",
     "lv": 50,
     "herds": {
       "land": {
@@ -4577,15 +4577,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "ri50sn170524",
-    "kind": "안정 섬",
-    "biome": "설원",
+    "kind": "Stable island",
+    "biome": "Snowfield",
     "lv": 50,
     "herds": {
       "land": {
@@ -4599,7 +4599,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 201520
@@ -4607,7 +4607,7 @@
   {
     "id": "test60vol190625",
     "kind": null,
-    "biome": "화산",
+    "biome": "Volcanic",
     "lv": null,
     "herds": {
       "land": {
@@ -4630,7 +4630,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 201520
@@ -4638,7 +4638,7 @@
   {
     "id": "test60vol190516",
     "kind": null,
-    "biome": "화산",
+    "biome": "Volcanic",
     "lv": null,
     "herds": {
       "land": {
@@ -4661,7 +4661,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 201520
@@ -4669,7 +4669,7 @@
   {
     "id": "test60vol190516_sub1",
     "kind": null,
-    "biome": "화산",
+    "biome": "Volcanic",
     "lv": null,
     "herds": {
       "land": {
@@ -4691,7 +4691,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 201520
@@ -4699,12 +4699,12 @@
   {
     "id": "test60vol190508_sub2",
     "kind": null,
-    "biome": "화산",
+    "biome": "Volcanic",
     "lv": null,
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 201520
@@ -4712,12 +4712,12 @@
   {
     "id": "test60vol190508_sub3",
     "kind": null,
-    "biome": "화산",
+    "biome": "Volcanic",
     "lv": null,
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 201520
@@ -4725,7 +4725,7 @@
   {
     "id": "test60vol_512",
     "kind": null,
-    "biome": "화산",
+    "biome": "Volcanic",
     "lv": null,
     "herds": {
       "land": {
@@ -4749,7 +4749,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 217620
@@ -4757,7 +4757,7 @@
   {
     "id": "test60vol_256",
     "kind": null,
-    "biome": "화산",
+    "biome": "Volcanic",
     "lv": null,
     "herds": {
       "land": {
@@ -4779,7 +4779,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 217620
@@ -4787,7 +4787,7 @@
   {
     "id": "test60vol_128",
     "kind": null,
-    "biome": "화산",
+    "biome": "Volcanic",
     "lv": null,
     "herds": {
       "land": {
@@ -4808,7 +4808,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 217620
@@ -4816,7 +4816,7 @@
   {
     "id": "test60vol_cracks",
     "kind": null,
-    "biome": "화산",
+    "biome": "Volcanic",
     "lv": null,
     "herds": {
       "land": {
@@ -4834,15 +4834,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": false,
     "crHerd": 217620
   },
   {
     "id": "ua60vol_01_01",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -4864,15 +4864,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 217620
   },
   {
     "id": "ua60vol_01_02",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -4893,15 +4893,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 217620
   },
   {
     "id": "ua60vol_01_03",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -4921,15 +4921,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 217620
   },
   {
     "id": "ua60vol_02_01",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -4952,15 +4952,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 217620
   },
   {
     "id": "ua60vol_02_02",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -4981,15 +4981,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 217620
   },
   {
     "id": "ua60vol_02_03",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -5011,15 +5011,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 217620
   },
   {
     "id": "ua60vol_02_04",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -5037,15 +5037,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 217620
   },
   {
     "id": "ua60vol_03_01",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -5069,15 +5069,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 217620
   },
   {
     "id": "ua60vol_03_02",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -5098,15 +5098,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 217620
   },
   {
     "id": "ua60vol_04_01",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -5131,15 +5131,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 217620
   },
   {
     "id": "ua60vol_04_02",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -5160,15 +5160,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 217620
   },
   {
     "id": "ua60vol_04_03",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -5186,15 +5186,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 217620
   },
   {
     "id": "ua60vol_05_01",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -5219,15 +5219,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 217620
   },
   {
     "id": "ua60vol_05_02",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -5246,15 +5246,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 217620
   },
   {
     "id": "ua60vol_05_03",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -5275,15 +5275,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 217620
   },
   {
     "id": "ua60vol_06_01",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -5308,15 +5308,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 217620
   },
   {
     "id": "ua60vol_06_02",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -5337,15 +5337,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 217620
   },
   {
     "id": "ua60vol_06_03",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -5366,15 +5366,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 217620
   },
   {
     "id": "ua60vol_07_01",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -5399,15 +5399,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 217620
   },
   {
     "id": "ua60vol_07_02",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -5428,15 +5428,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 217620
   },
   {
     "id": "ua60vol_07_03",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -5455,15 +5455,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 217620
   },
   {
     "id": "ua60vol_08_01",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -5488,15 +5488,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 217620
   },
   {
     "id": "ua60vol_08_02",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -5517,7 +5517,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 217620
@@ -5530,15 +5530,15 @@
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "시즌 · PvP",
+    "role": "Season · PvP",
     "reach": false,
     "active": true,
     "crHerd": "None"
   },
   {
     "id": "ri18tr_01_01",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 18,
     "herds": {
       "land": {
@@ -5553,15 +5553,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 219930
   },
   {
     "id": "ri18tr_02_01",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 18,
     "herds": {
       "land": {
@@ -5577,15 +5577,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ri18tr_03_01",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 18,
     "herds": {
       "land": {
@@ -5600,15 +5600,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ri18tr_04_01",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 18,
     "herds": {
       "land": {
@@ -5624,28 +5624,28 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ri18tr_test",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 18,
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": false,
     "active": true,
     "crHerd": "None"
   },
   {
     "id": "ri18tr_05_01",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 18,
     "herds": {
       "land": {
@@ -5659,15 +5659,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ri18tr_05_02",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 18,
     "herds": {
       "land": {
@@ -5682,15 +5682,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ri18tr_05_03",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 18,
     "herds": {
       "land": {
@@ -5705,15 +5705,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ri18tr_06_01",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 18,
     "herds": {
       "land": {
@@ -5728,15 +5728,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ri18tr_06_02",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 18,
     "herds": {
       "beach": {
@@ -5751,15 +5751,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": 203620
   },
   {
     "id": "ri18tr_07_01",
-    "kind": "안정 섬",
-    "biome": "열대",
+    "kind": "Stable island",
+    "biome": "Tropical",
     "lv": 18,
     "herds": {
       "land": {
@@ -5774,15 +5774,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": false,
     "crHerd": 203620
   },
   {
     "id": "ru10gr170712",
-    "kind": "유적",
-    "biome": "초원",
+    "kind": "Ruins",
+    "biome": "Grassland",
     "lv": 10,
     "herds": {
       "land": {
@@ -5795,15 +5795,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "유적",
+    "role": "Ruins",
     "reach": false,
     "active": true,
     "crHerd": 201520
   },
   {
     "id": "ru10gr170615",
-    "kind": "유적",
-    "biome": "초원",
+    "kind": "Ruins",
+    "biome": "Grassland",
     "lv": 10,
     "herds": {
       "land": {
@@ -5816,15 +5816,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "유적",
+    "role": "Ruins",
     "reach": false,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "ru10gr170511",
-    "kind": "유적",
-    "biome": "초원",
+    "kind": "Ruins",
+    "biome": "Grassland",
     "lv": 10,
     "herds": {
       "lake_shallow": {
@@ -5864,7 +5864,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "유적",
+    "role": "Ruins",
     "reach": false,
     "active": false,
     "crHerd": "None"
@@ -5877,7 +5877,7 @@
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "유적",
+    "role": "Ruins",
     "reach": false,
     "active": false,
     "crHerd": "None"
@@ -5890,7 +5890,7 @@
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "유적",
+    "role": "Ruins",
     "reach": false,
     "active": false,
     "crHerd": "None"
@@ -5903,15 +5903,15 @@
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "유적",
+    "role": "Ruins",
     "reach": false,
     "active": false,
     "crHerd": "None"
   },
   {
     "id": "sh05tr180130",
-    "kind": "안전가옥",
-    "biome": "열대",
+    "kind": "Safehouse",
+    "biome": "Tropical",
     "lv": 5,
     "herds": {
       "land": {
@@ -5923,15 +5923,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "안전가옥",
+    "role": "Safehouse",
     "reach": false,
     "active": true,
     "crHerd": 201520
   },
   {
     "id": "sh05tr171110",
-    "kind": "안전가옥",
-    "biome": "열대",
+    "kind": "Safehouse",
+    "biome": "Tropical",
     "lv": 5,
     "herds": {
       "land": {
@@ -5943,15 +5943,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "안전가옥",
+    "role": "Safehouse",
     "reach": false,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "sh05tr171109",
-    "kind": "안전가옥",
-    "biome": "열대",
+    "kind": "Safehouse",
+    "biome": "Tropical",
     "lv": 5,
     "herds": {
       "land": {
@@ -5963,15 +5963,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "안전가옥",
+    "role": "Safehouse",
     "reach": false,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "sh05tr171108",
-    "kind": "안전가옥",
-    "biome": "열대",
+    "kind": "Safehouse",
+    "biome": "Tropical",
     "lv": 5,
     "herds": {
       "land": {
@@ -5983,15 +5983,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "안전가옥",
+    "role": "Safehouse",
     "reach": false,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "sh05tr170927",
-    "kind": "안전가옥",
-    "biome": "열대",
+    "kind": "Safehouse",
+    "biome": "Tropical",
     "lv": 5,
     "herds": {
       "land": {
@@ -6004,15 +6004,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "안전가옥",
+    "role": "Safehouse",
     "reach": false,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "sh05tr170926",
-    "kind": "안전가옥",
-    "biome": "열대",
+    "kind": "Safehouse",
+    "biome": "Tropical",
     "lv": 5,
     "herds": {
       "land": {
@@ -6024,15 +6024,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "안전가옥",
+    "role": "Safehouse",
     "reach": false,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "sh05tr170919",
-    "kind": "안전가옥",
-    "biome": "열대",
+    "kind": "Safehouse",
+    "biome": "Tropical",
     "lv": 5,
     "herds": {
       "land": {
@@ -6044,15 +6044,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "안전가옥",
+    "role": "Safehouse",
     "reach": false,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "sh05tr170918",
-    "kind": "안전가옥",
-    "biome": "열대",
+    "kind": "Safehouse",
+    "biome": "Tropical",
     "lv": 5,
     "herds": {
       "land": {
@@ -6064,15 +6064,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "안전가옥",
+    "role": "Safehouse",
     "reach": false,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "sh05tr170914",
-    "kind": "안전가옥",
-    "biome": "열대",
+    "kind": "Safehouse",
+    "biome": "Tropical",
     "lv": 5,
     "herds": {
       "land": {
@@ -6084,98 +6084,98 @@
     },
     "craters": null,
     "elite": false,
-    "role": "안전가옥",
+    "role": "Safehouse",
     "reach": false,
     "active": false,
     "crHerd": 201520
   },
   {
     "id": "t01test170615",
-    "kind": "시험",
+    "kind": "Trial",
     "biome": null,
     "lv": null,
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "시험",
+    "role": "Trial",
     "reach": false,
     "active": false,
     "crHerd": "None"
   },
   {
     "id": "t01test160627",
-    "kind": "시험",
+    "kind": "Trial",
     "biome": null,
     "lv": null,
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "시험",
+    "role": "Trial",
     "reach": false,
     "active": false,
     "crHerd": "None"
   },
   {
     "id": "t01test170425",
-    "kind": "시험",
+    "kind": "Trial",
     "biome": null,
     "lv": null,
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "시험",
+    "role": "Trial",
     "reach": false,
     "active": false,
     "crHerd": "None"
   },
   {
     "id": "i01ancora180107",
-    "kind": "앙코라",
+    "kind": "Ancora",
     "biome": null,
     "lv": null,
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "앙코라",
+    "role": "Ancora",
     "reach": false,
     "active": true,
     "crHerd": "None"
   },
   {
     "id": "i01ancora170918",
-    "kind": "앙코라",
+    "kind": "Ancora",
     "biome": null,
     "lv": null,
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "앙코라",
+    "role": "Ancora",
     "reach": false,
     "active": false,
     "crHerd": "None"
   },
   {
     "id": "i01ancora170712",
-    "kind": "앙코라",
+    "kind": "Ancora",
     "biome": null,
     "lv": null,
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "앙코라",
+    "role": "Ancora",
     "reach": false,
     "active": false,
     "crHerd": "None"
   },
   {
     "id": "i01ancora160714",
-    "kind": "앙코라",
+    "kind": "Ancora",
     "biome": null,
     "lv": null,
     "herds": {},
     "craters": null,
     "elite": false,
-    "role": "앙코라",
+    "role": "Ancora",
     "reach": false,
     "active": false,
     "crHerd": "None"
@@ -6183,7 +6183,7 @@
   {
     "id": "ur40gr170615",
     "kind": null,
-    "biome": "초원",
+    "biome": "Grassland",
     "lv": 40,
     "herds": {
       "land": {
@@ -6202,7 +6202,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "도시섬",
+    "role": "City island",
     "reach": false,
     "active": true,
     "crHerd": 201520
@@ -6210,7 +6210,7 @@
   {
     "id": "ur40te170615",
     "kind": null,
-    "biome": "온대",
+    "biome": "Temperate",
     "lv": 40,
     "herds": {
       "land": {
@@ -6229,7 +6229,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "도시섬",
+    "role": "City island",
     "reach": false,
     "active": true,
     "crHerd": 201520
@@ -6237,7 +6237,7 @@
   {
     "id": "ur40tr170615",
     "kind": null,
-    "biome": "열대",
+    "biome": "Tropical",
     "lv": 40,
     "herds": {
       "land": {
@@ -6254,7 +6254,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "도시섬",
+    "role": "City island",
     "reach": false,
     "active": true,
     "crHerd": 201520
@@ -6262,7 +6262,7 @@
   {
     "id": "ur40tu170615",
     "kind": null,
-    "biome": "툰드라",
+    "biome": "Tundra",
     "lv": 40,
     "herds": {
       "land": {
@@ -6279,7 +6279,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "도시섬",
+    "role": "City island",
     "reach": false,
     "active": true,
     "crHerd": 201520
@@ -6287,7 +6287,7 @@
   {
     "id": "ur40gr170511",
     "kind": null,
-    "biome": "초원",
+    "biome": "Grassland",
     "lv": 40,
     "herds": {
       "lake_shallow": {
@@ -6327,7 +6327,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "도시섬",
+    "role": "City island",
     "reach": false,
     "active": false,
     "crHerd": "None"
@@ -6335,7 +6335,7 @@
   {
     "id": "ur40te170511",
     "kind": null,
-    "biome": "온대",
+    "biome": "Temperate",
     "lv": 40,
     "herds": {
       "lake_shallow": {
@@ -6375,7 +6375,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "도시섬",
+    "role": "City island",
     "reach": false,
     "active": false,
     "crHerd": "None"
@@ -6383,7 +6383,7 @@
   {
     "id": "ur40tr170511",
     "kind": null,
-    "biome": "열대",
+    "biome": "Tropical",
     "lv": 40,
     "herds": {
       "lake_shallow": {
@@ -6423,7 +6423,7 @@
     },
     "craters": null,
     "elite": false,
-    "role": "도시섬",
+    "role": "City island",
     "reach": false,
     "active": false,
     "crHerd": "None"
@@ -6431,7 +6431,7 @@
   {
     "id": "ur40tu170511",
     "kind": null,
-    "biome": "툰드라",
+    "biome": "Tundra",
     "lv": 40,
     "herds": {
       "lake_shallow": {
@@ -6471,15 +6471,15 @@
     },
     "craters": null,
     "elite": false,
-    "role": "도시섬",
+    "role": "City island",
     "reach": false,
     "active": false,
     "crHerd": "None"
   },
   {
     "id": "ua60teMain01",
-    "kind": "불안정 섬",
-    "biome": "온대",
+    "kind": "Unstable island",
+    "biome": "Temperate",
     "lv": 60,
     "herds": {
       "land": {
@@ -6505,16 +6505,16 @@
     },
     "craters": 16,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": "201520",
-    "fork": "우리가 만들었다 — 이 빌드에 Lv.60 온대 섬이 없어서"
+    "fork": "We made it — no lv60 temperate island in this build"
   },
   {
     "id": "ua45sa_solo_elite",
-    "kind": "불안정 섬",
-    "biome": "사바나",
+    "kind": "Unstable island",
+    "biome": "Savanna",
     "lv": 45,
     "herds": {
       "land": {
@@ -6527,16 +6527,16 @@
     },
     "craters": 0,
     "elite": true,
-    "role": "정예 섬",
+    "role": "Elite island",
     "reach": true,
     "active": true,
     "crHerd": null,
-    "fork": "보스 1마리와 일반 지원 무리 1개인 합성 정예 프로필"
+    "fork": "Synthesized elite profile: 1 boss + 1 normal support herd"
   },
   {
     "id": "ua60te_solo_elite",
-    "kind": "불안정 섬",
-    "biome": "온대",
+    "kind": "Unstable island",
+    "biome": "Temperate",
     "lv": 60,
     "herds": {
       "land": {
@@ -6549,16 +6549,16 @@
     },
     "craters": 0,
     "elite": true,
-    "role": "정예 섬",
+    "role": "Elite island",
     "reach": true,
     "active": true,
     "crHerd": null,
-    "fork": "보스 1마리와 일반 지원 무리 1개인 합성 정예 프로필"
+    "fork": "Synthesized elite profile: 1 boss + 1 normal support herd"
   },
   {
     "id": "ua60tr_solo_elite",
-    "kind": "불안정 섬",
-    "biome": "열대",
+    "kind": "Unstable island",
+    "biome": "Tropical",
     "lv": 60,
     "herds": {
       "land": {
@@ -6571,16 +6571,16 @@
     },
     "craters": 0,
     "elite": true,
-    "role": "정예 섬",
+    "role": "Elite island",
     "reach": true,
     "active": true,
     "crHerd": null,
-    "fork": "보스 1마리와 일반 지원 무리 1개인 합성 정예 프로필"
+    "fork": "Synthesized elite profile: 1 boss + 1 normal support herd"
   },
   {
     "id": "ua60de_solo_elite",
-    "kind": "불안정 섬",
-    "biome": "사막",
+    "kind": "Unstable island",
+    "biome": "Desert",
     "lv": 60,
     "herds": {
       "land": {
@@ -6593,16 +6593,16 @@
     },
     "craters": 0,
     "elite": true,
-    "role": "정예 섬",
+    "role": "Elite island",
     "reach": true,
     "active": true,
     "crHerd": null,
-    "fork": "보스 1마리와 일반 지원 무리 1개인 합성 정예 프로필"
+    "fork": "Synthesized elite profile: 1 boss + 1 normal support herd"
   },
   {
     "id": "ua60tu_solo_elite",
-    "kind": "불안정 섬",
-    "biome": "툰드라",
+    "kind": "Unstable island",
+    "biome": "Tundra",
     "lv": 60,
     "herds": {
       "land": {
@@ -6615,16 +6615,16 @@
     },
     "craters": 0,
     "elite": true,
-    "role": "정예 섬",
+    "role": "Elite island",
     "reach": true,
     "active": true,
     "crHerd": null,
-    "fork": "보스 1마리와 일반 지원 무리 1개인 합성 정예 프로필"
+    "fork": "Synthesized elite profile: 1 boss + 1 normal support herd"
   },
   {
     "id": "ua60sn_solo_elite",
-    "kind": "불안정 섬",
-    "biome": "설원",
+    "kind": "Unstable island",
+    "biome": "Snowfield",
     "lv": 60,
     "herds": {
       "land": {
@@ -6637,16 +6637,16 @@
     },
     "craters": 0,
     "elite": true,
-    "role": "정예 섬",
+    "role": "Elite island",
     "reach": true,
     "active": true,
     "crHerd": null,
-    "fork": "보스 1마리와 일반 지원 무리 1개인 합성 정예 프로필"
+    "fork": "Synthesized elite profile: 1 boss + 1 normal support herd"
   },
   {
     "id": "ua60sw_solo_elite",
-    "kind": "불안정 섬",
-    "biome": "늪",
+    "kind": "Unstable island",
+    "biome": "Swamp",
     "lv": 60,
     "herds": {
       "land": {
@@ -6659,16 +6659,16 @@
     },
     "craters": 0,
     "elite": true,
-    "role": "정예 섬",
+    "role": "Elite island",
     "reach": true,
     "active": true,
     "crHerd": null,
-    "fork": "보스 1마리와 일반 지원 무리 1개인 합성 정예 프로필"
+    "fork": "Synthesized elite profile: 1 boss + 1 normal support herd"
   },
   {
     "id": "ua60vo_solo_elite",
-    "kind": "불안정 섬",
-    "biome": "화산",
+    "kind": "Unstable island",
+    "biome": "Volcanic",
     "lv": 60,
     "herds": {
       "land": {
@@ -6681,17 +6681,17 @@
     },
     "craters": 0,
     "elite": true,
-    "role": "정예 섬",
+    "role": "Elite island",
     "reach": true,
     "active": true,
     "crHerd": null,
-    "fork": "보스 1마리와 일반 지원 무리 1개인 합성 정예 프로필"
+    "fork": "Synthesized elite profile: 1 boss + 1 normal support herd"
   },
   {
     "id": "ri15sa_lucid_test",
-    "name": "테스트섬",
-    "kind": "불안정 섬",
-    "biome": "사바나",
+    "name": "Test island",
+    "kind": "Unstable island",
+    "biome": "Savanna",
     "lv": 15,
     "herds": {
       "land": {
@@ -6703,10 +6703,10 @@
     },
     "craters": 0,
     "elite": false,
-    "role": "일반 섬",
+    "role": "Normal island",
     "reach": true,
     "active": true,
     "crHerd": null,
-    "fork": "테스트섬 — 64×64 소형 섬, 테리지노사우루스 Lv.15 한 마리, 불안정 지수 1 고정. 루시드 배치를 취소하고 새 제작 종으로 교체. 빈 지형(채집물·자연물·장식물·크레이터 없음) 시험용. 실제 게임 외형·전투 검증 전 시제품"
+    "fork": "Test island — small 64x64 island, 1 lv15 Therizinosaurus, fixed instability index 1. Lucid placement cancelled, replaced with a new built species. Empty terrain (no gatherables, naturals, decor, craters) for testing. Prototype before actual visual & combat verification."
   }
 ]
