@@ -1,10 +1,10 @@
 {
   "2048": {
     "id": "2048",
-    "name": "이구아노돈",
-    "type": "초식",
+    "name": "Iguanodon",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -83,12 +83,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "사바나": {
+      "Savana": {
         "lo": 45,
         "hi": 45,
         "n": 6,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri45sa171228",
@@ -99,11 +99,11 @@
           "ri45sa170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "초원": {
+      "Padang rumput": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -112,7 +112,7 @@
           "ur40gr170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -122,10 +122,10 @@
   },
   "2049": {
     "id": "2049",
-    "name": "한복 페나코두스",
-    "type": "초식",
+    "name": "Phenacodus hanbok",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -168,15 +168,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "길들임 변종 — 길들이기·교배로 얻는다",
+    "noSpawn": "Varian jinak — diperoleh via penjinakan/perkawinan",
     "unreachable": false
   },
   "2050": {
     "id": "2050",
-    "name": "마녀 페나코두스",
-    "type": "초식",
+    "name": "Phenacodus penyihir",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -219,15 +219,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "길들임 변종 — 길들이기·교배로 얻는다",
+    "noSpawn": "Varian jinak — diperoleh via penjinakan/perkawinan",
     "unreachable": false
   },
   "2051": {
     "id": "2051",
-    "name": "겁쟁이 랩터",
-    "type": "Scavenger",
+    "name": "Raptor pengecut",
+    "type": "Pemulung",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -294,18 +294,18 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 5,
         "hi": 5,
         "n": 1,
         "kinds": [
-          "안전가옥"
+          "Rumah aman"
         ],
         "ids": [
           "sh05tr170927"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -315,10 +315,10 @@
   },
   "2052": {
     "id": "2052",
-    "name": "호박마녀 페나코두스",
-    "type": "초식",
+    "name": "Phenacodus penyihir labu",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -361,15 +361,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "길들임 변종 — 길들이기·교배로 얻는다",
+    "noSpawn": "Varian jinak — diperoleh via penjinakan/perkawinan",
     "unreachable": false
   },
   "2053": {
     "id": "2053",
-    "name": "루돌프 메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros Rudolf",
+    "type": "Herbivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": true,
     "lvRange": [
       56,
@@ -436,15 +436,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "길들임 변종 — 길들이기·교배로 얻는다",
+    "noSpawn": "Varian jinak — diperoleh via penjinakan/perkawinan",
     "unreachable": false
   },
   "2054": {
     "id": "2054",
-    "name": "땅거북안킬로",
-    "type": "초식",
+    "name": "Ankylo kura-kura darat",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": true,
     "lvRange": [
       1,
@@ -511,15 +511,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "길들임 변종 — 길들이기·교배로 얻는다",
+    "noSpawn": "Varian jinak — diperoleh via penjinakan/perkawinan",
     "unreachable": false
   },
   "2055": {
     "id": "2055",
-    "name": "다이어울프",
-    "type": "육식",
+    "name": "Direwolf",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -586,15 +586,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "길들임 변종 — 길들이기·교배로 얻는다",
+    "noSpawn": "Varian jinak — diperoleh via penjinakan/perkawinan",
     "unreachable": false
   },
   "2056": {
     "id": "2056",
-    "name": "마크라우케니아",
-    "type": "초식",
+    "name": "Macrauchenia",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -649,15 +649,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "길들임 변종 — 길들이기·교배로 얻는다",
+    "noSpawn": "Varian jinak — diperoleh via penjinakan/perkawinan",
     "unreachable": false
   },
   "2057": {
     "id": "2057",
-    "name": "수컷 메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros jantan",
+    "type": "Herbivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": true,
     "lvRange": [
       25,
@@ -724,15 +724,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "길들임 변종 — 길들이기·교배로 얻는다",
+    "noSpawn": "Varian jinak — diperoleh via penjinakan/perkawinan",
     "unreachable": false
   },
   "2058": {
     "id": "2058",
-    "name": "코엘로피시스",
-    "type": "육식",
+    "name": "Coelophysis",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -787,15 +787,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2059": {
     "id": "2059",
-    "name": "파키케팔로사우루스",
-    "type": "초식",
+    "name": "Pachycephalosaurus",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -874,15 +874,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2060": {
     "id": "2060",
-    "name": "스컹코두스",
-    "type": "초식",
+    "name": "Skunkodous",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -925,15 +925,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "길들임 변종 — 길들이기·교배로 얻는다",
+    "noSpawn": "Varian jinak — diperoleh via penjinakan/perkawinan",
     "unreachable": false
   },
   "2061": {
     "id": "2061",
-    "name": "스테고사우루스",
-    "type": "초식",
+    "name": "Stegosaurus",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -1012,15 +1012,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2062": {
     "id": "2062",
-    "name": "트리케라톱스",
-    "type": "초식",
+    "name": "Triceratops",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -1099,15 +1099,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2063": {
     "id": "2063",
-    "name": "암컷 메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros betina",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       25,
@@ -1174,15 +1174,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2064": {
     "id": "2064",
-    "name": "어린 메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros muda",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       25,
@@ -1225,15 +1225,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "새끼 — 교배로 나온다",
+    "noSpawn": "Anakan — muncul via perkawinan",
     "unreachable": false
   },
   "2065": {
     "id": "2065",
-    "name": "어린 트리케라톱스",
-    "type": "초식",
+    "name": "Triceratops muda",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -1300,15 +1300,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "새끼 — 교배로 나온다",
+    "noSpawn": "Anakan — muncul via perkawinan",
     "unreachable": false
   },
   "2066": {
     "id": "2066",
-    "name": "어린 브라키오사우루스",
-    "type": "초식",
+    "name": "Brachiosaurus muda",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -1387,18 +1387,18 @@
     },
     "forkPlaced": null,
     "hab": {
-      "온대": {
+      "Sedang": {
         "lo": 60,
         "hi": 60,
         "n": 1,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "ua60teMain01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -1408,10 +1408,10 @@
   },
   "2067": {
     "id": "2067",
-    "name": "어린 안킬로사우루스",
-    "type": "초식",
+    "name": "Ankylosaurus muda",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -1466,15 +1466,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "새끼 — 교배로 나온다",
+    "noSpawn": "Anakan — muncul via perkawinan",
     "unreachable": false
   },
   "2068": {
     "id": "2068",
-    "name": "어린 유오플로케팔루스",
-    "type": "초식",
+    "name": "Euoplocephalus muda",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -1529,15 +1529,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "새끼 — 교배로 나온다",
+    "noSpawn": "Anakan — muncul via perkawinan",
     "unreachable": false
   },
   "2069": {
     "id": "2069",
-    "name": "다이어울프",
-    "type": "육식",
+    "name": "Direwolf",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -1604,12 +1604,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "온대": {
+      "Sedang": {
         "lo": 60,
         "hi": 60,
         "n": 3,
         "kinds": [
-          "특수"
+          "Khusus"
         ],
         "ids": [
           "op60te170615",
@@ -1617,7 +1617,7 @@
           "op60te180220"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -1627,10 +1627,10 @@
   },
   "2070": {
     "id": "2070",
-    "name": "흰털다이어울프",
-    "type": "육식",
+    "name": "Direwolf bulu putih",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -1697,7 +1697,7 @@
     },
     "forkPlaced": null,
     "hab": {
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 1,
@@ -1706,7 +1706,7 @@
           "s01_ri55sn180405"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -1716,10 +1716,10 @@
   },
   "2071": {
     "id": "2071",
-    "name": "어린 다이어울프",
-    "type": "육식",
+    "name": "Direwolf muda",
+    "type": "Karnivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -1762,15 +1762,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "새끼 — 교배로 나온다",
+    "noSpawn": "Anakan — muncul via perkawinan",
     "unreachable": false
   },
   "2072": {
     "id": "2072",
-    "name": "어린 카스모사우루스",
-    "type": "초식",
+    "name": "Chasmosaurus muda",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       30,
@@ -1837,15 +1837,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "새끼 — 교배로 나온다",
+    "noSpawn": "Anakan — muncul via perkawinan",
     "unreachable": false
   },
   "2073": {
     "id": "2073",
-    "name": "어린 스티라코사우루스",
-    "type": "초식",
+    "name": "Styracosaurus muda",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -1912,15 +1912,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "새끼 — 교배로 나온다",
+    "noSpawn": "Anakan — muncul via perkawinan",
     "unreachable": false
   },
   "2074": {
     "id": "2074",
-    "name": "어린 투오지앙고사우루스",
-    "type": "초식",
+    "name": "Tuojiangosaurus muda",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -1987,15 +1987,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "새끼 — 교배로 나온다",
+    "noSpawn": "Anakan — muncul via perkawinan",
     "unreachable": false
   },
   "2075": {
     "id": "2075",
-    "name": "어린 스테고사우루스",
-    "type": "초식",
+    "name": "Stegosaurus muda",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -2062,15 +2062,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "새끼 — 교배로 나온다",
+    "noSpawn": "Anakan — muncul via perkawinan",
     "unreachable": false
   },
   "2076": {
     "id": "2076",
-    "name": "어린 갈리미무스",
-    "type": "초식",
+    "name": "Gallimimus muda",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -2113,15 +2113,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "새끼 — 교배로 나온다",
+    "noSpawn": "Anakan — muncul via perkawinan",
     "unreachable": false
   },
   "2077": {
     "id": "2077",
-    "name": "알비랍토르",
-    "type": "Scavenger",
+    "name": "Albirraptor",
+    "type": "Pemulung",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -2176,12 +2176,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "온대": {
+      "Sedang": {
         "lo": 20,
         "hi": 60,
         "n": 5,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "tr60te170613",
@@ -2191,18 +2191,18 @@
           "ur40te170511"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "설원": {
+      "Salju": {
         "lo": 50,
         "hi": 60,
         "n": 19,
         "kinds": [
-          "불안정 섬",
-          "불안정 섬(지형)",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau tak stabil (terrain)",
+          "Pulau stabil"
         ],
         "ids": [
           "ri50sn171228",
@@ -2213,11 +2213,11 @@
           "ua60snMain02_elite"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 1,
@@ -2226,32 +2226,32 @@
           "s01_ri55sn180405"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "사바나": {
+      "Savana": {
         "lo": 15,
         "hi": 45,
         "n": 2,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri15sa170531",
           "ri45sa170420"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "열대": {
+      "Tropis": {
         "lo": 25,
         "hi": 40,
         "n": 3,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri25tr170602",
@@ -2259,16 +2259,16 @@
           "ur40tr170511"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "툰드라": {
+      "Tundra": {
         "lo": 30,
         "hi": 40,
         "n": 3,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri30tu170601",
@@ -2276,54 +2276,54 @@
           "ur40tu170511"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "사막": {
+      "Gurun": {
         "lo": 35,
         "hi": 50,
         "n": 2,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri35de170601",
           "ri50de170524"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "늪": {
+      "Rawa": {
         "lo": 45,
         "hi": 45,
         "n": 1,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri45sw170602"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "초원": {
+      "Padang rumput": {
         "lo": 10,
         "hi": 40,
         "n": 2,
         "kinds": [
-          "유적"
+          "Reruntuhan"
         ],
         "ids": [
           "ru10gr170511",
           "ur40gr170511"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -2333,10 +2333,10 @@
   },
   "2078": {
     "id": "2078",
-    "name": "픽타랍토르",
-    "type": "Scavenger",
+    "name": "Pictaraptor",
+    "type": "Pemulung",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -2391,14 +2391,14 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 18,
         "hi": 60,
         "n": 27,
         "kinds": [
-          "불안정 섬(지형)",
-          "안정 섬",
-          "특수"
+          "Pulau tak stabil (terrain)",
+          "Pulau stabil",
+          "Khusus"
         ],
         "ids": [
           "op60tr170712",
@@ -2409,17 +2409,17 @@
           "ri25tr190710"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "온대": {
+      "Sedang": {
         "lo": 20,
         "hi": 60,
         "n": 7,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "tr60te170613",
@@ -2430,11 +2430,11 @@
           "ua60teMain01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 1,
@@ -2443,32 +2443,32 @@
           "s01_ri45tr180405"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "사바나": {
+      "Savana": {
         "lo": 15,
         "hi": 45,
         "n": 2,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri15sa170531",
           "ri45sa170420"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "툰드라": {
+      "Tundra": {
         "lo": 30,
         "hi": 40,
         "n": 3,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri30tu170601",
@@ -2476,69 +2476,69 @@
           "ur40tu170511"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "사막": {
+      "Gurun": {
         "lo": 35,
         "hi": 50,
         "n": 2,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri35de170601",
           "ri50de170524"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "늪": {
+      "Rawa": {
         "lo": 45,
         "hi": 45,
         "n": 1,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri45sw170602"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "설원": {
+      "Salju": {
         "lo": 50,
         "hi": 50,
         "n": 1,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri50sn170524"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "초원": {
+      "Padang rumput": {
         "lo": 10,
         "hi": 40,
         "n": 2,
         "kinds": [
-          "유적"
+          "Reruntuhan"
         ],
         "ids": [
           "ru10gr170511",
           "ur40gr170511"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -2548,10 +2548,10 @@
   },
   "2079": {
     "id": "2079",
-    "name": "수컷 흰배메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros jantan perut putih",
+    "type": "Herbivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": true,
     "lvRange": [
       1,
@@ -2618,13 +2618,13 @@
     },
     "forkPlaced": null,
     "hab": {
-      "설원": {
+      "Salju": {
         "lo": 50,
         "hi": 60,
         "n": 16,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri50sn171228",
@@ -2635,11 +2635,11 @@
           "ua60snMain03"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 1,
@@ -2648,7 +2648,7 @@
           "s01_ri55sn180405"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -2658,10 +2658,10 @@
   },
   "2080": {
     "id": "2080",
-    "name": "암컷 흰배메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros betina perut putih",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -2728,15 +2728,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2081": {
     "id": "2081",
-    "name": "어린 흰배메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros muda perut putih",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -2779,15 +2779,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "새끼 — 교배로 나온다",
+    "noSpawn": "Anakan — muncul via perkawinan",
     "unreachable": false
   },
   "2082": {
     "id": "2082",
-    "name": "케라토사우루스",
-    "type": "육식",
+    "name": "Ceratosaurus",
+    "type": "Karnivora",
     "size": 5,
-    "sizeName": "아주 큼",
+    "sizeName": "Sangat besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -2866,15 +2866,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2083": {
     "id": "2083",
-    "name": "켄트로사우루스",
-    "type": "초식",
+    "name": "Kentrosaurus",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -2953,12 +2953,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 60,
         "hi": 60,
         "n": 4,
         "kinds": [
-          "특수"
+          "Khusus"
         ],
         "ids": [
           "op60tr170712",
@@ -2967,17 +2967,17 @@
           "op60tr170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "사막": {
+      "Gurun": {
         "lo": 35,
         "hi": 60,
         "n": 26,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri35de171228",
@@ -2988,7 +2988,7 @@
           "ri50deSub01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -2998,10 +2998,10 @@
   },
   "2084": {
     "id": "2084",
-    "name": "어린 켄트로사우루스",
-    "type": "초식",
+    "name": "Kentrosaurus muda",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -3068,15 +3068,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "새끼 — 교배로 나온다",
+    "noSpawn": "Anakan — muncul via perkawinan",
     "unreachable": false
   },
   "2085": {
     "id": "2085",
-    "name": "어린 오르니토미무스",
-    "type": "육식",
+    "name": "Ornithomimus muda",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -3119,15 +3119,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "새끼 — 교배로 나온다",
+    "noSpawn": "Anakan — muncul via perkawinan",
     "unreachable": false
   },
   "2086": {
     "id": "2086",
-    "name": "타르보사우루스",
-    "type": "육식",
+    "name": "Tarbosaurus",
+    "type": "Karnivora",
     "size": 5,
-    "sizeName": "아주 큼",
+    "sizeName": "Sangat besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -3206,18 +3206,18 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 50,
         "hi": 50,
         "n": 1,
         "kinds": [
-          "이벤트"
+          "Event"
         ],
         "ids": [
           "ev50tr180723"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -3227,10 +3227,10 @@
   },
   "2087": {
     "id": "2087",
-    "name": "아랫뿔코끼리",
-    "type": "초식",
+    "name": "Gajah taring bawah",
+    "type": "Herbivora",
     "size": 5,
-    "sizeName": "아주 큼",
+    "sizeName": "Sangat besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -3297,13 +3297,13 @@
     },
     "forkPlaced": null,
     "hab": {
-      "온대": {
+      "Sedang": {
         "lo": 60,
         "hi": 60,
         "n": 4,
         "kinds": [
-          "불안정 섬",
-          "특수"
+          "Pulau tak stabil",
+          "Khusus"
         ],
         "ids": [
           "op60te170615",
@@ -3312,33 +3312,33 @@
           "ua60teMain01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "대나무": {
+      "Bambu": {
         "lo": 55,
         "hi": 55,
         "n": 2,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri55tb171228",
           "ri55tb170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "열대": {
+      "Tropis": {
         "lo": 55,
         "hi": 60,
         "n": 11,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri55trSub01",
@@ -3349,7 +3349,7 @@
           "ua60trSub02"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -3359,10 +3359,10 @@
   },
   "2088": {
     "id": "2088",
-    "name": "스밀로돈",
-    "type": "육식",
+    "name": "Smilodon",
+    "type": "Karnivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": true,
     "lvRange": [
       1,
@@ -3429,13 +3429,13 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 40,
         "hi": 60,
         "n": 8,
         "kinds": [
-          "안정 섬",
-          "특수"
+          "Pulau stabil",
+          "Khusus"
         ],
         "ids": [
           "op60tr171228",
@@ -3446,11 +3446,11 @@
           "ri40trSub03_car"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 1,
@@ -3459,7 +3459,7 @@
           "s01_ri45tr180405"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -3469,10 +3469,10 @@
   },
   "2089": {
     "id": "2089",
-    "name": "타르보사우루스",
-    "type": "육식",
+    "name": "Tarbosaurus",
+    "type": "Karnivora",
     "size": 5,
-    "sizeName": "아주 큼",
+    "sizeName": "Sangat besar",
     "tamable": true,
     "lvRange": [
       1,
@@ -3551,12 +3551,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "설원": {
+      "Salju": {
         "lo": 60,
         "hi": 60,
         "n": 4,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "ua60snMain02_elite",
@@ -3565,7 +3565,7 @@
           "ua60sn02Main04_elite"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -3575,10 +3575,10 @@
   },
   "2090": {
     "id": "2090",
-    "name": "설원 코엘로피시스",
-    "type": "육식",
+    "name": "Coelophysis salju",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -3633,13 +3633,13 @@
     },
     "forkPlaced": null,
     "hab": {
-      "설원": {
+      "Salju": {
         "lo": 50,
         "hi": 60,
         "n": 16,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri50sn171228",
@@ -3650,11 +3650,11 @@
           "ua60snMain03"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 1,
@@ -3663,7 +3663,7 @@
           "s01_ri55sn180405"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -3673,10 +3673,10 @@
   },
   "2091": {
     "id": "2091",
-    "name": "흰털다이어울프",
-    "type": "육식",
+    "name": "Direwolf bulu putih",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -3743,15 +3743,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2092": {
     "id": "2092",
-    "name": "수컷 흰배메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros jantan perut putih",
+    "type": "Herbivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": true,
     "lvRange": [
       1,
@@ -3818,15 +3818,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "길들임 변종 — 길들이기·교배로 얻는다",
+    "noSpawn": "Varian jinak — diperoleh via penjinakan/perkawinan",
     "unreachable": false
   },
   "2093": {
     "id": "2093",
-    "name": "파보미무스",
-    "type": "육식",
+    "name": "Pavomimus",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -3893,13 +3893,13 @@
     },
     "forkPlaced": null,
     "hab": {
-      "온대": {
+      "Sedang": {
         "lo": 35,
         "hi": 60,
         "n": 9,
         "kinds": [
-          "안정 섬",
-          "특수"
+          "Pulau stabil",
+          "Khusus"
         ],
         "ids": [
           "op60te170615",
@@ -3910,24 +3910,24 @@
           "ri35teSub02"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "열대": {
+      "Tropis": {
         "lo": 50,
         "hi": 50,
         "n": 2,
         "kinds": [
-          "이벤트"
+          "Event"
         ],
         "ids": [
           "ev50tr180723",
           "ev50tr180723"
         ],
         "role": [
-          "무리",
-          "크레이터"
+          "Kawanan",
+          "Kawah"
         ],
         "reach": false
       }
@@ -3937,10 +3937,10 @@
   },
   "2094": {
     "id": "2094",
-    "name": "보누사우루스",
-    "type": "초식",
+    "name": "Bonussaurus",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -4007,12 +4007,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "온대": {
+      "Sedang": {
         "lo": 60,
         "hi": 60,
         "n": 3,
         "kinds": [
-          "특수"
+          "Khusus"
         ],
         "ids": [
           "op60te170615",
@@ -4020,16 +4020,16 @@
           "op60te180220"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "툰드라": {
+      "Tundra": {
         "lo": 40,
         "hi": 40,
         "n": 5,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri40tu171228",
@@ -4039,7 +4039,7 @@
           "ri40tu170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -4049,10 +4049,10 @@
   },
   "2095": {
     "id": "2095",
-    "name": "우두머리 페나코두스",
-    "type": "초식",
+    "name": "Phenacodus alpha",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       28,
@@ -4095,15 +4095,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2096": {
     "id": "2096",
-    "name": "센트로사우루스",
-    "type": "초식",
+    "name": "Centrosaurus",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -4170,15 +4170,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "길들임 변종 — 길들이기·교배로 얻는다",
+    "noSpawn": "Varian jinak — diperoleh via penjinakan/perkawinan",
     "unreachable": false
   },
   "2097": {
     "id": "2097",
-    "name": "우두머리 오르니토미무스",
-    "type": "육식",
+    "name": "Ornithomimus alpha",
+    "type": "Karnivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": false,
     "lvRange": [
       64,
@@ -4245,15 +4245,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2098": {
     "id": "2098",
-    "name": "우두머리 트리케라톱스",
-    "type": "초식",
+    "name": "Triceratops alpha",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       112,
@@ -4332,15 +4332,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2099": {
     "id": "2099",
-    "name": "우두머리 프로토케라톱스",
-    "type": "초식",
+    "name": "Protoceratops alpha",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       32,
@@ -4407,15 +4407,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2100": {
     "id": "2100",
-    "name": "우두머리 유타랍토르",
-    "type": "육식",
+    "name": "Utahraptor alpha",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       50,
@@ -4482,15 +4482,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2101": {
     "id": "2101",
-    "name": "우두머리 파라사우롤로푸스",
-    "type": "초식",
+    "name": "Parasaurolophus alpha",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       88,
@@ -4569,15 +4569,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2102": {
     "id": "2102",
-    "name": "우두머리 데이노테리움",
-    "type": "초식",
+    "name": "Deinotherium alpha",
+    "type": "Herbivora",
     "size": 5,
-    "sizeName": "아주 큼",
+    "sizeName": "Sangat besar",
     "tamable": false,
     "lvRange": [
       106,
@@ -4644,15 +4644,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2103": {
     "id": "2103",
-    "name": "우두머리 메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros alpha",
+    "type": "Herbivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": false,
     "lvRange": [
       56,
@@ -4719,15 +4719,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2104": {
     "id": "2104",
-    "name": "우두머리 다이어울프",
-    "type": "육식",
+    "name": "Direwolf alpha",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       32,
@@ -4792,20 +4792,20 @@
       "def": 450.0,
       "ar": 360.0
     },
-    "forkPlaced": "합성 툰드라 정예섬의 보스 1마리",
+    "forkPlaced": "1 bos pulau elite sintetis Tundra",
     "hab": {
-      "툰드라": {
+      "Tundra": {
         "lo": 60,
         "hi": 60,
         "n": 1,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "ua60tu_solo_elite"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -4815,10 +4815,10 @@
   },
   "2105": {
     "id": "2105",
-    "name": "우두머리 스티라코사우루스",
-    "type": "초식",
+    "name": "Styracosaurus alpha",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       72,
@@ -4883,20 +4883,20 @@
       "def": 450.0,
       "ar": 360.0
     },
-    "forkPlaced": "합성 사바나 정예섬의 보스 1마리",
+    "forkPlaced": "1 bos pulau elite sintetis Savana",
     "hab": {
-      "사바나": {
+      "Savana": {
         "lo": 45,
         "hi": 45,
         "n": 1,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "ua45sa_solo_elite"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -4906,10 +4906,10 @@
   },
   "2106": {
     "id": "2106",
-    "name": "우두머리 보누사우루스",
-    "type": "초식",
+    "name": "Bonussaurus alpha",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       36,
@@ -4976,15 +4976,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2107": {
     "id": "2107",
-    "name": "우두머리 카스모사우루스",
-    "type": "초식",
+    "name": "Chasmosaurus alpha",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       80,
@@ -5051,15 +5051,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2108": {
     "id": "2108",
-    "name": "우두머리 콤프소그나투스",
-    "type": "육식",
+    "name": "Compsognathus alpha",
+    "type": "Karnivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       12,
@@ -5102,15 +5102,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2109": {
     "id": "2109",
-    "name": "우두머리 매머드",
-    "type": "초식",
+    "name": "Mammoth alpha",
+    "type": "Herbivora",
     "size": 5,
-    "sizeName": "아주 큼",
+    "sizeName": "Sangat besar",
     "tamable": false,
     "lvRange": [
       100,
@@ -5177,15 +5177,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2110": {
     "id": "2110",
-    "name": "우두머리 랩터",
-    "type": "육식",
+    "name": "Raptor alpha",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       40,
@@ -5252,15 +5252,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2111": {
     "id": "2111",
-    "name": "우두머리 스밀로돈",
-    "type": "육식",
+    "name": "Smilodon alpha",
+    "type": "Karnivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       80,
@@ -5327,15 +5327,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2112": {
     "id": "2112",
-    "name": "우두머리 스테고사우루스",
-    "type": "초식",
+    "name": "Stegosaurus alpha",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       52,
@@ -5414,15 +5414,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2113": {
     "id": "2113",
-    "name": "우두머리 설원 타르보사우루스",
-    "type": "육식",
+    "name": "Tarbosaurus salju alpha",
+    "type": "Karnivora",
     "size": 5,
-    "sizeName": "아주 큼",
+    "sizeName": "Sangat besar",
     "tamable": false,
     "lvRange": [
       108,
@@ -5499,20 +5499,20 @@
       "def": 450.0,
       "ar": 360.0
     },
-    "forkPlaced": "합성 설원 정예섬의 보스 1마리",
+    "forkPlaced": "1 bos pulau elite sintetis Salju",
     "hab": {
-      "설원": {
+      "Salju": {
         "lo": 60,
         "hi": 60,
         "n": 1,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "ua60sn_solo_elite"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -5522,10 +5522,10 @@
   },
   "2114": {
     "id": "2114",
-    "name": "우두머리 티라노사우루스",
-    "type": "육식",
+    "name": "Tyrannosaurus alpha",
+    "type": "Karnivora",
     "size": 7,
-    "sizeName": "초대형",
+    "sizeName": "Super besar",
     "tamable": false,
     "lvRange": [
       120,
@@ -5602,20 +5602,20 @@
       "def": 450.0,
       "ar": 360.0
     },
-    "forkPlaced": "합성 화산 정예섬의 보스 1마리",
+    "forkPlaced": "1 bos pulau elite sintetis Vulkanik",
     "hab": {
-      "화산": {
+      "Vulkanik": {
         "lo": 60,
         "hi": 60,
         "n": 1,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "ua60vo_solo_elite"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -5625,10 +5625,10 @@
   },
   "2115": {
     "id": "2115",
-    "name": "우두머리 타르보사우루스",
-    "type": "육식",
+    "name": "Tarbosaurus alpha",
+    "type": "Karnivora",
     "size": 5,
-    "sizeName": "아주 큼",
+    "sizeName": "Sangat besar",
     "tamable": false,
     "lvRange": [
       108,
@@ -5705,20 +5705,20 @@
       "def": 450.0,
       "ar": 360.0
     },
-    "forkPlaced": "합성 열대 정예섬의 보스 1마리",
+    "forkPlaced": "1 bos pulau elite sintetis Tropis",
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 60,
         "hi": 60,
         "n": 1,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "ua60tr_solo_elite"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -5728,10 +5728,10 @@
   },
   "2116": {
     "id": "2116",
-    "name": "우두머리 투오지앙고사우루스",
-    "type": "초식",
+    "name": "Tuojiangosaurus alpha",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       76,
@@ -5810,15 +5810,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2117": {
     "id": "2117",
-    "name": "우두머리 켄트로사우루스",
-    "type": "초식",
+    "name": "Kentrosaurus alpha",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       60,
@@ -5897,15 +5897,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2118": {
     "id": "2118",
-    "name": "우두머리 갈리미무스",
-    "type": "육식",
+    "name": "Gallimimus alpha",
+    "type": "Karnivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": false,
     "lvRange": [
       46,
@@ -5972,15 +5972,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2119": {
     "id": "2119",
-    "name": "우두머리 파보미무스",
-    "type": "육식",
+    "name": "Pavomimus alpha",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       40,
@@ -6047,15 +6047,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2120": {
     "id": "2120",
-    "name": "우두머리 코엘로피시스",
-    "type": "육식",
+    "name": "Coelophysis alpha",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       36,
@@ -6110,15 +6110,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2121": {
     "id": "2121",
-    "name": "우두머리 열대 스밀로돈",
-    "type": "육식",
+    "name": "Smilodon tropis alpha",
+    "type": "Karnivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       68,
@@ -6185,15 +6185,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2122": {
     "id": "2122",
-    "name": "우두머리 딜로포사우루스",
-    "type": "육식",
+    "name": "Dilophosaurus alpha",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       44,
@@ -6260,15 +6260,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2123": {
     "id": "2123",
-    "name": "우두머리 마크라우케니아",
-    "type": "초식",
+    "name": "Macrauchenia alpha",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       22,
@@ -6323,15 +6323,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2124": {
     "id": "2124",
-    "name": "우두머리 브라키오사우루스",
-    "type": "초식",
+    "name": "Brachiosaurus alpha",
+    "type": "Herbivora",
     "size": 6,
-    "sizeName": "거대",
+    "sizeName": "Raksasa",
     "tamable": false,
     "lvRange": [
       112,
@@ -6408,20 +6408,20 @@
       "def": 450.0,
       "ar": 360.0
     },
-    "forkPlaced": "합성 온대 정예섬의 보스 1마리",
+    "forkPlaced": "1 bos pulau elite sintetis Sedang",
     "hab": {
-      "온대": {
+      "Sedang": {
         "lo": 60,
         "hi": 60,
         "n": 1,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "ua60te_solo_elite"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -6431,10 +6431,10 @@
   },
   "2125": {
     "id": "2125",
-    "name": "우두머리 안킬로사우루스",
-    "type": "초식",
+    "name": "Ankylosaurus alpha",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       100,
@@ -6501,15 +6501,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2126": {
     "id": "2126",
-    "name": "우두머리 유오플로케팔루스",
-    "type": "초식",
+    "name": "Euoplocephalus alpha",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       92,
@@ -6576,15 +6576,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "우두머리 계열 — 자료는 온전한데 서는 섬이 없다",
+    "noSpawn": "Seri alpha — data lengkap tapi tak ada pulau spawn",
     "unreachable": false
   },
   "2127": {
     "id": "2127",
-    "name": "붉은코 메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros hidung merah",
+    "type": "Herbivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": true,
     "lvRange": [
       48,
@@ -6651,15 +6651,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "길들임 변종 — 길들이기·교배로 얻는다",
+    "noSpawn": "Varian jinak — diperoleh via penjinakan/perkawinan",
     "unreachable": false
   },
   "2128": {
     "id": "2128",
-    "name": "루돌프 메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros Rudolf",
+    "type": "Herbivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": true,
     "lvRange": [
       56,
@@ -6726,15 +6726,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "길들임 변종 — 길들이기·교배로 얻는다",
+    "noSpawn": "Varian jinak — diperoleh via penjinakan/perkawinan",
     "unreachable": false
   },
   "2129": {
     "id": "2129",
-    "name": "산타 페나코두스",
-    "type": "초식",
+    "name": "Phenacodus Santa",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -6777,15 +6777,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "길들임 변종 — 길들이기·교배로 얻는다",
+    "noSpawn": "Varian jinak — diperoleh via penjinakan/perkawinan",
     "unreachable": false
   },
   "2130": {
     "id": "2130",
-    "name": "가스토르니스",
-    "type": "육식",
+    "name": "Gastornis",
+    "type": "Karnivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": false,
     "lvRange": [
       1,
@@ -6852,15 +6852,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2131": {
     "id": "2131",
-    "name": "래브라도 리트리버",
-    "type": "육식",
+    "name": "Labrador Retriever",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       32,
@@ -6927,15 +6927,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2132": {
     "id": "2132",
-    "name": "땅거북안킬로",
-    "type": "초식",
+    "name": "Ankylo kura-kura darat",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -7002,15 +7002,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2133": {
     "id": "2133",
-    "name": "아파토사우루스",
-    "type": "초식",
+    "name": "Apatosaurus",
+    "type": "Herbivora",
     "size": 7,
-    "sizeName": "초대형",
+    "sizeName": "Super besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -7085,12 +7085,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "늪": {
+      "Rawa": {
         "lo": 60,
         "hi": 60,
         "n": 6,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "ua60swMain02_elite",
@@ -7101,7 +7101,7 @@
           "ua60sw02Main06_elite"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -7111,10 +7111,10 @@
   },
   "2134": {
     "id": "2134",
-    "name": "징병관",
-    "type": "초식",
+    "name": "Petugas rekrutmen",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -7157,15 +7157,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2135": {
     "id": "2135",
-    "name": "징병관",
-    "type": "초식",
+    "name": "Petugas rekrutmen",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -7208,7 +7208,7 @@
     },
     "forkPlaced": null,
     "hab": {
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 1,
@@ -7217,7 +7217,7 @@
           "s01_ri55sn180405"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -7227,10 +7227,10 @@
   },
   "2136": {
     "id": "2136",
-    "name": "징병대장",
-    "type": "초식",
+    "name": "Kapten rekrutmen",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -7273,15 +7273,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2137": {
     "id": "2137",
-    "name": "징병대장",
-    "type": "초식",
+    "name": "Kapten rekrutmen",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -7324,15 +7324,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2138": {
     "id": "2138",
-    "name": "흰털스밀로돈",
-    "type": "육식",
+    "name": "Smilodon bulu putih",
+    "type": "Karnivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -7399,7 +7399,7 @@
     },
     "forkPlaced": null,
     "hab": {
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 1,
@@ -7408,7 +7408,7 @@
           "s01_ri55sn180405"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -7418,10 +7418,10 @@
   },
   "2139": {
     "id": "2139",
-    "name": "수상한 수박",
-    "type": "초식",
+    "name": "Semangka mencurigakan",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -7461,18 +7461,18 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 50,
         "hi": 50,
         "n": 1,
         "kinds": [
-          "이벤트"
+          "Event"
         ],
         "ids": [
           "ev50tr180723"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -7482,10 +7482,10 @@
   },
   "2140": {
     "id": "2140",
-    "name": "취한 스컹코두스",
-    "type": "초식",
+    "name": "Skunkodous mabuk",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -7528,7 +7528,7 @@
     },
     "forkPlaced": null,
     "hab": {
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 2,
@@ -7538,7 +7538,7 @@
           "s03_ri60sw"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -7548,10 +7548,10 @@
   },
   "2141": {
     "id": "2141",
-    "name": "병든 거대 쥐",
-    "type": "초식",
+    "name": "Tikus raksasa sakit",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -7594,7 +7594,7 @@
     },
     "forkPlaced": null,
     "hab": {
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 2,
@@ -7604,7 +7604,7 @@
           "s03_ri60sw"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -7614,10 +7614,10 @@
   },
   "2142": {
     "id": "2142",
-    "name": "다친 코엘로피시스",
-    "type": "육식",
+    "name": "Coelophysis terluka",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -7672,7 +7672,7 @@
     },
     "forkPlaced": null,
     "hab": {
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 4,
@@ -7684,8 +7684,8 @@
           "s03_ri60sw"
         ],
         "role": [
-          "무리",
-          "크레이터"
+          "Kawanan",
+          "Kawah"
         ],
         "reach": false
       }
@@ -7695,10 +7695,10 @@
   },
   "2143": {
     "id": "2143",
-    "name": "기름독 아파토사우루스",
-    "type": "초식",
+    "name": "Apatosaurus minyak beracun",
+    "type": "Herbivora",
     "size": 7,
-    "sizeName": "초대형",
+    "sizeName": "Super besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -7771,20 +7771,20 @@
       "def": 450.0,
       "ar": 360.0
     },
-    "forkPlaced": "합성 늪 정예섬의 보스 1마리",
+    "forkPlaced": "1 bos pulau elite sintetis Rawa",
     "hab": {
-      "늪": {
+      "Rawa": {
         "lo": 60,
         "hi": 60,
         "n": 1,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "ua60sw_solo_elite"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -7794,10 +7794,10 @@
   },
   "2144": {
     "id": "2144",
-    "name": "중독된 트리케라톱스",
-    "type": "초식",
+    "name": "Triceratops keracunan",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -7876,7 +7876,7 @@
     },
     "forkPlaced": null,
     "hab": {
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 2,
@@ -7886,7 +7886,7 @@
           "s03_ri60sw"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -7896,10 +7896,10 @@
   },
   "2145": {
     "id": "2145",
-    "name": "흥분한 트리케라톱스",
-    "type": "초식",
+    "name": "Triceratops bersemangat",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -7978,7 +7978,7 @@
     },
     "forkPlaced": null,
     "hab": {
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 2,
@@ -7988,7 +7988,7 @@
           "s03_ri60sw"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -7998,10 +7998,10 @@
   },
   "2146": {
     "id": "2146",
-    "name": "설원 코엘로피시스",
-    "type": "육식",
+    "name": "Coelophysis salju",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -8056,15 +8056,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "길들임 변종 — 길들이기·교배로 얻는다",
+    "noSpawn": "Varian jinak — diperoleh via penjinakan/perkawinan",
     "unreachable": false
   },
   "2147": {
     "id": "2147",
-    "name": "스티라코사우루스",
-    "type": "초식",
+    "name": "Styracosaurus",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": true,
     "lvRange": [
       1,
@@ -8131,15 +8131,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "길들임 변종 — 길들이기·교배로 얻는다",
+    "noSpawn": "Varian jinak — diperoleh via penjinakan/perkawinan",
     "unreachable": false
   },
   "2148": {
     "id": "2148",
-    "name": "붉은코 메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros hidung merah",
+    "type": "Herbivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": true,
     "lvRange": [
       48,
@@ -8206,15 +8206,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "길들임 변종 — 길들이기·교배로 얻는다",
+    "noSpawn": "Varian jinak — diperoleh via penjinakan/perkawinan",
     "unreachable": false
   },
   "2149": {
     "id": "2149",
-    "name": "까치 가스토르니스",
-    "type": "육식",
+    "name": "Gastornis murai",
+    "type": "Karnivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": false,
     "lvRange": [
       1,
@@ -8281,15 +8281,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2150": {
     "id": "2150",
-    "name": "흰 코끼리",
-    "type": "초식",
+    "name": "Gajah putih",
+    "type": "Herbivora",
     "size": 5,
-    "sizeName": "아주 큼",
+    "sizeName": "Sangat besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -8356,15 +8356,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2151": {
     "id": "2151",
-    "name": "흰 코끼리",
-    "type": "초식",
+    "name": "Gajah putih",
+    "type": "Herbivora",
     "size": 5,
-    "sizeName": "아주 큼",
+    "sizeName": "Sangat besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -8431,15 +8431,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2152": {
     "id": "2152",
-    "name": "깜장 래브라도 리트리버",
-    "type": "육식",
+    "name": "Labrador Retriever hitam",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       32,
@@ -8506,15 +8506,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2153": {
     "id": "2153",
-    "name": "아프리카 코끼리",
-    "type": "초식",
+    "name": "Gajah Afrika",
+    "type": "Herbivora",
     "size": 5,
-    "sizeName": "아주 큼",
+    "sizeName": "Sangat besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -8581,15 +8581,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2154": {
     "id": "2154",
-    "name": "아프리카 코끼리",
-    "type": "초식",
+    "name": "Gajah Afrika",
+    "type": "Herbivora",
     "size": 5,
-    "sizeName": "아주 큼",
+    "sizeName": "Sangat besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -8656,15 +8656,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2155": {
     "id": "2155",
-    "name": "대장 콤프소그나투스",
-    "type": "초식",
+    "name": "Compsognathus kapten",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -8707,15 +8707,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2156": {
     "id": "2156",
-    "name": "꿀벌 페나코두스",
-    "type": "초식",
+    "name": "Phenacodus lebah",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -8758,15 +8758,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "길들임 변종 — 길들이기·교배로 얻는다",
+    "noSpawn": "Varian jinak — diperoleh via penjinakan/perkawinan",
     "unreachable": false
   },
   "2157": {
     "id": "2157",
-    "name": "스밀로돈",
-    "type": "육식",
+    "name": "Smilodon",
+    "type": "Karnivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": true,
     "lvRange": [
       1,
@@ -8833,12 +8833,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "설원": {
+      "Salju": {
         "lo": 60,
         "hi": 60,
         "n": 6,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "ua60sn02Main01",
@@ -8849,7 +8849,7 @@
           "ua60sn02Sub02"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -8859,10 +8859,10 @@
   },
   "2158": {
     "id": "2158",
-    "name": "콤프소그나투스",
-    "type": "초식",
+    "name": "Compsognathus",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -8905,15 +8905,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2159": {
     "id": "2159",
-    "name": "대장 페나코두스",
-    "type": "초식",
+    "name": "Phenacodus kapten",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -8956,15 +8956,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2160": {
     "id": "2160",
-    "name": "페나코두스",
-    "type": "초식",
+    "name": "Phenacodus",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -9007,15 +9007,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2161": {
     "id": "2161",
-    "name": "데이노니쿠스",
-    "type": "육식",
+    "name": "Deinonychus",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -9082,12 +9082,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 60,
         "hi": 60,
         "n": 4,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "ua60tr02Main01",
@@ -9096,7 +9096,7 @@
           "ua60tr02Sub03_car"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -9106,10 +9106,10 @@
   },
   "2162": {
     "id": "2162",
-    "name": "갈리미무스",
-    "type": "초식",
+    "name": "Gallimimus",
+    "type": "Herbivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": true,
     "lvRange": [
       1,
@@ -9176,12 +9176,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "사막": {
+      "Gurun": {
         "lo": 60,
         "hi": 60,
         "n": 7,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "ua60de02Main01",
@@ -9192,7 +9192,7 @@
           "ua60de02Sub02"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -9202,10 +9202,10 @@
   },
   "2163": {
     "id": "2163",
-    "name": "어린 갈리미무스",
-    "type": "초식",
+    "name": "Gallimimus muda",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -9248,15 +9248,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "새끼 — 교배로 나온다",
+    "noSpawn": "Anakan — muncul via perkawinan",
     "unreachable": false
   },
   "2164": {
     "id": "2164",
-    "name": "수컷 메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros jantan",
+    "type": "Herbivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": true,
     "lvRange": [
       25,
@@ -9323,12 +9323,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "툰드라": {
+      "Tundra": {
         "lo": 60,
         "hi": 60,
         "n": 4,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "ua60tu02Main01",
@@ -9337,7 +9337,7 @@
           "ua60tu02Sub03_camp"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -9347,10 +9347,10 @@
   },
   "2165": {
     "id": "2165",
-    "name": "어린 메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros muda",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       25,
@@ -9393,15 +9393,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "새끼 — 교배로 나온다",
+    "noSpawn": "Anakan — muncul via perkawinan",
     "unreachable": false
   },
   "2166": {
     "id": "2166",
-    "name": "암컷 메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros betina",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       25,
@@ -9468,15 +9468,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2167": {
     "id": "2167",
-    "name": "스컹코두스",
-    "type": "초식",
+    "name": "Skunkodous",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -9519,12 +9519,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "늪": {
+      "Rawa": {
         "lo": 60,
         "hi": 60,
         "n": 9,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "ua60sw02Main01",
@@ -9535,7 +9535,7 @@
           "ua60sw02Main06_elite"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -9545,10 +9545,10 @@
   },
   "2168": {
     "id": "2168",
-    "name": "센트로사우루스",
-    "type": "초식",
+    "name": "Centrosaurus",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -9615,15 +9615,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "길들임 변종 — 길들이기·교배로 얻는다",
+    "noSpawn": "Varian jinak — diperoleh via penjinakan/perkawinan",
     "unreachable": false
   },
   "2169": {
     "id": "2169",
-    "name": "작은 브라키오사우루스",
-    "type": "초식",
+    "name": "Brachiosaurus kecil",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -9702,15 +9702,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2170": {
     "id": "2170",
-    "name": "앤드루사르쿠스",
-    "type": "육식",
+    "name": "Andrewsarchus",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -9777,12 +9777,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "화산": {
+      "Vulkanik": {
         "lo": 60,
         "hi": 60,
         "n": 22,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "test60vol_512",
@@ -9793,7 +9793,7 @@
           "ua60vol_01_03"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -9803,10 +9803,10 @@
   },
   "2171": {
     "id": "2171",
-    "name": "투구게",
-    "type": "초식",
+    "name": "Belangkas",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -9849,12 +9849,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "화산": {
+      "Vulkanik": {
         "lo": 60,
         "hi": 60,
         "n": 27,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "test60vol_512",
@@ -9865,7 +9865,7 @@
           "ua60vol_01_02"
         ],
         "role": [
-          "beach"
+          "pantai"
         ],
         "reach": true
       }
@@ -9875,10 +9875,10 @@
   },
   "2172": {
     "id": "2172",
-    "name": "불점박이 이구아나",
-    "type": "육식",
+    "name": "Iguana bintik api",
+    "type": "Karnivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": false,
     "lvRange": [
       1,
@@ -9945,15 +9945,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2173": {
     "id": "2173",
-    "name": "해녀 스컹코두스",
-    "type": "초식",
+    "name": "Skunkodous penyelam",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -9996,15 +9996,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "길들임 변종 — 길들이기·교배로 얻는다",
+    "noSpawn": "Varian jinak — diperoleh via penjinakan/perkawinan",
     "unreachable": false
   },
   "2174": {
     "id": "2174",
-    "name": "유황 스컹코두스",
-    "type": "초식",
+    "name": "Skunkodous belerang",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -10047,12 +10047,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "화산": {
+      "Vulkanik": {
         "lo": 60,
         "hi": 60,
         "n": 24,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "test60vol_512",
@@ -10063,7 +10063,7 @@
           "ua60vol_01_03"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -10073,10 +10073,10 @@
   },
   "2175": {
     "id": "2175",
-    "name": "검은머리 유타랍토르",
-    "type": "육식",
+    "name": "Utahraptor kepala hitam",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -10143,12 +10143,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "화산": {
+      "Vulkanik": {
         "lo": 60,
         "hi": 60,
         "n": 21,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "test60vol_512",
@@ -10159,7 +10159,7 @@
           "ua60vol_01_03"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -10169,10 +10169,10 @@
   },
   "2176": {
     "id": "2176",
-    "name": "흰줄무늬 이구아나",
-    "type": "육식",
+    "name": "Iguana garis putih",
+    "type": "Karnivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": false,
     "lvRange": [
       1,
@@ -10239,12 +10239,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "화산": {
+      "Vulkanik": {
         "lo": 60,
         "hi": 60,
         "n": 41,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "test60vol_512",
@@ -10255,8 +10255,8 @@
           "ua60vol_01_01"
         ],
         "role": [
-          "무리",
-          "크레이터"
+          "Kawanan",
+          "Kawah"
         ],
         "reach": true
       }
@@ -10266,10 +10266,10 @@
   },
   "2177": {
     "id": "2177",
-    "name": "용암 하드로사우루스",
-    "type": "초식",
+    "name": "Hadrosaurus lava",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": true,
     "lvRange": [
       1,
@@ -10348,12 +10348,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "화산": {
+      "Vulkanik": {
         "lo": 60,
         "hi": 60,
         "n": 20,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "test60vol_512",
@@ -10364,22 +10364,22 @@
           "ua60vol_01_02"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "열대": {
+      "Tropis": {
         "lo": 18,
         "hi": 18,
         "n": 1,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri18tr_06_02"
         ],
         "role": [
-          "beach"
+          "pantai"
         ],
         "reach": true
       }
@@ -10389,10 +10389,10 @@
   },
   "2178": {
     "id": "2178",
-    "name": "화산재 카스모사우루스",
-    "type": "초식",
+    "name": "Chasmosaurus abu vulkanik",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": true,
     "lvRange": [
       1,
@@ -10459,12 +10459,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "화산": {
+      "Vulkanik": {
         "lo": 60,
         "hi": 60,
         "n": 9,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "test60vol_512",
@@ -10475,7 +10475,7 @@
           "ua60vol_05_01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -10485,10 +10485,10 @@
   },
   "2179": {
     "id": "2179",
-    "name": "아마르가사우루스",
-    "type": "초식",
+    "name": "Amargasaurus",
+    "type": "Herbivora",
     "size": 7,
-    "sizeName": "초대형",
+    "sizeName": "Super besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -10563,12 +10563,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "화산": {
+      "Vulkanik": {
         "lo": 60,
         "hi": 60,
         "n": 5,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "ua60vol_04_01",
@@ -10578,7 +10578,7 @@
           "ua60vol_08_01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -10588,10 +10588,10 @@
   },
   "2180": {
     "id": "2180",
-    "name": "축제 엘리펀툴루스",
-    "type": "초식",
+    "name": "Elephantulus festival",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -10634,15 +10634,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "길들임 변종 — 길들이기·교배로 얻는다",
+    "noSpawn": "Varian jinak — diperoleh via penjinakan/perkawinan",
     "unreachable": false
   },
   "2181": {
     "id": "2181",
-    "name": "상어 페나코두스",
-    "type": "초식",
+    "name": "Phenacodus hiu",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -10685,18 +10685,18 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 15,
         "hi": 15,
         "n": 1,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri15trMain01_summerclub"
         ],
         "role": [
-          "beach"
+          "pantai"
         ],
         "reach": true
       }
@@ -10706,10 +10706,10 @@
   },
   "2182": {
     "id": "2182",
-    "name": "광대 콤프소그나투스",
-    "type": "초식",
+    "name": "Compsognathus badut",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": true,
     "lvRange": [
       10,
@@ -10752,13 +10752,13 @@
     },
     "forkPlaced": null,
     "hab": {
-      "온대": {
+      "Sedang": {
         "lo": 20,
         "hi": 60,
         "n": 3,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri20te171228",
@@ -10766,17 +10766,17 @@
           "ua60teMain01"
         ],
         "role": [
-          "beach"
+          "pantai"
         ],
         "reach": true
       },
-      "열대": {
+      "Tropis": {
         "lo": 25,
         "hi": 60,
         "n": 4,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri25tr180122",
@@ -10785,37 +10785,37 @@
           "ua60tr02Main01"
         ],
         "role": [
-          "beach"
+          "pantai"
         ],
         "reach": true
       },
-      "사바나": {
+      "Savana": {
         "lo": 45,
         "hi": 45,
         "n": 1,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri45sa171228"
         ],
         "role": [
-          "beach"
+          "pantai"
         ],
         "reach": true
       },
-      "대나무": {
+      "Bambu": {
         "lo": 55,
         "hi": 55,
         "n": 1,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri55tb171228"
         ],
         "role": [
-          "beach"
+          "pantai"
         ],
         "reach": true
       }
@@ -10825,10 +10825,10 @@
   },
   "2183": {
     "id": "2183",
-    "name": "오색비늘 이구아나",
-    "type": "육식",
+    "name": "Iguana sisik lima warna",
+    "type": "Karnivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": true,
     "lvRange": [
       1,
@@ -10895,15 +10895,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "길들임 변종 — 길들이기·교배로 얻는다",
+    "noSpawn": "Varian jinak — diperoleh via penjinakan/perkawinan",
     "unreachable": false
   },
   "2184": {
     "id": "2184",
-    "name": "돌격전차 하드로사우루스",
-    "type": "초식",
+    "name": "Hadrosaurus tank serbu",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": true,
     "lvRange": [
       1,
@@ -10982,15 +10982,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "길들임 변종 — 길들이기·교배로 얻는다",
+    "noSpawn": "Varian jinak — diperoleh via penjinakan/perkawinan",
     "unreachable": false
   },
   "2185": {
     "id": "2185",
-    "name": "연구용 용암 하드로사우루스",
-    "type": "초식",
+    "name": "Hadrosaurus lava penelitian",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": true,
     "lvRange": [
       1,
@@ -11069,18 +11069,18 @@
     },
     "forkPlaced": null,
     "hab": {
-      "화산": {
+      "Vulkanik": {
         "lo": 60,
         "hi": 60,
         "n": 1,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "ua60vol_04_03"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -11090,10 +11090,10 @@
   },
   "2186": {
     "id": "2186",
-    "name": "청소부 앤드루사르쿠스",
-    "type": "육식",
+    "name": "Andrewsarchus pemulung",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -11160,18 +11160,18 @@
     },
     "forkPlaced": null,
     "hab": {
-      "화산": {
+      "Vulkanik": {
         "lo": 60,
         "hi": 60,
         "n": 1,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "ua60vol_07_02"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -11181,10 +11181,10 @@
   },
   "2187": {
     "id": "2187",
-    "name": "통신용 아마르가사우루스",
-    "type": "초식",
+    "name": "Amargasaurus komunikasi",
+    "type": "Herbivora",
     "size": 7,
-    "sizeName": "초대형",
+    "sizeName": "Super besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -11259,18 +11259,18 @@
     },
     "forkPlaced": null,
     "hab": {
-      "화산": {
+      "Vulkanik": {
         "lo": 60,
         "hi": 60,
         "n": 1,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "ua60vol_08_02"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -11280,10 +11280,10 @@
   },
   "2188": {
     "id": "2188",
-    "name": "독 도마뱀",
-    "type": "육식",
+    "name": "Kadal beracun",
+    "type": "Karnivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": false,
     "lvRange": [
       1,
@@ -11350,18 +11350,18 @@
     },
     "forkPlaced": null,
     "hab": {
-      "화산": {
+      "Vulkanik": {
         "lo": 60,
         "hi": 60,
         "n": 1,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "ua60vol_02_03"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -11371,10 +11371,10 @@
   },
   "2189": {
     "id": "2189",
-    "name": "미확인 가스토르니스",
-    "type": "육식",
+    "name": "Gastornis tak dikenal",
+    "type": "Karnivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": false,
     "lvRange": [
       1,
@@ -11441,22 +11441,22 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 18,
         "hi": 18,
         "n": 1,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri18tr_06_02"
         ],
         "role": [
-          "beach"
+          "pantai"
         ],
         "reach": true
       },
-      "온대": {
+      "Sedang": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -11465,7 +11465,7 @@
           "ur40te170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -11475,10 +11475,10 @@
   },
   "2190": {
     "id": "2190",
-    "name": "미확인 파보미무스",
-    "type": "육식",
+    "name": "Pavomimus tak dikenal",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -11545,22 +11545,22 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 18,
         "hi": 18,
         "n": 1,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri18tr_06_02"
         ],
         "role": [
-          "beach"
+          "pantai"
         ],
         "reach": true
       },
-      "온대": {
+      "Sedang": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -11569,7 +11569,7 @@
           "ur40te170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -11579,10 +11579,10 @@
   },
   "2191": {
     "id": "2191",
-    "name": "미확인 흰털다이어울프",
-    "type": "육식",
+    "name": "Direwolf bulu putih tak dikenal",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -11649,7 +11649,7 @@
     },
     "forkPlaced": null,
     "hab": {
-      "툰드라": {
+      "Tundra": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -11658,7 +11658,7 @@
           "ur40tu170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -11668,10 +11668,10 @@
   },
   "2192": {
     "id": "2192",
-    "name": "어린 미확인 흰털다이어울프",
-    "type": "육식",
+    "name": "Direwolf bulu putih muda tak dikenal",
+    "type": "Karnivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -11714,15 +11714,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "새끼 — 교배로 나온다",
+    "noSpawn": "Anakan — muncul via perkawinan",
     "unreachable": false
   },
   "2193": {
     "id": "2193",
-    "name": "미확인 땅거북안킬로",
-    "type": "초식",
+    "name": "Ankylo kura-kura tak dikenal",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -11789,7 +11789,7 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -11798,7 +11798,7 @@
           "ur40tr170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -11808,10 +11808,10 @@
   },
   "2194": {
     "id": "2194",
-    "name": "미확인 마크라우케니아",
-    "type": "초식",
+    "name": "Macrauchenia tak dikenal",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -11866,7 +11866,7 @@
     },
     "forkPlaced": null,
     "hab": {
-      "초원": {
+      "Padang rumput": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -11875,7 +11875,7 @@
           "ur40gr170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -11885,10 +11885,10 @@
   },
   "2195": {
     "id": "2195",
-    "name": "미확인 갈리미무스",
-    "type": "초식",
+    "name": "Gallimimus tak dikenal",
+    "type": "Herbivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": false,
     "lvRange": [
       1,
@@ -11955,7 +11955,7 @@
     },
     "forkPlaced": null,
     "hab": {
-      "초원": {
+      "Padang rumput": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -11964,7 +11964,7 @@
           "ur40gr170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -11974,10 +11974,10 @@
   },
   "2196": {
     "id": "2196",
-    "name": "미확인 수컷 메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros jantan tak dikenal",
+    "type": "Herbivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": false,
     "lvRange": [
       25,
@@ -12044,15 +12044,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "미확인 변종 — 이벤트 계열",
+    "noSpawn": "Varian tak dikenal — seri event",
     "unreachable": false
   },
   "2197": {
     "id": "2197",
-    "name": "미확인 어린 메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros muda tak dikenal",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       25,
@@ -12095,15 +12095,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "미확인 변종 — 이벤트 계열",
+    "noSpawn": "Varian tak dikenal — seri event",
     "unreachable": false
   },
   "2198": {
     "id": "2198",
-    "name": "미확인 암컷 메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros betina tak dikenal",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       25,
@@ -12170,7 +12170,7 @@
     },
     "forkPlaced": null,
     "hab": {
-      "툰드라": {
+      "Tundra": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -12179,7 +12179,7 @@
           "ur40tu170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -12189,10 +12189,10 @@
   },
   "2199": {
     "id": "2199",
-    "name": "흰털스밀로돈",
-    "type": "육식",
+    "name": "Smilodon bulu putih",
+    "type": "Karnivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -12259,20 +12259,20 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 18,
         "hi": 18,
         "n": 2,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri18tr_01_01",
           "ri18tr_01_01"
         ],
         "role": [
-          "무리",
-          "크레이터"
+          "Kawanan",
+          "Kawah"
         ],
         "reach": true
       }
@@ -12282,10 +12282,10 @@
   },
   "2200": {
     "id": "2200",
-    "name": "미확인 어린 흰배메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros muda perut putih tak dikenal",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -12328,15 +12328,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "미확인 변종 — 이벤트 계열",
+    "noSpawn": "Varian tak dikenal — seri event",
     "unreachable": false
   },
   "2201": {
     "id": "2201",
-    "name": "미확인 암컷 흰배메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros betina perut putih tak dikenal",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -12403,7 +12403,7 @@
     },
     "forkPlaced": null,
     "hab": {
-      "툰드라": {
+      "Tundra": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -12412,7 +12412,7 @@
           "ur40tu170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -12422,10 +12422,10 @@
   },
   "2202": {
     "id": "2202",
-    "name": "미확인 안킬로사우루스",
-    "type": "초식",
+    "name": "Ankylosaurus tak dikenal",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -12492,7 +12492,7 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -12501,7 +12501,7 @@
           "ur40tr170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -12511,10 +12511,10 @@
   },
   "2203": {
     "id": "2203",
-    "name": "어린 미확인 검은 다이어울프",
-    "type": "육식",
+    "name": "Direwolf hitam muda tak dikenal",
+    "type": "Karnivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -12557,15 +12557,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "새끼 — 교배로 나온다",
+    "noSpawn": "Anakan — muncul via perkawinan",
     "unreachable": false
   },
   "2204": {
     "id": "2204",
-    "name": "미확인 검은 다이어울프",
-    "type": "육식",
+    "name": "Direwolf hitam tak dikenal",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -12632,22 +12632,22 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 18,
         "hi": 18,
         "n": 1,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri18tr_06_02"
         ],
         "role": [
-          "beach"
+          "pantai"
         ],
         "reach": true
       },
-      "툰드라": {
+      "Tundra": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -12656,7 +12656,7 @@
           "ur40tu170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -12666,10 +12666,10 @@
   },
   "2205": {
     "id": "2205",
-    "name": "미확인 수컷 흰배메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros jantan perut putih tak dikenal",
+    "type": "Herbivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": false,
     "lvRange": [
       1,
@@ -12736,15 +12736,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "미확인 변종 — 이벤트 계열",
+    "noSpawn": "Varian tak dikenal — seri event",
     "unreachable": false
   },
   "2206": {
     "id": "2206",
-    "name": "흰털다이어울프",
-    "type": "육식",
+    "name": "Direwolf bulu putih",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -12811,15 +12811,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2207": {
     "id": "2207",
-    "name": "미확인 땅거북안킬로",
-    "type": "초식",
+    "name": "Ankylo kura-kura tak dikenal",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -12886,18 +12886,18 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 18,
         "hi": 18,
         "n": 1,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri18tr_06_01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -12907,10 +12907,10 @@
   },
   "2208": {
     "id": "2208",
-    "name": "미확인 마크라우케니아",
-    "type": "초식",
+    "name": "Macrauchenia tak dikenal",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -12965,18 +12965,18 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 18,
         "hi": 18,
         "n": 1,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri18tr_06_01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -12986,10 +12986,10 @@
   },
   "2209": {
     "id": "2209",
-    "name": "미확인 갈리미무스",
-    "type": "초식",
+    "name": "Gallimimus tak dikenal",
+    "type": "Herbivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": false,
     "lvRange": [
       1,
@@ -13056,18 +13056,18 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 18,
         "hi": 18,
         "n": 1,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri18tr_06_01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -13077,10 +13077,10 @@
   },
   "2210": {
     "id": "2210",
-    "name": "미확인 수컷 흰배메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros jantan perut putih tak dikenal",
+    "type": "Herbivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": false,
     "lvRange": [
       1,
@@ -13147,18 +13147,18 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 18,
         "hi": 18,
         "n": 1,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri18tr_06_01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -13168,10 +13168,10 @@
   },
   "2211": {
     "id": "2211",
-    "name": "미확인 어린 흰배메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros muda perut putih tak dikenal",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -13214,15 +13214,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "미확인 변종 — 이벤트 계열",
+    "noSpawn": "Varian tak dikenal — seri event",
     "unreachable": false
   },
   "2212": {
     "id": "2212",
-    "name": "미확인 암컷 흰배메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros betina perut putih tak dikenal",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -13289,15 +13289,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "미확인 변종 — 이벤트 계열",
+    "noSpawn": "Varian tak dikenal — seri event",
     "unreachable": false
   },
   "2999": {
     "id": "2999",
-    "name": "더미 샌드백",
-    "type": "Sandbag",
+    "name": "Samsak dummy",
+    "type": "Samsak",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       36,
@@ -13340,15 +13340,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2000": {
     "id": "2000",
-    "name": "스테고사우루스",
-    "type": "초식",
+    "name": "Stegosaurus",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -13427,12 +13427,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 40,
         "hi": 60,
         "n": 5,
         "kinds": [
-          "특수"
+          "Khusus"
         ],
         "ids": [
           "op60tr170712",
@@ -13442,17 +13442,17 @@
           "ur40tr170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "온대": {
+      "Sedang": {
         "lo": 35,
         "hi": 55,
         "n": 6,
         "kinds": [
-          "불안정 섬(지형)",
-          "안정 섬"
+          "Pulau tak stabil (terrain)",
+          "Pulau stabil"
         ],
         "ids": [
           "ri35te171228",
@@ -13463,7 +13463,7 @@
           "ra55te170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -13473,10 +13473,10 @@
   },
   "2001": {
     "id": "2001",
-    "name": "랩터",
-    "type": "육식",
+    "name": "Raptor",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -13543,14 +13543,14 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 18,
         "hi": 60,
         "n": 25,
         "kinds": [
-          "불안정 섬(지형)",
-          "안정 섬",
-          "특수"
+          "Pulau tak stabil (terrain)",
+          "Pulau stabil",
+          "Khusus"
         ],
         "ids": [
           "op60tr170712",
@@ -13561,12 +13561,12 @@
           "op60tr180220"
         ],
         "role": [
-          "무리",
-          "크레이터"
+          "Kawanan",
+          "Kawah"
         ],
         "reach": true
       },
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 1,
@@ -13575,7 +13575,7 @@
           "s01_ri45tr180405"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -13585,10 +13585,10 @@
   },
   "2002": {
     "id": "2002",
-    "name": "오비랍토르",
-    "type": "Scavenger",
+    "name": "Oviraptor",
+    "type": "Pemulung",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -13643,12 +13643,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "온대": {
+      "Sedang": {
         "lo": 20,
         "hi": 60,
         "n": 14,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "tr60te170613",
@@ -13659,17 +13659,17 @@
           "ri35teSub01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "사막": {
+      "Gurun": {
         "lo": 35,
         "hi": 60,
         "n": 36,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri35de171228",
@@ -13680,12 +13680,12 @@
           "ri35deSub02"
         ],
         "role": [
-          "무리",
-          "크레이터"
+          "Kawanan",
+          "Kawah"
         ],
         "reach": true
       },
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 1,
@@ -13694,32 +13694,32 @@
           "s01_ri60de180405"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "사바나": {
+      "Savana": {
         "lo": 15,
         "hi": 45,
         "n": 2,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri15sa170531",
           "ri45sa170420"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "열대": {
+      "Tropis": {
         "lo": 25,
         "hi": 40,
         "n": 3,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri25tr170602",
@@ -13727,16 +13727,16 @@
           "ur40tr170511"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "툰드라": {
+      "Tundra": {
         "lo": 30,
         "hi": 40,
         "n": 3,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri30tu170601",
@@ -13744,53 +13744,53 @@
           "ur40tu170511"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "늪": {
+      "Rawa": {
         "lo": 45,
         "hi": 45,
         "n": 1,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri45sw170602"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "설원": {
+      "Salju": {
         "lo": 50,
         "hi": 50,
         "n": 1,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri50sn170524"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "초원": {
+      "Padang rumput": {
         "lo": 10,
         "hi": 40,
         "n": 2,
         "kinds": [
-          "유적"
+          "Reruntuhan"
         ],
         "ids": [
           "ru10gr170511",
           "ur40gr170511"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -13800,10 +13800,10 @@
   },
   "2003": {
     "id": "2003",
-    "name": "트리케라톱스",
-    "type": "초식",
+    "name": "Triceratops",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": true,
     "lvRange": [
       1,
@@ -13882,13 +13882,13 @@
     },
     "forkPlaced": null,
     "hab": {
-      "늪": {
+      "Rawa": {
         "lo": 45,
         "hi": 60,
         "n": 27,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri45sw171228",
@@ -13899,11 +13899,11 @@
           "ri55swSub01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "화산": {
+      "Vulkanik": {
         "lo": null,
         "hi": null,
         "n": 3,
@@ -13914,7 +13914,7 @@
           "test60vol190516_sub1"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -13924,10 +13924,10 @@
   },
   "2004": {
     "id": "2004",
-    "name": "브라키오사우루스",
-    "type": "초식",
+    "name": "Brachiosaurus",
+    "type": "Herbivora",
     "size": 6,
-    "sizeName": "거대",
+    "sizeName": "Raksasa",
     "tamable": false,
     "lvRange": [
       1,
@@ -14006,12 +14006,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 60,
         "hi": 60,
         "n": 4,
         "kinds": [
-          "특수"
+          "Khusus"
         ],
         "ids": [
           "op60tr170712",
@@ -14020,22 +14020,22 @@
           "op60tr170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "온대": {
+      "Sedang": {
         "lo": 60,
         "hi": 60,
         "n": 1,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "ua60teMain01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -14045,10 +14045,10 @@
   },
   "2005": {
     "id": "2005",
-    "name": "티라노사우루스",
-    "type": "육식",
+    "name": "Tyrannosaurus",
+    "type": "Karnivora",
     "size": 7,
-    "sizeName": "초대형",
+    "sizeName": "Super besar",
     "tamable": false,
     "lvRange": [
       60,
@@ -14127,12 +14127,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "화산": {
+      "Vulkanik": {
         "lo": 60,
         "hi": 60,
         "n": 9,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "test60vol190625",
@@ -14143,7 +14143,7 @@
           "ua60vol_05_01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -14153,10 +14153,10 @@
   },
   "2006": {
     "id": "2006",
-    "name": "페나코두스",
-    "type": "초식",
+    "name": "Phenacodus",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -14199,13 +14199,13 @@
     },
     "forkPlaced": null,
     "hab": {
-      "온대": {
+      "Sedang": {
         "lo": 20,
         "hi": 45,
         "n": 6,
         "kinds": [
-          "안정 섬",
-          "이벤트"
+          "Pulau stabil",
+          "Event"
         ],
         "ids": [
           "ri20te171228",
@@ -14216,16 +14216,16 @@
           "ri20te170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "초원": {
+      "Padang rumput": {
         "lo": 10,
         "hi": 40,
         "n": 3,
         "kinds": [
-          "유적"
+          "Reruntuhan"
         ],
         "ids": [
           "ru10gr170712",
@@ -14233,7 +14233,7 @@
           "ur40gr170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -14243,10 +14243,10 @@
   },
   "2007": {
     "id": "2007",
-    "name": "스밀로돈",
-    "type": "육식",
+    "name": "Smilodon",
+    "type": "Karnivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": true,
     "lvRange": [
       1,
@@ -14313,13 +14313,13 @@
     },
     "forkPlaced": null,
     "hab": {
-      "설원": {
+      "Salju": {
         "lo": 50,
         "hi": 60,
         "n": 10,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri50sn171228",
@@ -14330,7 +14330,7 @@
           "ua60snMain03"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -14340,10 +14340,10 @@
   },
   "2008": {
     "id": "2008",
-    "name": "매머드",
-    "type": "초식",
+    "name": "Mammoth",
+    "type": "Herbivora",
     "size": 5,
-    "sizeName": "아주 큼",
+    "sizeName": "Sangat besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -14410,13 +14410,13 @@
     },
     "forkPlaced": null,
     "hab": {
-      "설원": {
+      "Salju": {
         "lo": 50,
         "hi": 60,
         "n": 19,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri50sn171228",
@@ -14427,11 +14427,11 @@
           "ua60snMain02_elite"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 1,
@@ -14440,7 +14440,7 @@
           "s01_ri55sn180405"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -14450,10 +14450,10 @@
   },
   "2009": {
     "id": "2009",
-    "name": "파라사우롤로푸스",
-    "type": "초식",
+    "name": "Parasaurolophus",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": true,
     "lvRange": [
       1,
@@ -14532,14 +14532,14 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 40,
         "hi": 60,
         "n": 16,
         "kinds": [
-          "불안정 섬",
-          "안정 섬",
-          "특수"
+          "Pulau tak stabil",
+          "Pulau stabil",
+          "Khusus"
         ],
         "ids": [
           "op60tr170712",
@@ -14550,12 +14550,12 @@
           "ri55trSub02"
         ],
         "role": [
-          "ocean",
-          "무리"
+          "laut",
+          "Kawanan"
         ],
         "reach": true
       },
-      "온대": {
+      "Sedang": {
         "lo": 40,
         "hi": 60,
         "n": 3,
@@ -14566,43 +14566,43 @@
           "ur40te170511"
         ],
         "role": [
-          "ocean"
+          "laut"
         ],
         "reach": false
       },
-      "대나무": {
+      "Bambu": {
         "lo": 55,
         "hi": 55,
         "n": 2,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri55tb171228",
           "ri55tb170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "초원": {
+      "Padang rumput": {
         "lo": 10,
         "hi": 40,
         "n": 2,
         "kinds": [
-          "유적"
+          "Reruntuhan"
         ],
         "ids": [
           "ru10gr170511",
           "ur40gr170511"
         ],
         "role": [
-          "ocean"
+          "laut"
         ],
         "reach": false
       },
-      "툰드라": {
+      "Tundra": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -14611,7 +14611,7 @@
           "ur40tu170511"
         ],
         "role": [
-          "ocean"
+          "laut"
         ],
         "reach": false
       }
@@ -14621,10 +14621,10 @@
   },
   "2010": {
     "id": "2010",
-    "name": "안킬로사우루스",
-    "type": "초식",
+    "name": "Ankylosaurus",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": true,
     "lvRange": [
       1,
@@ -14691,12 +14691,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 40,
         "hi": 60,
         "n": 3,
         "kinds": [
-          "특수"
+          "Khusus"
         ],
         "ids": [
           "op60tr171228",
@@ -14704,17 +14704,17 @@
           "ur40tr170511"
         ],
         "role": [
-          "beach",
-          "무리"
+          "pantai",
+          "Kawanan"
         ],
         "reach": false
       },
-      "온대": {
+      "Sedang": {
         "lo": 40,
         "hi": 60,
         "n": 5,
         "kinds": [
-          "특수"
+          "Khusus"
         ],
         "ids": [
           "op60te171228",
@@ -14724,18 +14724,18 @@
           "ur40te170511"
         ],
         "role": [
-          "beach",
-          "무리"
+          "pantai",
+          "Kawanan"
         ],
         "reach": false
       },
-      "사막": {
+      "Gurun": {
         "lo": 50,
         "hi": 60,
         "n": 20,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri50de171228",
@@ -14746,27 +14746,27 @@
           "ua60deMain02_elite"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "초원": {
+      "Padang rumput": {
         "lo": 10,
         "hi": 40,
         "n": 2,
         "kinds": [
-          "유적"
+          "Reruntuhan"
         ],
         "ids": [
           "ru10gr170511",
           "ur40gr170511"
         ],
         "role": [
-          "beach"
+          "pantai"
         ],
         "reach": false
       },
-      "툰드라": {
+      "Tundra": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -14775,7 +14775,7 @@
           "ur40tu170511"
         ],
         "role": [
-          "beach"
+          "pantai"
         ],
         "reach": false
       }
@@ -14785,10 +14785,10 @@
   },
   "2011": {
     "id": "2011",
-    "name": "유오플로케팔루스",
-    "type": "초식",
+    "name": "Euoplocephalus",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": true,
     "lvRange": [
       1,
@@ -14855,13 +14855,13 @@
     },
     "forkPlaced": null,
     "hab": {
-      "온대": {
+      "Sedang": {
         "lo": 40,
         "hi": 60,
         "n": 8,
         "kinds": [
-          "불안정 섬",
-          "특수"
+          "Pulau tak stabil",
+          "Khusus"
         ],
         "ids": [
           "op60te170615",
@@ -14872,28 +14872,28 @@
           "ur40te170615"
         ],
         "role": [
-          "beach",
-          "무리"
+          "pantai",
+          "Kawanan"
         ],
         "reach": true
       },
-      "초원": {
+      "Padang rumput": {
         "lo": 10,
         "hi": 40,
         "n": 2,
         "kinds": [
-          "유적"
+          "Reruntuhan"
         ],
         "ids": [
           "ru10gr170511",
           "ur40gr170511"
         ],
         "role": [
-          "beach"
+          "pantai"
         ],
         "reach": false
       },
-      "열대": {
+      "Tropis": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -14902,11 +14902,11 @@
           "ur40tr170511"
         ],
         "role": [
-          "beach"
+          "pantai"
         ],
         "reach": false
       },
-      "툰드라": {
+      "Tundra": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -14915,7 +14915,7 @@
           "ur40tu170511"
         ],
         "role": [
-          "beach"
+          "pantai"
         ],
         "reach": false
       }
@@ -14925,10 +14925,10 @@
   },
   "2012": {
     "id": "2012",
-    "name": "마크라우케니아",
-    "type": "초식",
+    "name": "Macrauchenia",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -14983,12 +14983,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 60,
         "hi": 60,
         "n": 4,
         "kinds": [
-          "특수"
+          "Khusus"
         ],
         "ids": [
           "op60tr170712",
@@ -14997,17 +14997,17 @@
           "op60tr170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "온대": {
+      "Sedang": {
         "lo": 20,
         "hi": 60,
         "n": 11,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri20te171228",
@@ -15018,7 +15018,7 @@
           "ri35teSub03_copper"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -15028,10 +15028,10 @@
   },
   "2013": {
     "id": "2013",
-    "name": "수컷 메갈로케로스",
-    "type": "초식",
+    "name": "Megaloceros jantan",
+    "type": "Herbivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": true,
     "lvRange": [
       25,
@@ -15098,12 +15098,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "온대": {
+      "Sedang": {
         "lo": 40,
         "hi": 60,
         "n": 6,
         "kinds": [
-          "특수"
+          "Khusus"
         ],
         "ids": [
           "op60te170615",
@@ -15114,18 +15114,18 @@
           "ur40te170511"
         ],
         "role": [
-          "lake_deep",
-          "무리"
+          "danau dalam",
+          "Kawanan"
         ],
         "reach": false
       },
-      "툰드라": {
+      "Tundra": {
         "lo": 30,
         "hi": 60,
         "n": 20,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri30tu171228",
@@ -15136,12 +15136,12 @@
           "ri40tuSub01"
         ],
         "role": [
-          "lake_deep",
-          "무리"
+          "danau dalam",
+          "Kawanan"
         ],
         "reach": true
       },
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 1,
@@ -15150,27 +15150,27 @@
           "s01_ri35tu180405"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "초원": {
+      "Padang rumput": {
         "lo": 10,
         "hi": 40,
         "n": 2,
         "kinds": [
-          "유적"
+          "Reruntuhan"
         ],
         "ids": [
           "ru10gr170511",
           "ur40gr170511"
         ],
         "role": [
-          "lake_deep"
+          "danau dalam"
         ],
         "reach": false
       },
-      "열대": {
+      "Tropis": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -15179,7 +15179,7 @@
           "ur40tr170511"
         ],
         "role": [
-          "lake_deep"
+          "danau dalam"
         ],
         "reach": false
       }
@@ -15189,10 +15189,10 @@
   },
   "2014": {
     "id": "2014",
-    "name": "오르니토미무스",
-    "type": "육식",
+    "name": "Ornithomimus",
+    "type": "Karnivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": true,
     "lvRange": [
       1,
@@ -15259,13 +15259,13 @@
     },
     "forkPlaced": null,
     "hab": {
-      "툰드라": {
+      "Tundra": {
         "lo": 55,
         "hi": 60,
         "n": 13,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri55tu171228",
@@ -15276,7 +15276,7 @@
           "ua60tuSub01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -15286,10 +15286,10 @@
   },
   "2015": {
     "id": "2015",
-    "name": "콤프소그나투스",
-    "type": "Scavenger",
+    "name": "Compsognathus",
+    "type": "Pemulung",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -15332,15 +15332,15 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 5,
         "hi": 60,
         "n": 23,
         "kinds": [
-          "불안정 섬(지형)",
-          "안전가옥",
-          "안정 섬",
-          "특수"
+          "Pulau tak stabil (terrain)",
+          "Rumah aman",
+          "Pulau stabil",
+          "Khusus"
         ],
         "ids": [
           "op60tr170615",
@@ -15351,20 +15351,20 @@
           "sh05tr180130"
         ],
         "role": [
-          "무리",
-          "크레이터"
+          "Kawanan",
+          "Kawah"
         ],
         "reach": true
       },
-      "온대": {
+      "Sedang": {
         "lo": 20,
         "hi": 60,
         "n": 26,
         "kinds": [
-          "불안정 섬",
-          "불안정 섬(지형)",
-          "안정 섬",
-          "이벤트"
+          "Pulau tak stabil",
+          "Pulau tak stabil (terrain)",
+          "Pulau stabil",
+          "Event"
         ],
         "ids": [
           "tr60te170613",
@@ -15375,18 +15375,18 @@
           "ri35te171228"
         ],
         "role": [
-          "무리",
-          "크레이터"
+          "Kawanan",
+          "Kawah"
         ],
         "reach": true
       },
-      "설원": {
+      "Salju": {
         "lo": 50,
         "hi": 60,
         "n": 3,
         "kinds": [
-          "불안정 섬(지형)",
-          "안정 섬"
+          "Pulau tak stabil (terrain)",
+          "Pulau stabil"
         ],
         "ids": [
           "ra60sn171228",
@@ -15394,17 +15394,17 @@
           "ri50sn170524"
         ],
         "role": [
-          "크레이터"
+          "Kawah"
         ],
         "reach": true
       },
-      "초원": {
+      "Padang rumput": {
         "lo": 10,
         "hi": 40,
         "n": 7,
         "kinds": [
-          "불안정 섬(지형)",
-          "유적"
+          "Pulau tak stabil (terrain)",
+          "Reruntuhan"
         ],
         "ids": [
           "ra30gr170615",
@@ -15415,18 +15415,18 @@
           "ur40gr170615"
         ],
         "role": [
-          "무리",
-          "크레이터"
+          "Kawanan",
+          "Kawah"
         ],
         "reach": true
       },
-      "사바나": {
+      "Savana": {
         "lo": 15,
         "hi": 45,
         "n": 3,
         "kinds": [
-          "불안정 섬(지형)",
-          "안정 섬"
+          "Pulau tak stabil (terrain)",
+          "Pulau stabil"
         ],
         "ids": [
           "ra35sa170615",
@@ -15434,17 +15434,17 @@
           "ri45sa170420"
         ],
         "role": [
-          "크레이터"
+          "Kawah"
         ],
         "reach": true
       },
-      "사막": {
+      "Gurun": {
         "lo": 35,
         "hi": 50,
         "n": 3,
         "kinds": [
-          "불안정 섬(지형)",
-          "안정 섬"
+          "Pulau tak stabil (terrain)",
+          "Pulau stabil"
         ],
         "ids": [
           "ra40de170615",
@@ -15452,17 +15452,17 @@
           "ri50de170524"
         ],
         "role": [
-          "크레이터"
+          "Kawah"
         ],
         "reach": true
       },
-      "툰드라": {
+      "Tundra": {
         "lo": 30,
         "hi": 45,
         "n": 4,
         "kinds": [
-          "불안정 섬(지형)",
-          "안정 섬"
+          "Pulau tak stabil (terrain)",
+          "Pulau stabil"
         ],
         "ids": [
           "ra45tu170615",
@@ -15471,26 +15471,26 @@
           "ur40tu170615"
         ],
         "role": [
-          "크레이터"
+          "Kawah"
         ],
         "reach": true
       },
-      "늪": {
+      "Rawa": {
         "lo": 45,
         "hi": 45,
         "n": 1,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri45sw170602"
         ],
         "role": [
-          "크레이터"
+          "Kawah"
         ],
         "reach": false
       },
-      "화산": {
+      "Vulkanik": {
         "lo": null,
         "hi": null,
         "n": 5,
@@ -15503,7 +15503,7 @@
           "test60vol190508_sub3"
         ],
         "role": [
-          "크레이터"
+          "Kawah"
         ],
         "reach": false
       }
@@ -15513,10 +15513,10 @@
   },
   "2016": {
     "id": "2016",
-    "name": "코엘로피시스",
-    "type": "육식",
+    "name": "Coelophysis",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -15571,13 +15571,13 @@
     },
     "forkPlaced": null,
     "hab": {
-      "툰드라": {
+      "Tundra": {
         "lo": 30,
         "hi": 60,
         "n": 23,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri30tu171228",
@@ -15588,11 +15588,11 @@
           "ri40tuSub01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 1,
@@ -15601,7 +15601,7 @@
           "s01_ri35tu180405"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -15611,10 +15611,10 @@
   },
   "2017": {
     "id": "2017",
-    "name": "프로토케라톱스",
-    "type": "초식",
+    "name": "Protoceratops",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -15681,13 +15681,13 @@
     },
     "forkPlaced": null,
     "hab": {
-      "온대": {
+      "Sedang": {
         "lo": 20,
         "hi": 60,
         "n": 14,
         "kinds": [
-          "안정 섬",
-          "이벤트"
+          "Pulau stabil",
+          "Event"
         ],
         "ids": [
           "tr60te170613",
@@ -15698,28 +15698,28 @@
           "ri35teSub01"
         ],
         "role": [
-          "lake_shallow",
-          "무리"
+          "danau dangkal",
+          "Kawanan"
         ],
         "reach": true
       },
-      "초원": {
+      "Padang rumput": {
         "lo": 10,
         "hi": 40,
         "n": 2,
         "kinds": [
-          "유적"
+          "Reruntuhan"
         ],
         "ids": [
           "ru10gr170511",
           "ur40gr170511"
         ],
         "role": [
-          "lake_shallow"
+          "danau dangkal"
         ],
         "reach": false
       },
-      "열대": {
+      "Tropis": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -15728,11 +15728,11 @@
           "ur40tr170511"
         ],
         "role": [
-          "lake_shallow"
+          "danau dangkal"
         ],
         "reach": false
       },
-      "툰드라": {
+      "Tundra": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -15741,7 +15741,7 @@
           "ur40tu170511"
         ],
         "role": [
-          "lake_shallow"
+          "danau dangkal"
         ],
         "reach": false
       }
@@ -15751,10 +15751,10 @@
   },
   "2018": {
     "id": "2018",
-    "name": "카스모사우루스",
-    "type": "초식",
+    "name": "Chasmosaurus",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       80,
@@ -15821,7 +15821,7 @@
     },
     "forkPlaced": null,
     "hab": {
-      "온대": {
+      "Sedang": {
         "lo": 40,
         "hi": 60,
         "n": 3,
@@ -15832,27 +15832,27 @@
           "ur40te170511"
         ],
         "role": [
-          "lake_shallow"
+          "danau dangkal"
         ],
         "reach": false
       },
-      "초원": {
+      "Padang rumput": {
         "lo": 10,
         "hi": 40,
         "n": 2,
         "kinds": [
-          "유적"
+          "Reruntuhan"
         ],
         "ids": [
           "ru10gr170511",
           "ur40gr170511"
         ],
         "role": [
-          "lake_shallow"
+          "danau dangkal"
         ],
         "reach": false
       },
-      "열대": {
+      "Tropis": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -15861,11 +15861,11 @@
           "ur40tr170511"
         ],
         "role": [
-          "lake_shallow"
+          "danau dangkal"
         ],
         "reach": false
       },
-      "툰드라": {
+      "Tundra": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -15874,7 +15874,7 @@
           "ur40tu170511"
         ],
         "role": [
-          "lake_shallow"
+          "danau dangkal"
         ],
         "reach": false
       }
@@ -15884,10 +15884,10 @@
   },
   "2019": {
     "id": "2019",
-    "name": "스티라코사우루스",
-    "type": "초식",
+    "name": "Styracosaurus",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": true,
     "lvRange": [
       1,
@@ -15954,12 +15954,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "사바나": {
+      "Savana": {
         "lo": 45,
         "hi": 45,
         "n": 6,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri45sa171228",
@@ -15970,11 +15970,11 @@
           "ri45sa170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "초원": {
+      "Padang rumput": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -15983,7 +15983,7 @@
           "ur40gr170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -15993,10 +15993,10 @@
   },
   "2020": {
     "id": "2020",
-    "name": "다이어울프",
-    "type": "육식",
+    "name": "Direwolf",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -16063,46 +16063,46 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 60,
         "hi": 60,
         "n": 2,
         "kinds": [
-          "특수"
+          "Khusus"
         ],
         "ids": [
           "op60tr171228",
           "op60tr180220"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "온대": {
+      "Sedang": {
         "lo": 60,
         "hi": 60,
         "n": 2,
         "kinds": [
-          "특수"
+          "Khusus"
         ],
         "ids": [
           "op60te171228",
           "op60te180220"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "툰드라": {
+      "Tundra": {
         "lo": 30,
         "hi": 60,
         "n": 25,
         "kinds": [
-          "불안정 섬",
-          "불안정 섬(지형)",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau tak stabil (terrain)",
+          "Pulau stabil"
         ],
         "ids": [
           "ri30tu171228",
@@ -16113,17 +16113,17 @@
           "ri40tuSub01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "설원": {
+      "Salju": {
         "lo": 50,
         "hi": 60,
         "n": 23,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri50sn171228",
@@ -16134,12 +16134,12 @@
           "ua60snMain01"
         ],
         "role": [
-          "무리",
-          "크레이터"
+          "Kawanan",
+          "Kawah"
         ],
         "reach": true
       },
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 1,
@@ -16148,7 +16148,7 @@
           "s01_ri35tu180405"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -16158,10 +16158,10 @@
   },
   "2021": {
     "id": "2021",
-    "name": "알로사우루스",
-    "type": "육식",
+    "name": "Allosaurus",
+    "type": "Karnivora",
     "size": 5,
-    "sizeName": "아주 큼",
+    "sizeName": "Sangat besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -16228,15 +16228,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2022": {
     "id": "2022",
-    "name": "파키케팔로사우루스",
-    "type": "초식",
+    "name": "Pachycephalosaurus",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -16315,20 +16315,20 @@
     },
     "forkPlaced": null,
     "hab": {
-      "온대": {
+      "Sedang": {
         "lo": 45,
         "hi": 45,
         "n": 2,
         "kinds": [
-          "이벤트"
+          "Event"
         ],
         "ids": [
           "ev45te180803",
           "ev45te180803"
         ],
         "role": [
-          "무리",
-          "크레이터"
+          "Kawanan",
+          "Kawah"
         ],
         "reach": false
       }
@@ -16338,10 +16338,10 @@
   },
   "2023": {
     "id": "2023",
-    "name": "유타랍토르",
-    "type": "육식",
+    "name": "Utahraptor",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -16408,29 +16408,29 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 60,
         "hi": 60,
         "n": 2,
         "kinds": [
-          "특수"
+          "Khusus"
         ],
         "ids": [
           "op60tr171228",
           "op60tr180220"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "온대": {
+      "Sedang": {
         "lo": 60,
         "hi": 60,
         "n": 3,
         "kinds": [
-          "불안정 섬",
-          "특수"
+          "Pulau tak stabil",
+          "Khusus"
         ],
         "ids": [
           "op60te171228",
@@ -16438,18 +16438,18 @@
           "ua60teMain01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "사막": {
+      "Gurun": {
         "lo": 35,
         "hi": 60,
         "n": 29,
         "kinds": [
-          "불안정 섬",
-          "불안정 섬(지형)",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau tak stabil (terrain)",
+          "Pulau stabil"
         ],
         "ids": [
           "ri35de171228",
@@ -16460,12 +16460,12 @@
           "ri50deSub01"
         ],
         "role": [
-          "무리",
-          "크레이터"
+          "Kawanan",
+          "Kawah"
         ],
         "reach": true
       },
-      "화산": {
+      "Vulkanik": {
         "lo": null,
         "hi": null,
         "n": 3,
@@ -16476,7 +16476,7 @@
           "test60vol190516_sub1"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -16486,10 +16486,10 @@
   },
   "2024": {
     "id": "2024",
-    "name": "딜로포사우루스",
-    "type": "육식",
+    "name": "Dilophosaurus",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -16556,12 +16556,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "온대": {
+      "Sedang": {
         "lo": 40,
         "hi": 60,
         "n": 3,
         "kinds": [
-          "특수"
+          "Khusus"
         ],
         "ids": [
           "op60te171228",
@@ -16569,7 +16569,7 @@
           "ur40te170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -16579,10 +16579,10 @@
   },
   "2025": {
     "id": "2025",
-    "name": "갈리미무스",
-    "type": "초식",
+    "name": "Gallimimus",
+    "type": "Herbivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": true,
     "lvRange": [
       1,
@@ -16649,29 +16649,29 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 60,
         "hi": 60,
         "n": 2,
         "kinds": [
-          "특수"
+          "Khusus"
         ],
         "ids": [
           "op60tr171228",
           "op60tr180220"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "온대": {
+      "Sedang": {
         "lo": 60,
         "hi": 60,
         "n": 3,
         "kinds": [
-          "불안정 섬",
-          "특수"
+          "Pulau tak stabil",
+          "Khusus"
         ],
         "ids": [
           "op60te171228",
@@ -16679,17 +16679,17 @@
           "ua60teMain01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "사막": {
+      "Gurun": {
         "lo": 35,
         "hi": 60,
         "n": 19,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri35de171228",
@@ -16700,7 +16700,7 @@
           "ri50deSub01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -16710,10 +16710,10 @@
   },
   "2026": {
     "id": "2026",
-    "name": "투오지앙고사우루스",
-    "type": "초식",
+    "name": "Tuojiangosaurus",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -16792,13 +16792,13 @@
     },
     "forkPlaced": null,
     "hab": {
-      "사막": {
+      "Gurun": {
         "lo": 50,
         "hi": 60,
         "n": 20,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri50de171228",
@@ -16809,11 +16809,11 @@
           "ua60deMain02_elite"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "열대": {
+      "Tropis": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -16822,7 +16822,7 @@
           "ur40tr170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -16832,10 +16832,10 @@
   },
   "2027": {
     "id": "2027",
-    "name": "제브라케라톱스",
-    "type": "초식",
+    "name": "Zebra-ceratops",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -16902,12 +16902,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "사바나": {
+      "Savana": {
         "lo": 15,
         "hi": 45,
         "n": 10,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri15sa171228",
@@ -16918,7 +16918,7 @@
           "ri45saSub03_mud"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -16928,10 +16928,10 @@
   },
   "2028": {
     "id": "2028",
-    "name": "사우롤로푸스",
-    "type": "초식",
+    "name": "Saurolophus",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -17010,14 +17010,14 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 18,
         "hi": 60,
         "n": 33,
         "kinds": [
-          "불안정 섬",
-          "안정 섬",
-          "특수"
+          "Pulau tak stabil",
+          "Pulau stabil",
+          "Khusus"
         ],
         "ids": [
           "op60tr170712",
@@ -17028,27 +17028,27 @@
           "ri25tr190710"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "대나무": {
+      "Bambu": {
         "lo": 55,
         "hi": 55,
         "n": 2,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri55tb171228",
           "ri55tb170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 1,
@@ -17057,7 +17057,7 @@
           "s01_ri45tr180405"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -17067,10 +17067,10 @@
   },
   "2029": {
     "id": "2029",
-    "name": "데이노니쿠스",
-    "type": "육식",
+    "name": "Deinonychus",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -17137,12 +17137,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "온대": {
+      "Sedang": {
         "lo": 60,
         "hi": 60,
         "n": 6,
         "kinds": [
-          "특수"
+          "Khusus"
         ],
         "ids": [
           "op60te170615",
@@ -17153,18 +17153,18 @@
           "op60te180220"
         ],
         "role": [
-          "무리",
-          "크레이터"
+          "Kawanan",
+          "Kawah"
         ],
         "reach": false
       },
-      "열대": {
+      "Tropis": {
         "lo": 40,
         "hi": 60,
         "n": 13,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri40tr171228",
@@ -17175,27 +17175,27 @@
           "ri55trSub02"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "대나무": {
+      "Bambu": {
         "lo": 55,
         "hi": 55,
         "n": 2,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri55tb171228",
           "ri55tb170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 1,
@@ -17204,7 +17204,7 @@
           "s01_ri45tr180405"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -17214,10 +17214,10 @@
   },
   "2030": {
     "id": "2030",
-    "name": "코리토사우루스",
-    "type": "초식",
+    "name": "Corythosaurus",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       40,
@@ -17296,15 +17296,15 @@
     },
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2031": {
     "id": "2031",
-    "name": "에드몬토사우루스",
-    "type": "초식",
+    "name": "Edmontosaurus",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -17383,12 +17383,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "사바나": {
+      "Savana": {
         "lo": 45,
         "hi": 45,
         "n": 6,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri45sa171228",
@@ -17399,11 +17399,11 @@
           "ri45sa170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "초원": {
+      "Padang rumput": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -17412,7 +17412,7 @@
           "ur40gr170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -17422,10 +17422,10 @@
   },
   "2032": {
     "id": "2032",
-    "name": "스컹코두스",
-    "type": "초식",
+    "name": "Skunkodous",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -17468,14 +17468,14 @@
     },
     "forkPlaced": null,
     "hab": {
-      "늪": {
+      "Rawa": {
         "lo": 45,
         "hi": 60,
         "n": 19,
         "kinds": [
-          "불안정 섬",
-          "불안정 섬(지형)",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau tak stabil (terrain)",
+          "Pulau stabil"
         ],
         "ids": [
           "ri45sw171228",
@@ -17486,7 +17486,7 @@
           "ri55swSub01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -17496,10 +17496,10 @@
   },
   "2033": {
     "id": "2033",
-    "name": "도도피시스",
-    "type": "육식",
+    "name": "Dodophysis",
+    "type": "Karnivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -17542,13 +17542,13 @@
     },
     "forkPlaced": null,
     "hab": {
-      "온대": {
+      "Sedang": {
         "lo": 45,
         "hi": 60,
         "n": 4,
         "kinds": [
-          "이벤트",
-          "특수"
+          "Event",
+          "Khusus"
         ],
         "ids": [
           "op60te170615",
@@ -17557,18 +17557,18 @@
           "ev45te180803"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "툰드라": {
+      "Tundra": {
         "lo": 30,
         "hi": 60,
         "n": 49,
         "kinds": [
-          "불안정 섬",
-          "불안정 섬(지형)",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau tak stabil (terrain)",
+          "Pulau stabil"
         ],
         "ids": [
           "ri30tu171228",
@@ -17579,12 +17579,12 @@
           "ri30tuSub02"
         ],
         "role": [
-          "무리",
-          "크레이터"
+          "Kawanan",
+          "Kawah"
         ],
         "reach": true
       },
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 2,
@@ -17594,8 +17594,8 @@
           "s01_ri35tu180405"
         ],
         "role": [
-          "무리",
-          "크레이터"
+          "Kawanan",
+          "Kawah"
         ],
         "reach": true
       }
@@ -17605,10 +17605,10 @@
   },
   "2034": {
     "id": "2034",
-    "name": "디메트로돈",
-    "type": "육식",
+    "name": "Dimetrodon",
+    "type": "Karnivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": false,
     "lvRange": [
       1,
@@ -17675,13 +17675,13 @@
     },
     "forkPlaced": null,
     "hab": {
-      "늪": {
+      "Rawa": {
         "lo": 45,
         "hi": 60,
         "n": 27,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri45sw171228",
@@ -17692,7 +17692,7 @@
           "ri55swSub01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -17702,10 +17702,10 @@
   },
   "2035": {
     "id": "2035",
-    "name": "도도피시스",
-    "type": "육식",
+    "name": "Dodophysis",
+    "type": "Karnivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -17748,14 +17748,14 @@
     },
     "forkPlaced": null,
     "hab": {
-      "설원": {
+      "Salju": {
         "lo": 50,
         "hi": 60,
         "n": 20,
         "kinds": [
-          "불안정 섬",
-          "불안정 섬(지형)",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau tak stabil (terrain)",
+          "Pulau stabil"
         ],
         "ids": [
           "ri50sn171228",
@@ -17766,12 +17766,12 @@
           "ua60snMain02_elite"
         ],
         "role": [
-          "무리",
-          "크레이터"
+          "Kawanan",
+          "Kawah"
         ],
         "reach": true
       },
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 1,
@@ -17780,7 +17780,7 @@
           "s01_ri55sn180405"
         ],
         "role": [
-          "크레이터"
+          "Kawah"
         ],
         "reach": true
       }
@@ -17790,10 +17790,10 @@
   },
   "2036": {
     "id": "2036",
-    "name": "줄무늬 콤프소그나투스",
-    "type": "육식",
+    "name": "Compsognathus bergaris",
+    "type": "Karnivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -17836,14 +17836,14 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 18,
         "hi": 60,
         "n": 51,
         "kinds": [
-          "불안정 섬",
-          "안정 섬",
-          "특수"
+          "Pulau tak stabil",
+          "Pulau stabil",
+          "Khusus"
         ],
         "ids": [
           "op60tr170712",
@@ -17854,28 +17854,28 @@
           "ri25tr180122"
         ],
         "role": [
-          "무리",
-          "크레이터"
+          "Kawanan",
+          "Kawah"
         ],
         "reach": true
       },
-      "대나무": {
+      "Bambu": {
         "lo": 55,
         "hi": 55,
         "n": 2,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri55tb171228",
           "ri55tb170615"
         ],
         "role": [
-          "크레이터"
+          "Kawah"
         ],
         "reach": true
       },
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 2,
@@ -17885,8 +17885,8 @@
           "s01_ri45tr180405"
         ],
         "role": [
-          "무리",
-          "크레이터"
+          "Kawanan",
+          "Kawah"
         ],
         "reach": true
       }
@@ -17896,10 +17896,10 @@
   },
   "2037": {
     "id": "2037",
-    "name": "엘리펀툴루스",
-    "type": "초식",
+    "name": "Elephantulus",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -17942,13 +17942,13 @@
     },
     "forkPlaced": null,
     "hab": {
-      "사바나": {
+      "Savana": {
         "lo": 15,
         "hi": 45,
         "n": 11,
         "kinds": [
-          "불안정 섬(지형)",
-          "안정 섬"
+          "Pulau tak stabil (terrain)",
+          "Pulau stabil"
         ],
         "ids": [
           "ri15sa171228",
@@ -17959,7 +17959,7 @@
           "ri45saSub03_mud"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -17969,10 +17969,10 @@
   },
   "2038": {
     "id": "2038",
-    "name": "거대 쥐",
-    "type": "초식",
+    "name": "Tikus raksasa",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -18015,13 +18015,13 @@
     },
     "forkPlaced": null,
     "hab": {
-      "늪": {
+      "Rawa": {
         "lo": 45,
         "hi": 60,
         "n": 55,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri45sw171228",
@@ -18032,8 +18032,8 @@
           "ri45swSub02"
         ],
         "role": [
-          "무리",
-          "크레이터"
+          "Kawanan",
+          "Kawah"
         ],
         "reach": true
       }
@@ -18043,10 +18043,10 @@
   },
   "2039": {
     "id": "2039",
-    "name": "아케니쿠스",
-    "type": "육식",
+    "name": "Achenicus",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -18113,13 +18113,13 @@
     },
     "forkPlaced": null,
     "hab": {
-      "사바나": {
+      "Savana": {
         "lo": 15,
         "hi": 45,
         "n": 11,
         "kinds": [
-          "불안정 섬(지형)",
-          "안정 섬"
+          "Pulau tak stabil (terrain)",
+          "Pulau stabil"
         ],
         "ids": [
           "ri15sa171228",
@@ -18130,11 +18130,11 @@
           "ri45saSub03_mud"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "초원": {
+      "Padang rumput": {
         "lo": 40,
         "hi": 40,
         "n": 1,
@@ -18143,7 +18143,7 @@
           "ur40gr170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -18153,10 +18153,10 @@
   },
   "2040": {
     "id": "2040",
-    "name": "연분홍 프로토케라톱스",
-    "type": "초식",
+    "name": "Protoceratops merah muda",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -18223,13 +18223,13 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 18,
         "hi": 60,
         "n": 25,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri25tr180122",
@@ -18240,27 +18240,27 @@
           "ri40trSub03_car"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "대나무": {
+      "Bambu": {
         "lo": 55,
         "hi": 55,
         "n": 2,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri55tb171228",
           "ri55tb170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 1,
@@ -18269,7 +18269,7 @@
           "s01_ri45tr180405"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -18279,10 +18279,10 @@
   },
   "2041": {
     "id": "2041",
-    "name": "센트로사우루스",
-    "type": "초식",
+    "name": "Centrosaurus",
+    "type": "Herbivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": true,
     "lvRange": [
       1,
@@ -18349,12 +18349,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "온대": {
+      "Sedang": {
         "lo": 60,
         "hi": 60,
         "n": 3,
         "kinds": [
-          "특수"
+          "Khusus"
         ],
         "ids": [
           "op60te170615",
@@ -18362,17 +18362,17 @@
           "op60te180220"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "툰드라": {
+      "Tundra": {
         "lo": 30,
         "hi": 60,
         "n": 23,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri30tu171228",
@@ -18383,11 +18383,11 @@
           "ri40tuSub01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 1,
@@ -18396,7 +18396,7 @@
           "s01_ri35tu180405"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -18406,10 +18406,10 @@
   },
   "2042": {
     "id": "2042",
-    "name": "도마뱀",
-    "type": "초식",
+    "name": "Kadal",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -18452,12 +18452,12 @@
     },
     "forkPlaced": null,
     "hab": {
-      "열대": {
+      "Tropis": {
         "lo": 60,
         "hi": 60,
         "n": 4,
         "kinds": [
-          "특수"
+          "Khusus"
         ],
         "ids": [
           "op60tr170712",
@@ -18466,17 +18466,17 @@
           "op60tr170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       },
-      "사바나": {
+      "Savana": {
         "lo": 15,
         "hi": 45,
         "n": 21,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri15sa171228",
@@ -18487,8 +18487,8 @@
           "ri45sa171228"
         ],
         "role": [
-          "무리",
-          "크레이터"
+          "Kawanan",
+          "Kawah"
         ],
         "reach": true
       }
@@ -18498,10 +18498,10 @@
   },
   "2043": {
     "id": "2043",
-    "name": "모래 도마뱀",
-    "type": "초식",
+    "name": "Kadal pasir",
+    "type": "Herbivora",
     "size": 1,
-    "sizeName": "아주 작음",
+    "sizeName": "Sangat kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -18544,14 +18544,14 @@
     },
     "forkPlaced": null,
     "hab": {
-      "사막": {
+      "Gurun": {
         "lo": 35,
         "hi": 60,
         "n": 47,
         "kinds": [
-          "불안정 섬",
-          "불안정 섬(지형)",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau tak stabil (terrain)",
+          "Pulau stabil"
         ],
         "ids": [
           "ri35de171228",
@@ -18562,12 +18562,12 @@
           "ri50de171228"
         ],
         "role": [
-          "무리",
-          "크레이터"
+          "Kawanan",
+          "Kawah"
         ],
         "reach": true
       },
-      "기타": {
+      "Lainnya": {
         "lo": null,
         "hi": null,
         "n": 1,
@@ -18576,11 +18576,11 @@
           "s01_ri60de180405"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "화산": {
+      "Vulkanik": {
         "lo": null,
         "hi": null,
         "n": 6,
@@ -18594,8 +18594,8 @@
           "test60vol190516_sub1"
         ],
         "role": [
-          "beach",
-          "무리"
+          "pantai",
+          "Kawanan"
         ],
         "reach": false
       }
@@ -18605,10 +18605,10 @@
   },
   "2044": {
     "id": "2044",
-    "name": "붉은점도마뱀",
-    "type": "육식",
+    "name": "Kadal titik merah",
+    "type": "Karnivora",
     "size": 3,
-    "sizeName": "보통",
+    "sizeName": "Sedang",
     "tamable": false,
     "lvRange": [
       1,
@@ -18675,29 +18675,29 @@
     },
     "forkPlaced": null,
     "hab": {
-      "대나무": {
+      "Bambu": {
         "lo": 55,
         "hi": 55,
         "n": 2,
         "kinds": [
-          "안정 섬"
+          "Pulau stabil"
         ],
         "ids": [
           "ri55tb171228",
           "ri55tb170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "열대": {
+      "Tropis": {
         "lo": 55,
         "hi": 60,
         "n": 11,
         "kinds": [
-          "불안정 섬",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau stabil"
         ],
         "ids": [
           "ri55trSub01",
@@ -18708,11 +18708,11 @@
           "ua60trSub02"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "화산": {
+      "Vulkanik": {
         "lo": null,
         "hi": null,
         "n": 3,
@@ -18723,7 +18723,7 @@
           "test60vol190516_sub1"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -18733,10 +18733,10 @@
   },
   "2045": {
     "id": "2045",
-    "name": "코엘로피시스",
-    "type": "육식",
+    "name": "Coelophysis",
+    "type": "Karnivora",
     "size": 2,
-    "sizeName": "작음",
+    "sizeName": "Kecil",
     "tamable": false,
     "lvRange": [
       1,
@@ -18791,14 +18791,14 @@
     },
     "forkPlaced": null,
     "hab": {
-      "늪": {
+      "Rawa": {
         "lo": 45,
         "hi": 60,
         "n": 28,
         "kinds": [
-          "불안정 섬",
-          "불안정 섬(지형)",
-          "안정 섬"
+          "Pulau tak stabil",
+          "Pulau tak stabil (terrain)",
+          "Pulau stabil"
         ],
         "ids": [
           "ri45sw171228",
@@ -18809,7 +18809,7 @@
           "ri55swSub01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -18819,10 +18819,10 @@
   },
   "2046": {
     "id": "2046",
-    "name": "하드로사우루스",
-    "type": "초식",
+    "name": "Hadrosaurus",
+    "type": "Herbivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -18901,22 +18901,22 @@
     },
     "forkPlaced": null,
     "hab": {
-      "초원": {
+      "Padang rumput": {
         "lo": 30,
         "hi": 30,
         "n": 1,
         "kinds": [
-          "불안정 섬(지형)"
+          "Pulau tak stabil (terrain)"
         ],
         "ids": [
           "ra30gr170615"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       },
-      "화산": {
+      "Vulkanik": {
         "lo": null,
         "hi": null,
         "n": 3,
@@ -18927,7 +18927,7 @@
           "test60vol190516_sub1"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": false
       }
@@ -18937,10 +18937,10 @@
   },
   "2047": {
     "id": "2047",
-    "name": "스밀로돈",
-    "type": "육식",
+    "name": "Smilodon",
+    "type": "Karnivora",
     "size": 4,
-    "sizeName": "큼",
+    "sizeName": "Besar",
     "tamable": true,
     "lvRange": [
       1,
@@ -19007,13 +19007,13 @@
     },
     "forkPlaced": null,
     "hab": {
-      "온대": {
+      "Sedang": {
         "lo": 40,
         "hi": 60,
         "n": 5,
         "kinds": [
-          "불안정 섬",
-          "특수"
+          "Pulau tak stabil",
+          "Khusus"
         ],
         "ids": [
           "op60te170615",
@@ -19023,7 +19023,7 @@
           "ua60teMain01"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -19033,10 +19033,10 @@
   },
   "2901": {
     "id": "2901",
-    "name": "우두머리 알로사우루스",
-    "type": "육식",
+    "name": "Allosaurus alpha",
+    "type": "Karnivora",
     "size": 5,
-    "sizeName": "아주 큼",
+    "sizeName": "Sangat besar",
     "tamable": false,
     "lvRange": [
       60,
@@ -19103,20 +19103,20 @@
     },
     "sourceId": "2021",
     "visualScale": 1.15,
-    "forkPlaced": "합성 사막 정예섬의 보스 1마리 — 원작 2021을 보존한 별도 복제",
+    "forkPlaced": "1 bos pulau elite sintetis Gurun — replika terpisah, aslinya 2021 dilestarikan",
     "hab": {
-      "사막": {
+      "Gurun": {
         "lo": 60,
         "hi": 60,
         "n": 1,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "ua60de_solo_elite"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
@@ -19126,10 +19126,10 @@
   },
   "2902": {
     "id": "2902",
-    "name": "루시드라키오사우르스",
-    "type": "초식",
+    "name": "Lucidrakiosaurus",
+    "type": "Herbivora",
     "size": 7,
-    "sizeName": "초대형",
+    "sizeName": "Super besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -19206,15 +19206,15 @@
     "visualScale": 1.0,
     "forkPlaced": null,
     "hab": {},
-    "noSpawn": "이 빌드 자료에 서는 자리가 없다",
+    "noSpawn": "Tak ada slot spawn di data build ini",
     "unreachable": false
   },
   "2903": {
     "id": "2903",
-    "name": "테리지노사우루스",
-    "type": "초식",
+    "name": "Therizinosaurus",
+    "type": "Herbivora",
     "size": 5,
-    "sizeName": "아주 큼",
+    "sizeName": "Sangat besar",
     "tamable": false,
     "lvRange": [
       1,
@@ -19281,20 +19281,20 @@
     },
     "sourceId": "2025",
     "visualScale": 1.0,
-    "forkPlaced": "테스트섬에 Lv.15 한 마리 — 새 제작 시제품. 전투 수식·도축·부위 자료는 원작 갈리미무스 기준을 빌린 포크 판단. 외형·동작은 별도 제작, 길들이기 불가. 실제 게임 검증 전",
+    "forkPlaced": "1 ekor Lv.15 di Pulau uji — prototipe buatan baru. Rumus tempur/butcher/bagian pinjam basis Gallimimus asli (keputusan fork). Visual/gerak dibuat terpisah, tak bisa dijinakkan. Sebelum verifikasi game aktual.",
     "hab": {
-      "사바나": {
+      "Savana": {
         "lo": 15,
         "hi": 15,
         "n": 1,
         "kinds": [
-          "불안정 섬"
+          "Pulau tak stabil"
         ],
         "ids": [
           "ri15sa_lucid_test"
         ],
         "role": [
-          "무리"
+          "Kawanan"
         ],
         "reach": true
       }
