@@ -8,29 +8,29 @@
 - Silakan tetap cantumkan kredit ke kghj76138 bila membagikan ulang
 
 
-## Filter hewan (UI sumber)
+## Filter hewan (UI)
 
-| Korea | Indonesia |
+| Label filter (Indonesia) | Arti |
 |---|---|
-| 초식 | Herbivora |
-| 육식 | Karnivora |
-| 길들이기 가능 | Dapat dijinakkan |
-| 대형(크기 5+) | Besar (ukuran 5+) |
-| 고속 재생 1%/초 | Regen cepat 1%/dtk |
-| 출현 자리 없음 | Tidak punya titik spawn di pulau yang bisa dimasuki |
-| 갈 수 없는 섬에만 산다 | Hanya hidup di pulau yang tidak bisa dijangkau |
+| Herbivora | Hanya hewan pemakan tumbuhan |
+| Karnivora | Hanya hewan pemakan daging |
+| Dapat dijinakkan | Bisa dijinakkan |
+| Besar (ukuran 5+) | Ukuran 5 ke atas |
+| Regen cepat 1%/dtk | Regenerasi cepat 1% per detik |
+| Tanpa slot spawn | Tidak punya titik spawn di pulau yang bisa dimasuki |
+| Hanya pulau tak terjangkau | Hanya hidup di pulau yang tidak bisa dijangkau |
 
 ## Kolom tabel hewan
 
-| Sumber | Indonesia |
+| Kolom | Arti |
 |---|---|
-| 이름 | Nama |
-| 성향 | Tipe makanan |
-| 크기 | Ukuran |
-| 레벨 | Level |
-| 생명 lv60 | HP di lv60 |
-| 공격 | Serangan |
-| 방어 | Pertahanan |
-| 공격주기 | Interval serangan |
-| 경직저항 | Resist stagger |
-| 서식 | Habitat |
+| Nama | Nama hewan |
+| Tipe makanan | Herbivora / Karnivora / Pemulung / Samsak |
+| Ukuran | Angka + nama ukuran |
+| Level | Rentang level |
+| HP di lv60 | HP pada level 60 |
+| Serangan | Nilai serangan |
+| Pertahanan | Nilai pertahanan |
+| Interval serangan | Jeda antar serangan (detik) |
+| Resist stagger | Ketahanan terhadap stagger |
+| Habitat | Biome tempat muncul |
